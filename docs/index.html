@@ -228,6 +228,38 @@ body {
   color: rgba(255,255,255,0.3);
 }
 
+/* Search */
+#search-wrap {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#search-input {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 20px;
+  padding: 6px 14px;
+  color: var(--fg);
+  font-size: 13px;
+  outline: none;
+  width: 220px;
+  transition: border-color 0.15s, background 0.15s;
+}
+#search-input::placeholder { color: var(--fg2); }
+#search-input:focus {
+  border-color: var(--accent);
+  background: rgba(255,255,255,0.09);
+}
+#search-count {
+  font-size: 12px;
+  color: var(--fg2);
+  white-space: nowrap;
+  min-width: 80px;
+}
+.node.search-dim { opacity: 0.1; }
+.node.search-match { outline: 2px solid rgba(255,255,255,0.8); z-index: 20; }
+
 /* Loading indicator */
 #loading {
   position: absolute;
@@ -268,6 +300,10 @@ body {
     <button class="layer-btn" data-layer="digital">Transition Numérique</button>
     <button class="layer-btn" data-layer="ai">Exposition IA <span id="ai-scored-badge" style="font-size:10px; opacity:0.6"></span></button>
     <button class="layer-btn" data-layer="eco">Transition Écologique</button>
+    <div id="search-wrap">
+      <input id="search-input" type="text" placeholder="Rechercher un métier…" autocomplete="off" spellcheck="false">
+      <span id="search-count"></span>
+    </div>
   </div>
 
   <div id="legend"></div>
@@ -589,7 +625,8 @@ function render() {
   container.style.position = 'relative';
 
   const fragment = document.createDocumentFragment();
-  for (const node of laid) {
+  for (let i = 0; i < laid.length; i++) {
+    const node = laid[i];
     if (node.w < 2 || node.h < 2) continue;
     const el = document.createElement('div');
     el.className = 'node';
@@ -607,6 +644,7 @@ function render() {
       el.appendChild(label);
     }
 
+    el.dataset.idx = i;
     el.addEventListener('mouseenter', (e) => showTooltip(e, node));
     el.addEventListener('mousemove', moveTooltip);
     el.addEventListener('mouseleave', hideTooltip);
@@ -616,6 +654,7 @@ function render() {
   }
   container.appendChild(fragment);
   layoutCache = laid;
+  applySearch(document.getElementById('search-input').value);
 }
 
 // ── Tooltip ───────────────────────────────────────────────────────────────────
@@ -688,6 +727,41 @@ document.querySelectorAll('.layer-btn').forEach(btn => {
     renderLegend(currentLayer);
     updateStats(currentLayer);
   });
+});
+
+// ── Search ────────────────────────────────────────────────────────────────────
+function applySearch(query) {
+  const q = query.trim().toLowerCase();
+  const nodes = document.querySelectorAll('.node');
+  const countEl = document.getElementById('search-count');
+  if (!q) {
+    nodes.forEach(el => el.classList.remove('search-dim', 'search-match'));
+    countEl.textContent = '';
+    return;
+  }
+  let matches = 0;
+  nodes.forEach(el => {
+    const d = layoutCache[+el.dataset.idx];
+    if (!d) return;
+    const hit = d.title.toLowerCase().includes(q) ||
+                d.code_rome.toLowerCase().includes(q) ||
+                d.domaine_pro.toLowerCase().includes(q);
+    if (hit) {
+      el.classList.remove('search-dim');
+      el.classList.add('search-match');
+      matches++;
+    } else {
+      el.classList.remove('search-match');
+      el.classList.add('search-dim');
+    }
+  });
+  countEl.textContent = matches ? `${matches} résultat${matches > 1 ? 's' : ''}` : 'Aucun résultat';
+}
+
+const searchInput = document.getElementById('search-input');
+searchInput.addEventListener('input', e => applySearch(e.target.value));
+searchInput.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { searchInput.value = ''; applySearch(''); }
 });
 
 // ── Resize ───────────────────────────────────────────────────────────────────
