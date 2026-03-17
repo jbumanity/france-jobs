@@ -1,5 +1,5 @@
 """
-Fusionne occupations.csv et scores.json en site/data.json pour le frontend.
+Fusionne occupations.csv et scores.json en docs/data.json pour le frontend.
 
 Usage:
     uv run python build_site_data.py
@@ -9,7 +9,7 @@ import csv
 import json
 import os
 
-os.makedirs("site", exist_ok=True)
+os.makedirs("docs", exist_ok=True)
 
 
 def main():
@@ -56,7 +56,7 @@ def main():
             "exposure_rationale": score.get("rationale"),
         })
 
-    with open("site/data.json", "w", encoding="utf-8") as f:
+    with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False)
 
     # Stats
@@ -65,7 +65,7 @@ def main():
     total_projets = sum(d["projets_recrutement"] for d in data if d["projets_recrutement"])
     digital = sum(1 for d in data if d["is_digital"])
 
-    print(f"\nsite/data.json:")
+    print(f"\ndocs/data.json:")
     print(f"  Total métiers: {len(data)}")
     print(f"  Avec score IA: {scored}/{len(data)}")
     print(f"  Avec données BMO: {with_bmo}/{len(data)}")
