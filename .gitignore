@@ -1,0 +1,20 @@
+.env
+__pycache__/
+*.pyc
+.python-version
+html/
+.venv/
+node_modules/
+.DS_Store
+
+# Données sources brutes (trop lourdes ou reproductibles)
+rome_data/
+rome_full.zip
+bmo_2025.xlsx
+fap_rome_table.xlsx
+fap_rome_table2.xlsx
+rome_naf.xlsx
+
+# Debug
+api_responses_debug.json
+fetch_rome_list.py

@@ -1,0 +1,1244 @@
+{
+  "A0X40": {
+    "met": 90025,
+    "xmet": 43968,
+    "smet": 74832,
+    "nom": "Agriculteurs"
+  },
+  "A0X41": {
+    "met": 4140,
+    "xmet": 2585,
+    "smet": 2444,
+    "nom": "Eleveurs"
+  },
+  "A0X42": {
+    "met": 1352,
+    "xmet": 974,
+    "smet": 803,
+    "nom": "Bûcherons, sylviculteurs et agents forestiers"
+  },
+  "A0X43": {
+    "met": 3814,
+    "xmet": 2543,
+    "smet": 2694,
+    "nom": "Conducteurs d'engins agricoles ou forestiers"
+  },
+  "A1X40": {
+    "met": 18980,
+    "xmet": 11363,
+    "smet": 16943,
+    "nom": "Maraîchers et horticulteurs"
+  },
+  "A1X41": {
+    "met": 27450,
+    "xmet": 14615,
+    "smet": 9158,
+    "nom": "Jardiniers des espaces verts et naturels"
+  },
+  "A1X42": {
+    "met": 82421,
+    "xmet": 37795,
+    "smet": 78210,
+    "nom": "Viticulteurs, arboriculteurs"
+  },
+  "A2X70": {
+    "met": 1384,
+    "xmet": 855,
+    "smet": 642,
+    "nom": "Techniciens et agents d'encadrement d'exploitations agricoles"
+  },
+  "A2X90": {
+    "met": 116,
+    "xmet": 104,
+    "smet": 95,
+    "nom": "Ingénieurs, cadres techniques de l'agriculture"
+  },
+  "A3X40": {
+    "met": 2146,
+    "xmet": 1323,
+    "smet": 1708,
+    "nom": "Pêcheurs et aquaculteurs"
+  },
+  "A3X41": {
+    "met": 789,
+    "xmet": 397,
+    "smet": 653,
+    "nom": "Marins"
+  },
+  "A3X90": {
+    "met": 319,
+    "xmet": 309,
+    "smet": 280,
+    "nom": "Cadres et maîtres d'équipage de la marine"
+  },
+  "B0X30": {
+    "met": 4071,
+    "xmet": 2152,
+    "smet": 1332,
+    "nom": "Ouvriers peu qualifiés de l'extraction et des travaux publics"
+  },
+  "B0X31": {
+    "met": 2150,
+    "xmet": 1508,
+    "smet": 586,
+    "nom": "Ouvriers qualifiés de l'extraction et des travaux publics"
+  },
+  "B0X32": {
+    "met": 3354,
+    "xmet": 1954,
+    "smet": 1368,
+    "nom": "Ouvriers de la construction en béton"
+  },
+  "B1X30": {
+    "met": 469,
+    "xmet": 290,
+    "smet": 223,
+    "nom": "Maçons peu qualifiés"
+  },
+  "B1X31": {
+    "met": 6576,
+    "xmet": 4269,
+    "smet": 1470,
+    "nom": "Maçons qualifiés"
+  },
+  "B1X33": {
+    "met": 1499,
+    "xmet": 1157,
+    "smet": 475,
+    "nom": "Charpentiers (métal et bois)"
+  },
+  "B1X34": {
+    "met": 1783,
+    "xmet": 1466,
+    "smet": 452,
+    "nom": "Couvreurs"
+  },
+  "B1X38": {
+    "met": 72,
+    "xmet": 59,
+    "smet": 41,
+    "nom": "Professionnels du travail de la pierre et des matériaux associés"
+  },
+  "B2X30": {
+    "met": 2104,
+    "xmet": 1275,
+    "smet": 590,
+    "nom": "Ouvriers en pose et décoration de revêtements"
+  },
+  "B2X31": {
+    "met": 1252,
+    "xmet": 995,
+    "smet": 485,
+    "nom": "Ouvriers en travaux de façade, d'étanchéité et d'isolation"
+  },
+  "B2X32": {
+    "met": 4522,
+    "xmet": 2767,
+    "smet": 923,
+    "nom": "Ouvriers en électricité du bâtiment"
+  },
+  "B2X33": {
+    "met": 4812,
+    "xmet": 2716,
+    "smet": 851,
+    "nom": "Plombiers chauffagistes"
+  },
+  "B2X35": {
+    "met": 23,
+    "xmet": 23,
+    "smet": 23,
+    "nom": "Ouvriers en montage réseaux électriques et télécoms"
+  },
+  "B2X36": {
+    "met": 3001,
+    "xmet": 1556,
+    "smet": 899,
+    "nom": "Ouvriers en peinture en bâtiment"
+  },
+  "B2X37": {
+    "met": 1043,
+    "xmet": 615,
+    "smet": 358,
+    "nom": "Ouvriers peu qualifiés en menuiserie et en agencement du BTP"
+  },
+  "B2X38": {
+    "met": 3304,
+    "xmet": 2229,
+    "smet": 636,
+    "nom": "Ouvriers qualifiés en menuiserie et en agencement du BTP"
+  },
+  "B5X40": {
+    "met": 1727,
+    "xmet": 989,
+    "smet": 651,
+    "nom": "Conducteurs d'engins du bâtiment et des travaux publics"
+  },
+  "B6X70": {
+    "met": 72,
+    "xmet": 72,
+    "smet": 51,
+    "nom": "Géomètres"
+  },
+  "B6X71": {
+    "met": 661,
+    "xmet": 450,
+    "smet": 51,
+    "nom": "Techniciens experts et chargés d’études du BTP"
+  },
+  "B6X72": {
+    "met": 51,
+    "xmet": 15,
+    "smet": 30,
+    "nom": "Dessinateurs en bâtiment et en travaux publics"
+  },
+  "B6X73": {
+    "met": 1095,
+    "xmet": 772,
+    "smet": 317,
+    "nom": "Techniciens et agents de maîtrise de chantiers du BTP "
+  },
+  "B6X74": {
+    "met": 940,
+    "xmet": 573,
+    "smet": 163,
+    "nom": "Conducteurs de travaux et chefs de chantier non cadres"
+  },
+  "B7X90": {
+    "met": 628,
+    "xmet": 278,
+    "smet": 37,
+    "nom": "Architectes"
+  },
+  "B7X91": {
+    "met": 14,
+    "xmet": 8,
+    "smet": 8,
+    "nom": "Cadres des études BTP, des études géologiques, du métré de la construction et du contrôle et diagnostic technique du BTP"
+  },
+  "B7X92": {
+    "met": 373,
+    "xmet": 221,
+    "smet": 59,
+    "nom": "Ingénieurs du bâtiment et des travaux publics, chefs de chantier et conducteurs de travaux (cadres)"
+  },
+  "C0X30": {
+    "met": 2110,
+    "xmet": 1165,
+    "smet": 655,
+    "nom": "Ouvriers de l'électricité et de l'électronique"
+  },
+  "C2X70": {
+    "met": 279,
+    "xmet": 218,
+    "smet": 55,
+    "nom": "Techniciens, agents de maîtrise et assimilés en électricité et en électronique"
+  },
+  "D0X30": {
+    "met": 790,
+    "xmet": 439,
+    "smet": 451,
+    "nom": "Ouvriers peu qualifiés en conduite d'équipement d'usinage"
+  },
+  "D0X31": {
+    "met": 660,
+    "xmet": 497,
+    "smet": 316,
+    "nom": "Ouvriers qualifiés en conduite d'équipement d'usinage"
+  },
+  "D0X33": {
+    "met": 46,
+    "xmet": 31,
+    "smet": 27,
+    "nom": "Régleurs"
+  },
+  "D1X30": {
+    "met": 1058,
+    "xmet": 810,
+    "smet": 295,
+    "nom": "Ouvriers en chaudronnerie et tôlerie"
+  },
+  "D1X32": {
+    "met": 80,
+    "xmet": 67,
+    "smet": 63,
+    "nom": "Tuyauteurs"
+  },
+  "D1X33": {
+    "met": 1035,
+    "xmet": 672,
+    "smet": 451,
+    "nom": "Soudeurs"
+  },
+  "D2X30": {
+    "met": 2923,
+    "xmet": 931,
+    "smet": 765,
+    "nom": "Ouvriers peu qualifiés en ajustement, montage et assemblage mécanique"
+  },
+  "D2X31": {
+    "met": 955,
+    "xmet": 592,
+    "smet": 402,
+    "nom": "Ouvriers qualifiés en ajustement, montage et assemblage mécanique"
+  },
+  "D2X32": {
+    "met": 74,
+    "xmet": 54,
+    "smet": 54,
+    "nom": "Ouvriers de la peinture et du traitement de surface"
+  },
+  "D6X70": {
+    "met": 334,
+    "xmet": 187,
+    "smet": 121,
+    "nom": "Techniciens en mécanique et travail des métaux"
+  },
+  "E0X30": {
+    "met": 739,
+    "xmet": 405,
+    "smet": 306,
+    "nom": "Pilotes d'installation lourdes des industries de transformation et d'énergie"
+  },
+  "E1X21": {
+    "met": 51,
+    "xmet": 16,
+    "smet": 30,
+    "nom": "Ouvriers peu qualifiés de conduite d'installation de production de métaux"
+  },
+  "E1X30": {
+    "met": 118,
+    "xmet": 89,
+    "smet": 88,
+    "nom": "Ouvriers de l'industrie verrière, céramique et matériaux de construction"
+  },
+  "E1X41": {
+    "met": 93,
+    "xmet": 93,
+    "smet": 60,
+    "nom": "Ouvriers qualifiés de conduite d'installation de production de métaux"
+  },
+  "E2X20": {
+    "met": 1597,
+    "xmet": 800,
+    "smet": 933,
+    "nom": "Ouvriers peu qualifiés des industries chimiques et plastiques"
+  },
+  "E2X40": {
+    "met": 607,
+    "xmet": 359,
+    "smet": 317,
+    "nom": "Ouvriers qualifiés des industries chimiques et plastiques"
+  },
+  "E3X20": {
+    "met": 18376,
+    "xmet": 11420,
+    "smet": 10154,
+    "nom": "Ouviers peu qualifiés des industries agro-alimentaires"
+  },
+  "E3X40": {
+    "met": 4673,
+    "xmet": 3330,
+    "smet": 1925,
+    "nom": "Ouviers qualifiés des industries agro-alimentaires"
+  },
+  "E4X30": {
+    "met": 281,
+    "xmet": 77,
+    "smet": 208,
+    "nom": "Ouvriers en conduite d’équipement de fabrication de pâte à papier, de papier et de carton et de panneaux de bois"
+  },
+  "E4X32": {
+    "met": 3400,
+    "xmet": 2029,
+    "smet": 2227,
+    "nom": "Ouvriers du conditionnement, du tri et de l'emballage"
+  },
+  "E5X70": {
+    "met": 1517,
+    "xmet": 722,
+    "smet": 691,
+    "nom": "Techniciens des industries de process"
+  },
+  "E5X80": {
+    "met": 25,
+    "xmet": 22,
+    "smet": 22,
+    "nom": "Agents de maitrise et assimilés des industries de process"
+  },
+  "F0X30": {
+    "met": 49,
+    "xmet": 49,
+    "smet": 7,
+    "nom": "Ouvriers, techniciens et agents de maîtrise en traitement du cuir"
+  },
+  "F0X32": {
+    "met": 942,
+    "xmet": 755,
+    "smet": 507,
+    "nom": "Ouvriers, techniciens et agents de maîtrise du textile"
+  },
+  "F0X33": {
+    "met": 228,
+    "xmet": 190,
+    "smet": 50,
+    "nom": "Ouvriers, techniciens et agents de maîtrise de l'habillement"
+  },
+  "F1X30": {
+    "met": 34,
+    "xmet": 28,
+    "smet": 25,
+    "nom": "Ouvriers de la réalisation d'ouvrages décoratifs et meubles en bois"
+  },
+  "F1X31": {
+    "met": 893,
+    "xmet": 715,
+    "smet": 526,
+    "nom": "Ouvriers et techniciens de la scierie, de l'assemblage et de la fabrication d'ouvrages en bois"
+  },
+  "F2X30": {
+    "met": 196,
+    "xmet": 121,
+    "smet": 91,
+    "nom": "Ouvriers, techniciens et agents de maîtrise de l'imprimerie"
+  },
+  "G0A40": {
+    "met": 4864,
+    "xmet": 3632,
+    "smet": 977,
+    "nom": "Ouvriers de la maintenance générale et mécanique"
+  },
+  "G0A41": {
+    "met": 357,
+    "xmet": 316,
+    "smet": 82,
+    "nom": "Ouvriers de la maintenance en électricité et en électronique"
+  },
+  "G0A43": {
+    "met": 3328,
+    "xmet": 2048,
+    "smet": 1530,
+    "nom": "Ouvriers polyvalents d'entretien du bâtiment"
+  },
+  "G0B40": {
+    "met": 308,
+    "xmet": 252,
+    "smet": 89,
+    "nom": "Carrossiers automobiles"
+  },
+  "G0B41": {
+    "met": 4719,
+    "xmet": 3323,
+    "smet": 849,
+    "nom": "Ouvriers mécaniciens de véhicules"
+  },
+  "G1X70": {
+    "met": 590,
+    "xmet": 374,
+    "smet": 289,
+    "nom": "Techniciens et agents de maîtrise en intervention technique en Hygiène Sécurité Environnement -HSE industriel et protection du patrimoine naturel"
+  },
+  "G1X71": {
+    "met": 262,
+    "xmet": 229,
+    "smet": 77,
+    "nom": "Techniciens et agents de maîtrise en maintenance de véhicules"
+  },
+  "G1X72": {
+    "met": 242,
+    "xmet": 197,
+    "smet": 88,
+    "nom": "Techniciens et agents de maîtrise en maintenance générale et mécanique industrielle"
+  },
+  "G1X74": {
+    "met": 69,
+    "xmet": 68,
+    "smet": 29,
+    "nom": "Techniciens et agents de maîtrise en installation et maintenance en froid et conditionnement d'air"
+  },
+  "G1X75": {
+    "met": 217,
+    "xmet": 158,
+    "smet": 78,
+    "nom": "Techniciens et agents de maîtrise en assistance et support technique client et en installation et maintenance télécoms et courants faibles"
+  },
+  "G1X76": {
+    "met": 42,
+    "xmet": 33,
+    "smet": 22,
+    "nom": "Mainteniciens en biens électrodomestiques"
+  },
+  "G1X77": {
+    "met": 59,
+    "xmet": 37,
+    "smet": 11,
+    "nom": "Techniciens et agents de maîtrise en maintenance électrique, électronique et automatismes"
+  },
+  "G1X78": {
+    "met": 53,
+    "xmet": 48,
+    "smet": 48,
+    "nom": "Techniciens et agents de maîtrise en distribution et assainissement d'eau et gestion des déchets"
+  },
+  "H0X40": {
+    "met": 388,
+    "xmet": 299,
+    "smet": 156,
+    "nom": "Ouvriers qualifiés du contrôle qualité et de laboratoire"
+  },
+  "H0X90": {
+    "met": 13,
+    "xmet": 6,
+    "smet": 6,
+    "nom": "Techniciens du contrôle qualité"
+  },
+  "H0X92": {
+    "met": 690,
+    "xmet": 302,
+    "smet": 199,
+    "nom": "Techniciens et agents de maîtrise de la logistique, du planning, de l'ordonnancement et méthodes en industrialisation"
+  },
+  "H1X90": {
+    "met": 138,
+    "xmet": 104,
+    "smet": 84,
+    "nom": "Ingénieurs et cadres de fabrication et de la production"
+  },
+  "H1X91": {
+    "met": 56,
+    "xmet": 29,
+    "smet": 9,
+    "nom": "Ingénieurs et cadres techniques en Hygiène Sécurité Environnement -HSE- industriels et exploitation éco-industriel"
+  },
+  "H1X92": {
+    "met": 23,
+    "xmet": 23,
+    "smet": 23,
+    "nom": "Ingénieurs en maintenance et support technique client"
+  },
+  "H1X93": {
+    "met": 191,
+    "xmet": 121,
+    "smet": 12,
+    "nom": "Ingénieurs des méthodes de production, du contrôle qualité"
+  },
+  "J0X30": {
+    "met": 16756,
+    "xmet": 6316,
+    "smet": 8668,
+    "nom": "Manutentionnaires et déménageurs peu qualifiés"
+  },
+  "J0X31": {
+    "met": 2543,
+    "xmet": 1337,
+    "smet": 1209,
+    "nom": "Manutentionnaires et déménageurs qualifiés"
+  },
+  "J0X32": {
+    "met": 2891,
+    "xmet": 1726,
+    "smet": 1391,
+    "nom": "Conducteurs d’engins légers de déplacement de charges, cariste"
+  },
+  "J0X33": {
+    "met": 22757,
+    "xmet": 8061,
+    "smet": 7216,
+    "nom": "Magasiniers et préparateurs de commandes peu qualifiés"
+  },
+  "J0X34": {
+    "met": 3385,
+    "xmet": 1583,
+    "smet": 1260,
+    "nom": "Magasiniers et préparateurs de commande qualifiés"
+  },
+  "J1X80": {
+    "met": 346,
+    "xmet": 122,
+    "smet": 176,
+    "nom": "Responsable du magasinage et de la logistique (non cadres)"
+  },
+  "J2X40": {
+    "met": 303,
+    "xmet": 212,
+    "smet": 47,
+    "nom": "Facteurs et distributeurs de documents (non cadres)"
+  },
+  "J3X40": {
+    "met": 4890,
+    "xmet": 3204,
+    "smet": 1678,
+    "nom": "Conducteurs de véhicules légers"
+  },
+  "J3X41": {
+    "met": 4409,
+    "xmet": 3519,
+    "smet": 1498,
+    "nom": "Conducteurs de transport en commun sur route"
+  },
+  "J3X42": {
+    "met": 12194,
+    "xmet": 5809,
+    "smet": 3770,
+    "nom": "Conducteurs et livreurs sur courte distance (hors distribution de documents)"
+  },
+  "J3X43": {
+    "met": 17171,
+    "xmet": 9120,
+    "smet": 3943,
+    "nom": "Conducteurs routiers"
+  },
+  "J3X44": {
+    "met": 837,
+    "xmet": 350,
+    "smet": 747,
+    "nom": "Conducteurs sur rails et d'engins de traction"
+  },
+  "J4X60": {
+    "met": 2069,
+    "xmet": 1431,
+    "smet": 1991,
+    "nom": "Agents et hôtesses d'accompagnement"
+  },
+  "J4X62": {
+    "met": 1026,
+    "xmet": 432,
+    "smet": 650,
+    "nom": "Employés administratifs et commerciaux des transports"
+  },
+  "J4X63": {
+    "met": 2935,
+    "xmet": 1825,
+    "smet": 2204,
+    "nom": "Employés du tourisme et agent de billetterie des transports"
+  },
+  "J5X40": {
+    "met": 1365,
+    "xmet": 994,
+    "smet": 882,
+    "nom": "Agents d'exploitation du transport"
+  },
+  "J5X60": {
+    "met": 92,
+    "xmet": 92,
+    "smet": 92,
+    "nom": "Contrôleurs des transports"
+  },
+  "J5X80": {
+    "met": 18,
+    "xmet": 9,
+    "smet": 9,
+    "nom": "Techniciens d'exploitation et d'administration des transports"
+  },
+  "J5X81": {
+    "met": 185,
+    "xmet": 175,
+    "smet": 163,
+    "nom": "Techniciens et agents de maîtrise du tourisme"
+  },
+  "J6X90": {
+    "met": 466,
+    "xmet": 370,
+    "smet": 271,
+    "nom": "Cadres des transports et du tourisme"
+  },
+  "J6X91": {
+    "met": 57,
+    "xmet": 9,
+    "smet": 57,
+    "nom": "Personnels techniques navigants de l’aviation"
+  },
+  "K0X30": {
+    "met": 39,
+    "xmet": 35,
+    "smet": 35,
+    "nom": "Artisans et ouvriers artisanaux"
+  },
+  "K0X32": {
+    "met": 2416,
+    "xmet": 1240,
+    "smet": 1526,
+    "nom": "Artisans et ouvriers de blanchisserie"
+  },
+  "L0X60": {
+    "met": 18710,
+    "xmet": 6656,
+    "smet": 2314,
+    "nom": "Secrétaires bureautiques et assimilés"
+  },
+  "L1X60": {
+    "met": 5337,
+    "xmet": 2998,
+    "smet": 412,
+    "nom": "Employés de la comptabilité"
+  },
+  "L2X60": {
+    "met": 22792,
+    "xmet": 4024,
+    "smet": 11402,
+    "nom": "Agents d'accueil et d'information"
+  },
+  "L2X61": {
+    "met": 18327,
+    "xmet": 5016,
+    "smet": 2831,
+    "nom": "Agents administratifs"
+  },
+  "L3X80": {
+    "met": 932,
+    "xmet": 409,
+    "smet": 127,
+    "nom": "Secrétaires de direction"
+  },
+  "L4X80": {
+    "met": 2213,
+    "xmet": 764,
+    "smet": 425,
+    "nom": "Techniciens des services administratifs"
+  },
+  "L4X81": {
+    "met": 1006,
+    "xmet": 509,
+    "smet": 83,
+    "nom": "Techniciens et agents de maîtrise des services financiers ou comptables"
+  },
+  "L4X82": {
+    "met": 491,
+    "xmet": 184,
+    "smet": 41,
+    "nom": "Techniciens et agents de maîtrise chargés d'études socio-économiques"
+  },
+  "L5X90": {
+    "met": 4913,
+    "xmet": 2046,
+    "smet": 175,
+    "nom": "Cadres administratifs, comptables et financiers (hors juristes)"
+  },
+  "L5X91": {
+    "met": 921,
+    "xmet": 374,
+    "smet": 96,
+    "nom": "Juristes et avocats"
+  },
+  "L5X92": {
+    "met": 668,
+    "xmet": 193,
+    "smet": 40,
+    "nom": "Cadres des ressources humaines et du recrutement"
+  },
+  "L5X93": {
+    "met": 274,
+    "xmet": 111,
+    "smet": 46,
+    "nom": "Chargés d'études socio-économiques"
+  },
+  "L6X00": {
+    "met": 9,
+    "xmet": 9,
+    "smet": 9,
+    "nom": "Dirigeants de petites et moyennes entreprises de moins de 50 salariés"
+  },
+  "M1X80": {
+    "met": 6098,
+    "xmet": 2648,
+    "smet": 209,
+    "nom": "Techniciens d'étude et de développement en informatique"
+  },
+  "M1X81": {
+    "met": 4936,
+    "xmet": 2443,
+    "smet": 449,
+    "nom": "Techniciens de production, d'exploitation, d'installation, et de maintenance, support et services aux utilisateurs en informatique"
+  },
+  "M2X90": {
+    "met": 9914,
+    "xmet": 6718,
+    "smet": 216,
+    "nom": "Ingénieurs et cadres d'étude, recherche et développement en informatique et télécom"
+  },
+  "M2X92": {
+    "met": 7,
+    "xmet": 7,
+    "smet": 7,
+    "nom": "Responsables et cadres de la production, de l'exploitation et de la maintenance informatique et télécom"
+  },
+  "M2X93": {
+    "met": 1769,
+    "xmet": 1102,
+    "smet": 65,
+    "nom": "Experts et consultants en systèmes d'information"
+  },
+  "N0X70": {
+    "met": 559,
+    "xmet": 406,
+    "smet": 98,
+    "nom": "Techniciens d'étude, recherche et développement"
+  },
+  "N1X90": {
+    "met": 3771,
+    "xmet": 1608,
+    "smet": 311,
+    "nom": "Ingénieurs et cadres d'étude, recherche et développement (industrie)"
+  },
+  "N1X91": {
+    "met": 706,
+    "xmet": 551,
+    "smet": 16,
+    "nom": "Chercheurs (sauf industrie et enseignement supérieur)"
+  },
+  "P3X90": {
+    "met": 38,
+    "xmet": 34,
+    "smet": 27,
+    "nom": "Professionnels du droit"
+  },
+  "QAX01": {
+    "met": 11,
+    "xmet": 11,
+    "smet": 11,
+    "nom": "Experts de la finance"
+  },
+  "QAX02": {
+    "met": 729,
+    "xmet": 229,
+    "smet": 42,
+    "nom": "Experts de la banque"
+  },
+  "QBX01": {
+    "met": 836,
+    "xmet": 262,
+    "smet": 79,
+    "nom": "Gestionnaires de la banque et de l'assurance"
+  },
+  "QCX01": {
+    "met": 291,
+    "xmet": 210,
+    "smet": 77,
+    "nom": "Employés et techniciens commerciaux de la banque"
+  },
+  "QCX02": {
+    "met": 315,
+    "xmet": 284,
+    "smet": 39,
+    "nom": "Cadres et indépendants commerciaux de la banque"
+  },
+  "QDX01": {
+    "met": 1598,
+    "xmet": 805,
+    "smet": 229,
+    "nom": "Employés et techniciens commerciaux des assurances"
+  },
+  "QDX02": {
+    "met": 620,
+    "xmet": 202,
+    "smet": 22,
+    "nom": "Cadres et indépendants commerciaux des assurances"
+  },
+  "R0X60": {
+    "met": 49291,
+    "xmet": 17829,
+    "smet": 20148,
+    "nom": "Employés de libre service"
+  },
+  "R0X61": {
+    "met": 23905,
+    "xmet": 7621,
+    "smet": 10165,
+    "nom": "Caissiers"
+  },
+  "R1X60": {
+    "met": 29206,
+    "xmet": 13453,
+    "smet": 12741,
+    "nom": "Vendeurs en produits alimentaires"
+  },
+  "R1X61": {
+    "met": 7927,
+    "xmet": 3227,
+    "smet": 2403,
+    "nom": "Vendeurs en ameublement, équipement du foyer, bricolage"
+  },
+  "R1X62": {
+    "met": 24086,
+    "xmet": 9546,
+    "smet": 11438,
+    "nom": "Vendeurs en habillement et accessoires, articles de luxe, de sport, de loisirs et culturels"
+  },
+  "R1X67": {
+    "met": 6552,
+    "xmet": 3783,
+    "smet": 964,
+    "nom": "Télévendeurs et téléconseillers"
+  },
+  "R1X68": {
+    "met": 715,
+    "xmet": 401,
+    "smet": 279,
+    "nom": "Employés des services commerciaux"
+  },
+  "R2X80": {
+    "met": 9864,
+    "xmet": 3902,
+    "smet": 702,
+    "nom": "Attachés commerciaux"
+  },
+  "R2X83": {
+    "met": 411,
+    "xmet": 241,
+    "smet": 118,
+    "nom": "Représentants auprès des particuliers"
+  },
+  "R3X80": {
+    "met": 1706,
+    "xmet": 561,
+    "smet": 440,
+    "nom": "Maîtrise des magasins"
+  },
+  "R3X83": {
+    "met": 405,
+    "xmet": 59,
+    "smet": 72,
+    "nom": "Professions intermédiaires du marketing et des services commerciaux (hors achats)"
+  },
+  "R3X84": {
+    "met": 2957,
+    "xmet": 1496,
+    "smet": 407,
+    "nom": "Employés et professions intermédiaires de l'immobilier"
+  },
+  "R4X90": {
+    "met": 2120,
+    "xmet": 714,
+    "smet": 73,
+    "nom": "Cadres commerciaux, acheteurs et cadres de la mercatique"
+  },
+  "R4X91": {
+    "met": 1732,
+    "xmet": 746,
+    "smet": 67,
+    "nom": "Technico-commerciaux"
+  },
+  "R4X92": {
+    "met": 154,
+    "xmet": 58,
+    "smet": 56,
+    "nom": "Cadres du management des magasins"
+  },
+  "R4X93": {
+    "met": 22,
+    "xmet": 21,
+    "smet": 21,
+    "nom": "Cadres agents immobiliers et syndics"
+  },
+  "S0X40": {
+    "met": 1601,
+    "xmet": 1349,
+    "smet": 443,
+    "nom": "Bouchers"
+  },
+  "S0X41": {
+    "met": 279,
+    "xmet": 237,
+    "smet": 210,
+    "nom": "Charcutiers, traiteurs"
+  },
+  "S0X42": {
+    "met": 8922,
+    "xmet": 4908,
+    "smet": 2424,
+    "nom": "Boulangers, pâtissiers"
+  },
+  "S1X20": {
+    "met": 100767,
+    "xmet": 41851,
+    "smet": 41692,
+    "nom": "Aides de cuisine et employés polyvalents de la restauration"
+  },
+  "S1X40": {
+    "met": 54777,
+    "xmet": 33283,
+    "smet": 28584,
+    "nom": "Cuisiniers"
+  },
+  "S1X80": {
+    "met": 4313,
+    "xmet": 3117,
+    "smet": 2401,
+    "nom": "Chefs cuisiniers"
+  },
+  "S2X60": {
+    "met": 50282,
+    "xmet": 26744,
+    "smet": 36741,
+    "nom": "Employés de l'hôtellerie"
+  },
+  "S2X61": {
+    "met": 105802,
+    "xmet": 52959,
+    "smet": 69665,
+    "nom": "Serveurs de cafés restaurants"
+  },
+  "S2X80": {
+    "met": 2995,
+    "xmet": 2003,
+    "smet": 1591,
+    "nom": "Agents de maîtrise de la restauration"
+  },
+  "S2X81": {
+    "met": 1773,
+    "xmet": 1027,
+    "smet": 1213,
+    "nom": "Agents de maîtrise de l'hôtellerie et de la gestion des structures de loisirs"
+  },
+  "S3X90": {
+    "met": 1796,
+    "xmet": 1211,
+    "smet": 694,
+    "nom": "Patrons et cadres de l’hôtellerie et de la restauration"
+  },
+  "T0X60": {
+    "met": 11097,
+    "xmet": 7924,
+    "smet": 2451,
+    "nom": "Coiffeurs, esthéticiens"
+  },
+  "T1X60": {
+    "met": 29941,
+    "xmet": 19317,
+    "smet": 7756,
+    "nom": "Personnels de ménage chez des particuliers"
+  },
+  "T2A60": {
+    "met": 50584,
+    "xmet": 40987,
+    "smet": 7970,
+    "nom": "Aides à domicile et auxiliaires de vie"
+  },
+  "T2B60": {
+    "met": 9452,
+    "xmet": 5101,
+    "smet": 1889,
+    "nom": "Assistants maternels, auxiliaires de puériculture, assistants familiaux et gardes à domicile"
+  },
+  "T3X60": {
+    "met": 210,
+    "xmet": 124,
+    "smet": 126,
+    "nom": "Concierges"
+  },
+  "T3X61": {
+    "met": 20187,
+    "xmet": 10121,
+    "smet": 4334,
+    "nom": "Agents de sécurité et de surveillance"
+  },
+  "T4X60": {
+    "met": 76171,
+    "xmet": 34085,
+    "smet": 17152,
+    "nom": "Agents d'entretien de locaux"
+  },
+  "T4X61": {
+    "met": 11205,
+    "xmet": 5199,
+    "smet": 3080,
+    "nom": "Agents de service hospitaliers"
+  },
+  "T4X62": {
+    "met": 7057,
+    "xmet": 3722,
+    "smet": 2684,
+    "nom": "Ouvriers de l'assainissement et du traitement des déchets"
+  },
+  "T6X61": {
+    "met": 5692,
+    "xmet": 2728,
+    "smet": 3571,
+    "nom": "Employés des services divers"
+  },
+  "U0X80": {
+    "met": 1904,
+    "xmet": 517,
+    "smet": 413,
+    "nom": "Assistants de la communication"
+  },
+  "U0X81": {
+    "met": 129,
+    "xmet": 111,
+    "smet": 101,
+    "nom": "Interprètes"
+  },
+  "U0X90": {
+    "met": 68,
+    "xmet": 8,
+    "smet": 25,
+    "nom": "Cadres de la communication"
+  },
+  "U0X91": {
+    "met": 137,
+    "xmet": 69,
+    "smet": 41,
+    "nom": "Cadres et techniciens de la documentation"
+  },
+  "U0X92": {
+    "met": 697,
+    "xmet": 261,
+    "smet": 136,
+    "nom": "Journalistes et cadres de l'édition"
+  },
+  "U1X80": {
+    "met": 15930,
+    "xmet": 3207,
+    "smet": 6635,
+    "nom": "Professionnels des spectacles"
+  },
+  "U1X81": {
+    "met": 464,
+    "xmet": 213,
+    "smet": 377,
+    "nom": "Photographes"
+  },
+  "U1X82": {
+    "met": 1838,
+    "xmet": 593,
+    "smet": 439,
+    "nom": "Graphistes, dessinateurs, stylistes, décorateurs et créateurs de supports de communication visuelle"
+  },
+  "U1X91": {
+    "met": 30165,
+    "xmet": 2616,
+    "smet": 11224,
+    "nom": "Artistes (musique, danse, spectacles)"
+  },
+  "U1X93": {
+    "met": 51,
+    "xmet": 12,
+    "smet": 41,
+    "nom": "Artistes plasticiens"
+  },
+  "V0X60": {
+    "met": 50508,
+    "xmet": 32714,
+    "smet": 9484,
+    "nom": "Aides-soignants"
+  },
+  "V1X80": {
+    "met": 24619,
+    "xmet": 16379,
+    "smet": 2904,
+    "nom": "Infirmiers et sages-femmes"
+  },
+  "V2X90": {
+    "met": 1378,
+    "xmet": 949,
+    "smet": 214,
+    "nom": "Médecins"
+  },
+  "V2X91": {
+    "met": 21,
+    "xmet": 21,
+    "smet": 8,
+    "nom": "Dentistes"
+  },
+  "V2X92": {
+    "met": 118,
+    "xmet": 107,
+    "smet": 67,
+    "nom": "Vétérinaires"
+  },
+  "V2X93": {
+    "met": 1500,
+    "xmet": 1043,
+    "smet": 605,
+    "nom": "Pharmaciens"
+  },
+  "V3X70": {
+    "met": 2562,
+    "xmet": 2093,
+    "smet": 607,
+    "nom": "Techniciens médicaux et préparateurs"
+  },
+  "V3X71": {
+    "met": 632,
+    "xmet": 374,
+    "smet": 186,
+    "nom": "Spécialistes de l'appareillage médical"
+  },
+  "V3X80": {
+    "met": 759,
+    "xmet": 537,
+    "smet": 235,
+    "nom": "Autres professionnels para-médicaux"
+  },
+  "V3X90": {
+    "met": 314,
+    "xmet": 131,
+    "smet": 58,
+    "nom": "Psychologues, psychothérapeutes"
+  },
+  "V4X80": {
+    "met": 49,
+    "xmet": 39,
+    "smet": 29,
+    "nom": "Professionnels de l’orientation et de l’insertion professionnelle"
+  },
+  "V4X83": {
+    "met": 12229,
+    "xmet": 8161,
+    "smet": 2367,
+    "nom": "Educateurs spécialisés et autres intervenants socio-éducatifs"
+  },
+  "V4X84": {
+    "met": 2987,
+    "xmet": 2162,
+    "smet": 1285,
+    "nom": "Aides médico-psychologiques"
+  },
+  "V4X85": {
+    "met": 4282,
+    "xmet": 2303,
+    "smet": 629,
+    "nom": "Professionnels de l'action sociale"
+  },
+  "V5X81": {
+    "met": 60165,
+    "xmet": 30967,
+    "smet": 35449,
+    "nom": "Professionnels de l'animation socioculturelle"
+  },
+  "V5X82": {
+    "met": 19316,
+    "xmet": 10210,
+    "smet": 12365,
+    "nom": "Sportifs et animateurs sportifs"
+  },
+  "V5X84": {
+    "met": 4466,
+    "xmet": 1590,
+    "smet": 1282,
+    "nom": "Surveillants d'établissements scolaires et accompagnateurs des élèves en situation de handicap"
+  },
+  "W0X80": {
+    "met": 128,
+    "xmet": 57,
+    "smet": 87,
+    "nom": "Professeurs des écoles"
+  },
+  "W0X90": {
+    "met": 2019,
+    "xmet": 1110,
+    "smet": 687,
+    "nom": "Professeurs du secondaire"
+  },
+  "W0X92": {
+    "met": 66,
+    "xmet": 33,
+    "smet": 33,
+    "nom": "Professeurs du supérieur"
+  },
+  "W1X80": {
+    "met": 8909,
+    "xmet": 4443,
+    "smet": 1701,
+    "nom": "Formateurs"
+  }
+}

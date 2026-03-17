@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "a1101",
+    "code_rome": "A1101",
+    "title": "Conducteur / Conductrice d'engins agricoles",
+    "exposure": 3,
+    "rationale": "Le cœur de ce métier est l'opération physique d'engins agricoles lourds dans des environnements extérieurs variables et imprévisibles, nécessitant une présence humaine et un jugement en temps réel. Bien que l'IA soit de plus en plus intégrée dans les machines pour l'optimisation et l'automatisation (guidage GPS, agriculture de précision), l'opérateur reste essentiel pour la supervision, la maintenance de premier niveau et la gestion des imprévus. Le travail n'est pas fondamentalement numérique."
+  },
+  {
+    "slug": "a1102",
+    "code_rome": "A1102",
+    "title": "Conducteur / Conductrice d'engins d'exploitation forestière",
+    "exposure": 1,
+    "rationale": "Ce métier est presque entièrement physique et manuel, impliquant la conduite d'engins lourds dans des environnements forestiers complexes et imprévisibles. La nécessité d'une présence humaine en temps réel pour le jugement (préserver le peuplement) et la gestion des aléas du terrain rend l'automatisation par l'IA très difficile. L'IA n'aura qu'un impact minimal sur le cœur de métier."
+  },
+  {
+    "slug": "a1201",
+    "code_rome": "A1201",
+    "title": "Bûcheron / Bûcheronne",
+    "exposure": 1,
+    "rationale": "Le métier de bûcheron est intrinsèquement physique et manuel, se déroulant en extérieur dans des environnements naturels imprévisibles. Les tâches principales comme l'abattage, l'écorçage, le débitage et le reboisement nécessitent une présence humaine, des compétences manuelles et un jugement en temps réel pour la sécurité et l'adaptation au terrain. L'IA a un impact minimal sur ces opérations fondamentales."
+  },
+  {
+    "slug": "a1202",
+    "code_rome": "A1202",
+    "title": "Agent / Agente d'entretien des espaces naturels",
+    "exposure": 2,
+    "rationale": "Ce métier est fondamentalement physique et manuel, nécessitant une présence sur le terrain et l'utilisation d'engins ou d'outils pour l'entretien et l'aménagement des espaces naturels. L'IA ne peut pas automatiser les tâches essentielles de travail manuel, de conduite d'engins ou d'intervention directe dans des environnements naturels variés. Son impact se limiterait à des aides périphériques comme la planification ou l'identification d'espèces, sans toucher au cœur de l'activité."
+  },
+  {
+    "slug": "a1203",
+    "code_rome": "A1203",
+    "title": "Agent / Agente d'entretien des espaces verts",
+    "exposure": 2,
+    "rationale": "Le cœur de ce métier est intrinsèquement physique et manuel, nécessitant une présence sur le terrain pour des tâches comme la plantation, la taille, la tonte et le nettoyage. Bien que l'IA puisse potentiellement aider à optimiser la planification des itinéraires ou à identifier des maladies végétales, elle ne peut pas automatiser la dextérité, le jugement humain et l'adaptation aux environnements variés requis pour l'exécution des tâches principales."
+  },
+  {
+    "slug": "a1204",
+    "code_rome": "A1204",
+    "title": "Garde de parc naturel",
+    "exposure": 2,
+    "rationale": "Ce métier est fortement ancré dans le monde physique, nécessitant une présence sur le terrain pour la surveillance, la patrouille et l'intervention dans des environnements naturels imprévisibles. Les interactions humaines directes pour la sensibilisation du public et l'application des réglementations sont également centrales. L'IA peut offrir des outils d'aide à la surveillance (drones, capteurs) ou à l'analyse de données, mais elle ne peut pas remplacer la présence physique, le jugement humain et l'interaction relationnelle qui constituent le cœur de ce métier."
+  }
+]

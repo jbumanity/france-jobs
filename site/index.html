@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marché de l'Emploi Français — Visualiseur Interactif</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0a0a0f;
+  --bg2: #12121a;
+  --fg: #e0e0e8;
+  --fg2: #888894;
+  --accent: #4a9eff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+#wrapper {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+#header {
+  padding: 20px 28px 16px;
+}
+
+.intro h1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.intro h1 a {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--fg2);
+  text-decoration: none;
+}
+.intro h1 a:hover { text-decoration: underline; }
+.intro p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--fg2);
+  margin-bottom: 6px;
+}
+.intro a { color: var(--fg2); }
+
+/* Layers toolbar */
+#toolbar {
+  padding: 12px 28px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  margin-bottom: 8px;
+}
+
+.layer-btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: transparent;
+  color: var(--fg2);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.layer-btn:hover { border-color: rgba(255,255,255,0.4); color: var(--fg); }
+.layer-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* Legend */
+#legend {
+  padding: 8px 28px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  min-height: 36px;
+}
+
+.legend-gradient {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--fg2);
+}
+.gradient-bar {
+  width: 200px;
+  height: 12px;
+  border-radius: 6px;
+}
+.legend-items {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--fg2);
+}
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* Stats bar */
+#statsbar {
+  padding: 8px 28px 4px;
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--fg2);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  margin-bottom: 4px;
+}
+.stat-item strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+/* Treemap container */
+#treemap-container {
+  padding: 0 28px;
+  position: relative;
+}
+
+#treemap {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.node {
+  position: absolute;
+  border: 1px solid rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: filter 0.1s;
+  overflow: hidden;
+}
+.node:hover {
+  filter: brightness(1.25);
+  z-index: 10;
+  border-color: rgba(255,255,255,0.5);
+}
+.node-label {
+  position: absolute;
+  bottom: 2px;
+  left: 3px;
+  right: 3px;
+  font-size: 9px;
+  line-height: 1.2;
+  color: rgba(255,255,255,0.85);
+  overflow: hidden;
+  pointer-events: none;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+
+/* Tooltip */
+#tooltip {
+  position: fixed;
+  background: rgba(15, 15, 25, 0.96);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+  padding: 12px 16px;
+  max-width: 320px;
+  font-size: 13px;
+  pointer-events: none;
+  z-index: 1000;
+  display: none;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+#tooltip .tt-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: var(--fg);
+  line-height: 1.3;
+}
+#tooltip .tt-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 3px 0;
+  color: var(--fg2);
+}
+#tooltip .tt-row .tt-val {
+  color: var(--fg);
+  font-weight: 500;
+  text-align: right;
+}
+#tooltip .tt-rationale {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--fg2);
+  line-height: 1.5;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 8px;
+  font-style: italic;
+}
+#tooltip .tt-hint {
+  margin-top: 6px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.3);
+}
+
+/* Loading indicator */
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--fg2);
+  font-size: 14px;
+}
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div class="intro">
+      <h1>
+        Marché de l'Emploi Français
+        <a href="https://github.com/jbumanity/france-jobs" target="_blank">GitHub ↗</a>
+        <a href="https://www.francetravail.fr" target="_blank">France Travail ↗</a>
+      </h1>
+      <p>
+        Visualisation interactive de <strong id="total-count">1 584</strong> métiers du référentiel <strong>ROME 4.0</strong>.
+        La surface de chaque rectangle est proportionnelle aux <strong>projets de recrutement</strong> (BMO 2025, France Travail).
+        Les métiers sans données BMO ont une taille minimale.
+        Cliquez sur un métier pour ouvrir sa fiche officielle.
+      </p>
+      <p style="font-size:12px; color: rgba(255,255,255,0.25); margin-top: 4px;">
+        Sources : ROME 4.0 (France Travail) · BMO 2025 (France Travail) · Scores IA : Gemini 2.5 Flash · Projet open source
+      </p>
+    </div>
+  </div>
+
+  <div id="toolbar">
+    <button class="layer-btn active" data-layer="domaine">Grand Domaine</button>
+    <button class="layer-btn" data-layer="tension">Difficulté de Recrutement</button>
+    <button class="layer-btn" data-layer="digital">Transition Numérique</button>
+    <button class="layer-btn" data-layer="ai">Exposition IA <span id="ai-scored-badge" style="font-size:10px; opacity:0.6"></span></button>
+    <button class="layer-btn" data-layer="eco">Transition Écologique</button>
+  </div>
+
+  <div id="legend"></div>
+
+  <div id="statsbar">
+    <span class="stat-item"><strong id="stat-total">–</strong> métiers</span>
+    <span class="stat-item" id="stat-projets-wrap"><strong id="stat-projets">–</strong> projets de recrutement (BMO 2025)</span>
+    <span class="stat-item" id="stat-metric-wrap"></span>
+  </div>
+
+  <div id="treemap-container">
+    <div id="treemap" style="height: 700px;">
+      <div id="loading">Chargement des données...</div>
+    </div>
+  </div>
+</div>
+
+<div id="tooltip"></div>
+
+<script>
+// ── Couleurs par grand domaine ────────────────────────────────────────────────
+const DOMAINE_COLORS = {
+  'A': '#2d7a2d', // Agriculture - vert
+  'B': '#7a4f2d', // Arts - marron
+  'C': '#2d5a7a', // Banque/Assurances - bleu foncé
+  'D': '#7a2d7a', // Commerce - violet
+  'E': '#7a6b2d', // Communication/Média - or
+  'F': '#c0652e', // Construction - orange
+  'G': '#2d7a6b', // Hôtellerie/Restauration - teal
+  'H': '#4a4a8a', // Industrie - bleu ardoise
+  'I': '#5a7a2d', // Installation/Maintenance - vert olive
+  'J': '#8a2d2d', // Santé - rouge
+  'K': '#2d4a8a', // Services aux personnes - bleu
+  'L': '#7a2d4a', // Spectacle - rose
+  'M': '#2d6a8a', // Support entreprise - bleu cyan
+  'N': '#6a6a2d', // Transport/Logistique - olive
+};
+
+const DOMAINE_LABELS = {
+  'A': 'Agriculture & Nature',
+  'B': 'Arts & Artisanat',
+  'C': 'Banque & Assurances',
+  'D': 'Commerce',
+  'E': 'Communication & Médias',
+  'F': 'BTP & Construction',
+  'G': 'Hôtellerie & Tourisme',
+  'H': 'Industrie',
+  'I': 'Installation & Maintenance',
+  'J': 'Santé',
+  'K': 'Services aux Personnes',
+  'L': 'Spectacle & Sport',
+  'M': 'Support Entreprise',
+  'N': 'Transport & Logistique',
+};
+
+// ── Utilitaires de couleur ────────────────────────────────────────────────────
+function lerp(a, b, t) { return a + (b - a) * t; }
+
+function colorScale(value, min, max, colors) {
+  if (value === null || value === undefined) return '#2a2a3a';
+  const t = Math.max(0, Math.min(1, (value - min) / (max - min)));
+  // Interpolate through color stops
+  const n = colors.length - 1;
+  const i = Math.min(Math.floor(t * n), n - 1);
+  const ft = t * n - i;
+  const c1 = colors[i], c2 = colors[i + 1];
+  const r = Math.round(lerp(c1[0], c2[0], ft));
+  const g = Math.round(lerp(c1[1], c2[1], ft));
+  const b = Math.round(lerp(c1[2], c2[2], ft));
+  return `rgb(${r},${g},${b})`;
+}
+
+// Color palettes
+const RED_GREEN = [[180,40,40],[220,120,40],[200,180,60],[80,180,80],[30,140,30]];
+const BLUE_YELLOW = [[20,60,180],[80,140,210],[200,200,80],[220,160,40],[180,80,20]];
+const GREEN_RED = [[30,140,30],[80,180,80],[200,180,60],[220,120,40],[180,40,40]];
+const PURPLE_CYAN = [[60,20,120],[120,60,200],[80,160,220],[40,200,200]];
+
+// ── Treemap layout (Squarified) ───────────────────────────────────────────────
+function squarify(items, x, y, w, h) {
+  const results = [];
+  if (!items.length) return results;
+
+  let remaining = [...items];
+  let cx = x, cy = y, cw = w, ch = h;
+
+  while (remaining.length > 0) {
+    const row = [];
+    let rowArea = 0;
+    const totalArea = remaining.reduce((s, d) => s + d._area, 0);
+
+    // Try adding items to current row
+    for (let i = 0; i < remaining.length; i++) {
+      const item = remaining[i];
+      rowArea += item._area;
+      row.push(item);
+
+      const worstBefore = worst(row.slice(0, -1).concat(), cw, ch, totalArea, rowArea - item._area);
+      const worstAfter = worst(row, cw, ch, totalArea, rowArea);
+
+      if (row.length > 1 && worstBefore < worstAfter) {
+        row.pop();
+        rowArea -= item._area;
+        break;
+      }
+    }
+
+    // Layout the row
+    const rowFraction = rowArea / totalArea;
+    let isWide = cw >= ch;
+    let rowW = isWide ? cw * rowFraction : cw;
+    let rowH = isWide ? ch : ch * rowFraction;
+    let rx = cx, ry = cy;
+
+    for (const item of row) {
+      const frac = item._area / rowArea;
+      let iw = isWide ? rowW : rowW * frac;
+      let ih = isWide ? rowH * frac : rowH;
+      results.push({ ...item, x: rx, y: ry, w: iw, h: ih });
+      if (isWide) ry += ih;
+      else rx += iw;
+    }
+
+    // Advance
+    if (isWide) { cx += rowW; cw -= rowW; }
+    else { cy += rowH; ch -= rowH; }
+
+    remaining = remaining.slice(row.length);
+  }
+
+  return results;
+}
+
+function worst(row, w, h, totalArea, rowArea) {
+  if (!row.length || !rowArea) return Infinity;
+  const isWide = w >= h;
+  const dim = isWide ? h : w;
+  const frac = rowArea / totalArea;
+  const side = isWide ? w * frac : h * frac;
+  let max = 0;
+  for (const item of row) {
+    const frac2 = item._area / rowArea;
+    const rectDim = dim * frac2;
+    const ratio = Math.max(side / rectDim, rectDim / side);
+    if (ratio > max) max = ratio;
+  }
+  return max;
+}
+
+// ── Main app ──────────────────────────────────────────────────────────────────
+let allData = [];
+let currentLayer = 'domaine';
+let layoutCache = null;
+
+async function loadData() {
+  const res = await fetch('data.json');
+  allData = await res.json();
+  document.getElementById('total-count').textContent = allData.length.toLocaleString('fr-FR');
+
+  // Update AI badge
+  const scored = allData.filter(d => d.exposure !== null).length;
+  document.getElementById('ai-scored-badge').textContent = `(${scored} scorés)`;
+
+  // Stats
+  const totalProjets = allData.reduce((s, d) => s + (d.projets_recrutement || 0), 0);
+  document.getElementById('stat-total').textContent = allData.length.toLocaleString('fr-FR');
+  document.getElementById('stat-projets').textContent = totalProjets.toLocaleString('fr-FR');
+
+  document.getElementById('loading').style.display = 'none';
+  render();
+}
+
+function getColor(d, layer) {
+  switch (layer) {
+    case 'domaine':
+      return DOMAINE_COLORS[d.grand_domaine_code] || '#3a3a5a';
+
+    case 'tension':
+      return colorScale(d.taux_difficulte, 20, 85, GREEN_RED);
+
+    case 'digital':
+      return d.is_digital ? '#3a8aff' : '#2a2a4a';
+
+    case 'ai':
+      if (d.exposure === null || d.exposure === undefined) return '#2a2a3a';
+      return colorScale(d.exposure, 0, 10, BLUE_YELLOW);
+
+    case 'eco':
+      if (!d.transition_eco) return '#2a2a3a';
+      if (d.transition_eco.includes('stratégique')) return '#2da84f';
+      if (d.transition_eco.includes('Blanc')) return '#aaaaaa';
+      return '#4a7a2d';
+
+    default:
+      return '#3a3a5a';
+  }
+}
+
+function renderLegend(layer) {
+  const el = document.getElementById('legend');
+
+  if (layer === 'domaine') {
+    el.innerHTML = `<div class="legend-items">${
+      Object.entries(DOMAINE_LABELS).map(([code, label]) =>
+        `<div class="legend-item">
+          <div class="legend-dot" style="background:${DOMAINE_COLORS[code]}"></div>
+          <span>${label}</span>
+        </div>`
+      ).join('')
+    }</div>`;
+  } else if (layer === 'tension') {
+    el.innerHTML = `<div class="legend-gradient">
+      <span>Peu difficile</span>
+      <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
+      <span>Très difficile</span>
+      <span style="margin-left:8px; font-size:11px; opacity:0.5">(gris = pas de données)</span>
+    </div>`;
+    drawGradientBar('grad-canvas', GREEN_RED);
+  } else if (layer === 'digital') {
+    el.innerHTML = `<div class="legend-items">
+      <div class="legend-item"><div class="legend-dot" style="background:#3a8aff"></div><span>Transition numérique (ROME 4.0)</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#2a2a4a"></div><span>Autre / Non classifié</span></div>
+    </div>`;
+  } else if (layer === 'ai') {
+    el.innerHTML = `<div class="legend-gradient">
+      <span>Peu exposé (0)</span>
+      <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
+      <span>Très exposé (10)</span>
+      <span style="margin-left:8px; font-size:11px; opacity:0.5">(gris = non évalué)</span>
+    </div>`;
+    drawGradientBar('grad-canvas', BLUE_YELLOW);
+  } else if (layer === 'eco') {
+    el.innerHTML = `<div class="legend-items">
+      <div class="legend-item"><div class="legend-dot" style="background:#2da84f"></div><span>Emploi stratégique pour la transition écologique</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#4a7a2d"></div><span>Autre transition éco</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#aaaaaa"></div><span>Emploi Blanc (impact neutre)</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#2a2a3a"></div><span>Non classifié</span></div>
+    </div>`;
+  }
+}
+
+function drawGradientBar(id, colors) {
+  requestAnimationFrame(() => {
+    const canvas = document.getElementById(id);
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const grad = ctx.createLinearGradient(0, 0, 200, 0);
+    colors.forEach((c, i) => {
+      grad.addColorStop(i / (colors.length - 1), `rgb(${c[0]},${c[1]},${c[2]})`);
+    });
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, 200, 12);
+  });
+}
+
+function updateStats(layer) {
+  const el = document.getElementById('stat-metric-wrap');
+  const data = allData.filter(d => d[layer === 'tension' ? 'taux_difficulte' : layer === 'ai' ? 'exposure' : null] !== null);
+
+  if (layer === 'tension') {
+    const vals = allData.filter(d => d.taux_difficulte !== null).map(d => d.taux_difficulte);
+    if (vals.length) {
+      const avg = vals.reduce((s, v) => s + v, 0) / vals.length;
+      el.innerHTML = `<strong>${avg.toFixed(1)}%</strong> taux de difficulté moyen (${vals.length} métiers)`;
+    }
+  } else if (layer === 'ai') {
+    const vals = allData.filter(d => d.exposure !== null).map(d => d.exposure);
+    if (vals.length) {
+      const avg = vals.reduce((s, v) => s + v, 0) / vals.length;
+      el.innerHTML = `<strong>${avg.toFixed(1)}/10</strong> exposition IA moyenne (${vals.length} métiers scorés)`;
+    } else {
+      el.innerHTML = `<span>Scoring en cours...</span>`;
+    }
+  } else if (layer === 'digital') {
+    const n = allData.filter(d => d.is_digital).length;
+    el.innerHTML = `<strong>${n}</strong> métiers en transition numérique (ROME 4.0)`;
+  } else {
+    el.innerHTML = '';
+  }
+}
+
+function render() {
+  renderLegend(currentLayer);
+  updateStats(currentLayer);
+
+  const container = document.getElementById('treemap');
+  const W = container.clientWidth;
+  const H = container.clientHeight || 700;
+
+  // Minimum area for métiers without BMO data
+  const MIN_AREA = 400; // px²
+
+  // Compute areas
+  const totalProjets = allData.reduce((s, d) => s + (d.projets_recrutement || 0), 0);
+  const targetTotalArea = W * H;
+
+  // Items with area proportional to recrutements, minimum for empty ones
+  const items = allData.map(d => {
+    const baseArea = d.projets_recrutement
+      ? (d.projets_recrutement / totalProjets) * targetTotalArea
+      : 0;
+    return { ...d, _area: Math.max(baseArea, MIN_AREA) };
+  });
+
+  // Normalize to fit container
+  const totalArea = items.reduce((s, d) => s + d._area, 0);
+  const scale = (W * H) / totalArea;
+  items.forEach(d => d._area *= scale);
+
+  // Sort by area descending for better squarify layout
+  items.sort((a, b) => b._area - a._area);
+
+  // Layout
+  const laid = squarify(items, 0, 0, W, H);
+
+  // Render
+  container.innerHTML = '';
+  container.style.height = H + 'px';
+  container.style.position = 'relative';
+
+  const fragment = document.createDocumentFragment();
+  for (const node of laid) {
+    if (node.w < 2 || node.h < 2) continue;
+    const el = document.createElement('div');
+    el.className = 'node';
+    el.style.cssText = `
+      left:${node.x}px; top:${node.y}px;
+      width:${node.w}px; height:${node.h}px;
+      background:${getColor(node, currentLayer)};
+    `;
+
+    // Label if large enough
+    if (node.w > 40 && node.h > 20) {
+      const label = document.createElement('div');
+      label.className = 'node-label';
+      label.textContent = node.title;
+      el.appendChild(label);
+    }
+
+    el.addEventListener('mouseenter', (e) => showTooltip(e, node));
+    el.addEventListener('mousemove', moveTooltip);
+    el.addEventListener('mouseleave', hideTooltip);
+    el.addEventListener('click', () => window.open(node.url, '_blank'));
+
+    fragment.appendChild(el);
+  }
+  container.appendChild(fragment);
+  layoutCache = laid;
+}
+
+// ── Tooltip ───────────────────────────────────────────────────────────────────
+const tooltip = document.getElementById('tooltip');
+
+function showTooltip(e, d) {
+  let html = `<div class="tt-title">${d.title}</div>`;
+  html += `<div class="tt-row"><span>Code ROME</span><span class="tt-val">${d.code_rome}</span></div>`;
+  html += `<div class="tt-row"><span>Domaine</span><span class="tt-val">${d.grand_domaine.split(',')[0]}</span></div>`;
+  html += `<div class="tt-row"><span>Famille</span><span class="tt-val">${d.domaine_pro}</span></div>`;
+
+  if (d.projets_recrutement) {
+    html += `<div class="tt-row"><span>Projets recrutement</span><span class="tt-val">${d.projets_recrutement.toLocaleString('fr-FR')}</span></div>`;
+  }
+  if (d.taux_difficulte !== null) {
+    html += `<div class="tt-row"><span>Difficulté recrutement</span><span class="tt-val">${d.taux_difficulte}%</span></div>`;
+  }
+  if (d.is_digital) {
+    html += `<div class="tt-row"><span>Transition numérique</span><span class="tt-val">Oui ✓</span></div>`;
+  }
+  if (d.transition_eco) {
+    html += `<div class="tt-row"><span>Transition éco</span><span class="tt-val" style="font-size:11px">${d.transition_eco}</span></div>`;
+  }
+  if (d.exposure !== null && d.exposure !== undefined) {
+    html += `<div class="tt-row"><span>Exposition IA</span><span class="tt-val">${d.exposure}/10</span></div>`;
+  } else {
+    html += `<div class="tt-row"><span>Exposition IA</span><span class="tt-val" style="opacity:0.4">Non évalué</span></div>`;
+  }
+
+  if (d.exposure_rationale) {
+    html += `<div class="tt-rationale">${d.exposure_rationale}</div>`;
+  }
+
+  html += `<div class="tt-hint">Cliquez pour ouvrir la fiche ROME officielle</div>`;
+
+  tooltip.innerHTML = html;
+  tooltip.style.display = 'block';
+  moveTooltip(e);
+}
+
+function moveTooltip(e) {
+  const pad = 12;
+  const tw = tooltip.offsetWidth;
+  const th = tooltip.offsetHeight;
+  let lx = e.clientX + pad;
+  let ly = e.clientY + pad;
+  if (lx + tw > window.innerWidth - 8) lx = e.clientX - tw - pad;
+  if (ly + th > window.innerHeight - 8) ly = e.clientY - th - pad;
+  tooltip.style.left = lx + 'px';
+  tooltip.style.top = ly + 'px';
+}
+
+function hideTooltip() {
+  tooltip.style.display = 'none';
+}
+
+// ── Layer buttons ─────────────────────────────────────────────────────────────
+document.querySelectorAll('.layer-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.layer-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentLayer = btn.dataset.layer;
+    // Re-color without full re-layout
+    if (layoutCache) {
+      const nodes = document.querySelectorAll('.node');
+      nodes.forEach((el, i) => {
+        if (layoutCache[i]) el.style.background = getColor(layoutCache[i], currentLayer);
+      });
+    }
+    renderLegend(currentLayer);
+    updateStats(currentLayer);
+  });
+});
+
+// ── Resize ───────────────────────────────────────────────────────────────────
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    layoutCache = null;
+    render();
+  }, 200);
+});
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
