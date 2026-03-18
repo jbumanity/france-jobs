@@ -264,5 +264,159 @@
     "title": "Educateur canin / Educatrice canine",
     "exposure": 2,
     "rationale": "L'éducation canine repose fondamentalement sur l'interaction physique avec l'animal et l'observation de son comportement en temps réel. Bien que l'IA puisse aider à la planification ou à la gestion administrative, elle ne peut remplacer l'expertise humaine dans l'évaluation et la modification du comportement canin dans des situations concrètes."
+  },
+  {
+    "slug": "a1429",
+    "code_rome": "A1429",
+    "title": "Apiculteur / Apicultrice",
+    "exposure": 2,
+    "rationale": "L'apiculture est un métier fondamentalement physique et manuel, nécessitant une présence sur le terrain pour l'inspection des ruches et la récolte. Bien que l'IA puisse potentiellement aider à la gestion des données ou à la prévision des maladies, le cœur du métier reste ancré dans l'interaction directe avec les abeilles et l'environnement physique."
+  },
+  {
+    "slug": "a1430",
+    "code_rome": "A1430",
+    "title": "Ouvrier / Ouvrière aquacole",
+    "exposure": 2,
+    "rationale": "Ce métier est principalement physique et manuel, impliquant des tâches réalisées dans des environnements aquatiques. Bien que l'IA puisse potentiellement aider à la planification ou à la surveillance des conditions environnementales, le cœur du travail reste ancré dans des opérations physiques et une présence sur le terrain, limitant ainsi son exposition directe."
+  },
+  {
+    "slug": "a1431",
+    "code_rome": "A1431",
+    "title": "Ouvrier / Ouvrière piscicole",
+    "exposure": 2,
+    "rationale": "Ce métier est principalement physique et manuel, impliquant la surveillance et l'entretien des bassins, le nourrissage des poissons et le contrôle de leur santé. Bien que l'IA puisse aider à la planification ou à l'analyse de données de production, le cœur du métier repose sur une présence physique et une interaction directe avec l'environnement aquatique et les animaux."
+  },
+  {
+    "slug": "a1433",
+    "code_rome": "A1433",
+    "title": "Maraîcher / Maraîchère",
+    "exposure": 1,
+    "rationale": "Le métier de maraîcher est intrinsèquement lié à des activités physiques et manuelles en extérieur, impliquant la manipulation de la terre, des plantes et des récoltes. Bien que l'IA puisse offrir un soutien pour la planification ou la gestion des données, elle ne peut remplacer la présence physique et l'expertise manuelle nécessaires à la culture et à la récolte des légumes."
+  },
+  {
+    "slug": "a1434",
+    "code_rome": "A1434",
+    "title": "Tabaculteur / Tabacultrice",
+    "exposure": 1,
+    "rationale": "Le métier de tabaculteur est intrinsèquement lié à des tâches physiques et manuelles en extérieur, impliquant la culture, la récolte et la transformation de plantes. L'IA a un impact très limité sur ces aspects concrets et dépendants de l'environnement physique."
+  },
+  {
+    "slug": "a1435",
+    "code_rome": "A1435",
+    "title": "Eleveur / Eleveuse d'animaux de compagnie",
+    "exposure": 2,
+    "rationale": "Ce métier est principalement physique et relationnel, impliquant des soins directs aux animaux et une présence sur le terrain. L'IA pourrait aider pour des tâches administratives ou de planification, mais ne remplacera pas les compétences manuelles et le jugement nécessaires à l'élevage et au soin des animaux."
+  },
+  {
+    "slug": "a1436",
+    "code_rome": "A1436",
+    "title": "Conducteur / Conductrice de travaux en entreprise de travaux agricoles",
+    "exposure": 3,
+    "rationale": "Ce métier combine une forte composante de supervision terrain et de gestion d'équipe avec des tâches de planification et d'optimisation. Bien que l'IA puisse aider à la planification, à l'analyse des données et à la gestion des ressources, la présence physique sur le terrain, la gestion des imprévus et les interactions humaines directes restent centrales, limitant l'automatisation complète."
+  },
+  {
+    "slug": "a1437",
+    "code_rome": "A1437",
+    "title": "Champignonniste",
+    "exposure": 2,
+    "rationale": "Le métier de champignonniste est principalement physique et manuel, impliquant la culture, la récolte et le conditionnement des champignons. Bien que l'IA puisse aider à la surveillance des conditions environnementales ou à la gestion des stocks, le cœur du métier reste ancré dans des tâches physiques et une présence humaine indispensable dans la champignonnière."
+  },
+  {
+    "slug": "a1438",
+    "code_rome": "A1438",
+    "title": "Pêcheur / Pêcheuse à pied",
+    "exposure": 1,
+    "rationale": "Le métier de pêcheur à pied est intrinsèquement lié à l'environnement physique et aux cycles naturels. Les tâches principales impliquent une présence sur le terrain, une manipulation d'outils et une interaction directe avec les ressources marines, ce qui limite l'automatisation par l'IA."
+  },
+  {
+    "slug": "a1440",
+    "code_rome": "A1440",
+    "title": "Cultivateur urbain / Cultivatrice urbaine",
+    "exposure": 2,
+    "rationale": "Le métier de cultivateur urbain est principalement physique et manuel, impliquant une interaction directe avec l'environnement et les plantes. Bien que l'IA puisse aider à la planification ou à l'analyse de données environnementales, le cœur du métier reste ancré dans des tâches physiques et une présence sur le terrain, limitant l'impact direct de l'IA."
+  },
+  {
+    "slug": "a1441",
+    "code_rome": "A1441",
+    "title": "Pépiniériste",
+    "exposure": 2,
+    "rationale": "Le métier de pépiniériste est principalement physique et manuel, impliquant des tâches de culture, de transplantation et d'entretien des végétaux en extérieur. Bien que l'IA puisse potentiellement aider à la gestion des stocks ou à l'optimisation de l'arrosage, le cœur du métier reste ancré dans des interactions directes avec l'environnement naturel et les plantes, limitant ainsi une transformation profonde par l'IA."
+  },
+  {
+    "slug": "a1442",
+    "code_rome": "A1442",
+    "title": "Eleveur / Eleveuse de lapins",
+    "exposure": 2,
+    "rationale": "L'élevage de lapins est un métier fondamentalement physique et manuel, impliquant des soins directs aux animaux et la gestion d'installations. Bien que l'IA puisse aider pour des tâches administratives ou de suivi de données, elle ne peut remplacer l'interaction physique et le jugement nécessaire pour le bien-être animal et la gestion quotidienne de l'élevage."
+  },
+  {
+    "slug": "a1443",
+    "code_rome": "A1443",
+    "title": "Cidrier / Cidrière",
+    "exposure": 3,
+    "rationale": "Le métier de cidrier combine des aspects de production physique (manipulation de fruits, surveillance des cuves, mise en bouteille) avec des éléments de connaissance (contrôle qualité, fermentation, développement de recettes). L'IA pourrait aider à l'optimisation des processus de fermentation ou à la prévision des récoltes, mais le cœur du métier reste ancré dans des opérations manuelles et une expertise sensorielle difficilement automatisable."
+  },
+  {
+    "slug": "a1444",
+    "code_rome": "A1444",
+    "title": "Aide agricole en production fruitière",
+    "exposure": 2,
+    "rationale": "Ce métier est principalement physique et manuel, impliquant des tâches réalisées directement dans les vergers. Bien que l'IA puisse potentiellement aider à la planification ou à l'optimisation des récoltes, le cœur du travail reste ancré dans l'intervention physique sur les arbres et les fruits, limitant l'impact direct de l'IA sur la majorité des tâches."
+  },
+  {
+    "slug": "a1445",
+    "code_rome": "A1445",
+    "title": "Pêcheur sous-marin / Pêcheuse sous-marine",
+    "exposure": 1,
+    "rationale": "Ce métier est intrinsèquement lié à une activité physique et manuelle dans un environnement naturel et imprévisible. L'IA n'a pas d'impact direct sur les tâches de plongée, de capture ou de gestion des risques en milieu sous-marin."
+  },
+  {
+    "slug": "a1446",
+    "code_rome": "A1446",
+    "title": "Maître / Maîtresse de chai",
+    "exposure": 3,
+    "rationale": "Le métier de Maître de chai combine des aspects techniques et de gestion de processus avec une forte composante sensorielle et physique (manipulation, dégustation, surveillance des conditions de cave). Bien que l'IA puisse aider à l'analyse des données de production et à la prévision, le jugement humain, l'expertise sensorielle et la supervision directe des processus physiques restent centraux et difficiles à automatiser."
+  },
+  {
+    "slug": "a1447",
+    "code_rome": "A1447",
+    "title": "Herboriste",
+    "exposure": 3,
+    "rationale": "Le métier d'herboriste combine des aspects de connaissance des plantes et de conseil client avec une composante physique de récolte, préparation et vente. Bien que l'IA puisse aider à la recherche d'informations sur les plantes ou à la gestion des stocks, le cœur du métier repose sur l'interaction humaine, le jugement basé sur l'expérience et la manipulation physique des produits, limitant ainsi l'impact direct de l'IA."
+  },
+  {
+    "slug": "a1501",
+    "code_rome": "A1501",
+    "title": "Auxiliaire vétérinaire",
+    "exposure": 3,
+    "rationale": "Le métier d'auxiliaire vétérinaire est principalement axé sur l'interaction physique avec les animaux et les propriétaires, ainsi que sur des tâches manuelles. Bien que l'IA puisse aider à la gestion administrative (rendez-vous, dossiers) et à la recherche d'informations sur les soins, le cœur du métier, qui implique la manipulation directe des animaux, l'assistance lors des interventions et le contact humain, reste largement préservé de l'automatisation."
+  },
+  {
+    "slug": "a1502",
+    "code_rome": "A1502",
+    "title": "Maréchal-ferrant / Maréchale-ferrante",
+    "exposure": 1,
+    "rationale": "Le métier de maréchal-ferrant est intrinsèquement physique et manuel, impliquant une interaction directe avec les animaux et l'utilisation d'outils spécifiques. L'IA n'a pas de rôle direct à jouer dans la manipulation physique des sabots ou la ferrure, bien qu'elle puisse potentiellement aider à la gestion administrative ou à la planification des rendez-vous."
+  },
+  {
+    "slug": "a1503",
+    "code_rome": "A1503",
+    "title": "Toiletteur / Toiletteuse d'animaux",
+    "exposure": 2,
+    "rationale": "Le toilettage d'animaux est un métier intrinsèquement physique et manuel, impliquant une interaction directe avec des êtres vivants. Bien que l'IA puisse potentiellement aider à la gestion des rendez-vous ou à la recommandation de produits, elle ne peut pas remplacer le contact physique, la dextérité et le jugement nécessaires pour manipuler et soigner un animal."
+  },
+  {
+    "slug": "a1504",
+    "code_rome": "A1504",
+    "title": "Vétérinaire",
+    "exposure": 5,
+    "rationale": "Le métier de vétérinaire combine des compétences de diagnostic et de traitement qui impliquent une part importante d'analyse et de prise de décision, où l'IA peut apporter une aide significative pour l'analyse d'images médicales ou la recherche d'informations. Cependant, la nécessité d'une présence physique pour les examens, les interventions chirurgicales et les interactions directes avec les animaux et leurs propriétaires limite l'automatisation complète."
+  },
+  {
+    "slug": "a1505",
+    "code_rome": "A1505",
+    "title": "Animalier / Animalière de laboratoire",
+    "exposure": 3,
+    "rationale": "Ce métier implique une forte composante physique et relationnelle avec les animaux, ainsi qu'une présence indispensable sur site. Bien que l'IA puisse aider à la gestion des données et à la planification, elle ne peut automatiser les soins directs, la surveillance de la santé en temps réel ou les manipulations physiques nécessaires."
   }
 ]
