@@ -418,5 +418,33 @@
     "title": "Animalier / Animalière de laboratoire",
     "exposure": 3,
     "rationale": "Ce métier implique une forte composante physique et relationnelle avec les animaux, ainsi qu'une présence indispensable sur site. Bien que l'IA puisse aider à la gestion des données et à la planification, elle ne peut automatiser les soins directs, la surveillance de la santé en temps réel ou les manipulations physiques nécessaires."
+  },
+  {
+    "slug": "b1303",
+    "code_rome": "B1303",
+    "title": "Graveur / Graveuse d'art",
+    "exposure": 2,
+    "rationale": "Le métier de graveur d'art repose principalement sur des compétences manuelles fines et une interaction directe avec des matériaux physiques. Bien que des outils numériques puissent assister dans la conception ou la préparation, l'acte de graver lui-même nécessite une dextérité et une sensibilité humaines qui ne sont pas facilement reproductibles par l'IA actuellement."
+  },
+  {
+    "slug": "b1304",
+    "code_rome": "B1304",
+    "title": "Artisan démonstrateur / Artisane démonstratrice",
+    "exposure": 2,
+    "rationale": "Ce métier repose fondamentalement sur des compétences manuelles, la présence physique et l'interaction humaine directe avec un public. Bien que l'IA puisse aider à la planification ou à la promotion, elle ne peut pas remplacer la démonstration physique et l'échange en temps réel qui constituent le cœur de l'activité."
+  },
+  {
+    "slug": "b1401",
+    "code_rome": "B1401",
+    "title": "Vannier / Vannière",
+    "exposure": 1,
+    "rationale": "Le métier de vannier est intrinsèquement manuel et physique, impliquant la manipulation de matériaux naturels et la création d'objets par tressage. L'IA n'a pas d'impact direct sur ces tâches fondamentales, bien qu'elle puisse potentiellement aider à la gestion administrative ou à la promotion des créations."
+  },
+  {
+    "slug": "b1403",
+    "code_rome": "B1403",
+    "title": "Restaurateur / Restauratrice de livres anciens",
+    "exposure": 2,
+    "rationale": "Ce métier est principalement manuel et physique, impliquant des compétences artisanales spécifiques pour la manipulation et la réparation de matériaux fragiles. Bien que l'IA puisse aider à l'analyse de l'état de conservation ou à la gestion des collections, elle ne peut pas remplacer le savoir-faire manuel et le jugement expert requis pour la restauration physique des livres anciens."
   }
 ]
