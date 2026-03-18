@@ -260,6 +260,12 @@ body {
 .node.search-dim { opacity: 0.1; }
 .node.search-match { outline: 2px solid rgba(255,255,255,0.8); z-index: 20; }
 
+/* Group containers */
+.group { position: absolute; border: 1px solid rgba(255,255,255,0.15); pointer-events: none; z-index: 1; }
+.group-label { position: absolute; top: 0; left: 0; right: 0; height: 20px; padding: 2px 6px; display: flex; align-items: center; gap: 8px; overflow: hidden; white-space: nowrap; pointer-events: none; z-index: 2; }
+.group-name { font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.7); text-shadow: 0 1px 3px rgba(0,0,0,0.8); }
+.group-count { font-size: 10px; color: rgba(255,255,255,0.35); }
+
 /* Loading indicator */
 #loading {
   position: absolute;
@@ -592,8 +598,10 @@ function render() {
   const W = container.clientWidth;
   const H = container.clientHeight || 700;
 
-  // Minimum area for métiers sans offres
-  const MIN_AREA = 200; // px²
+  const MIN_AREA = 200; // px² minimum for métiers sans offres
+  const GAP = 3;        // px gap between groups
+  const LABEL_H = 22;   // px height for group label
+  const PAD = 2;        // px inner padding
 
   // Compute areas proportional to job offers
   const totalOffers = allData.reduce((s, d) => s + (d.job_offers || 0), 0);
@@ -606,52 +614,144 @@ function render() {
     return { ...d, _area: Math.max(baseArea, MIN_AREA) };
   });
 
-  // Normalize to fit container
-  const totalArea = items.reduce((s, d) => s + d._area, 0);
+  // ── Group by grand_domaine_code ──
+  const groupMap = {};
+  for (const item of items) {
+    const gc = item.grand_domaine_code;
+    if (!groupMap[gc]) groupMap[gc] = { code: gc, items: [], _area: 0 };
+    groupMap[gc].items.push(item);
+    groupMap[gc]._area += item._area;
+  }
+  const groupList = Object.values(groupMap);
+
+  // Sort items within groups: by domaine_pro sub-group (desc total area), then area desc
+  for (const g of groupList) {
+    const dpMap = {};
+    for (const item of g.items) {
+      const dp = item.domaine_pro_code || item.code_rome.substring(0, 3);
+      if (!dpMap[dp]) dpMap[dp] = { items: [], totalArea: 0 };
+      dpMap[dp].items.push(item);
+      dpMap[dp].totalArea += item._area;
+    }
+    const dpList = Object.values(dpMap);
+    dpList.sort((a, b) => b.totalArea - a.totalArea);
+    g.items = [];
+    for (const dp of dpList) {
+      dp.items.sort((a, b) => b._area - a._area);
+      g.items.push(...dp.items);
+    }
+  }
+
+  // Normalize all areas to fit container
+  const totalArea = groupList.reduce((s, g) => s + g._area, 0);
   const scale = (W * H) / totalArea;
-  items.forEach(d => d._area *= scale);
+  for (const g of groupList) {
+    g._area *= scale;
+    for (const item of g.items) item._area *= scale;
+  }
 
-  // Sort by area descending for better squarify layout
-  items.sort((a, b) => b._area - a._area);
+  // Sort groups by area desc for squarify
+  groupList.sort((a, b) => b._area - a._area);
 
-  // Layout
-  const laid = squarify(items, 0, 0, W, H);
+  // ── Pass 1: layout groups ──
+  const laidGroups = squarify(groupList, 0, 0, W, H);
 
-  // Render
+  // Apply gap (inset each group)
+  for (const g of laidGroups) {
+    g.x += GAP / 2;
+    g.y += GAP / 2;
+    g.w = Math.max(0, g.w - GAP);
+    g.h = Math.max(0, g.h - GAP);
+  }
+
+  // ── Render ──
   container.innerHTML = '';
   container.style.height = H + 'px';
   container.style.position = 'relative';
 
   const fragment = document.createDocumentFragment();
-  for (let i = 0; i < laid.length; i++) {
-    const node = laid[i];
-    if (node.w < 2 || node.h < 2) continue;
-    const el = document.createElement('div');
-    el.className = 'node';
-    el.style.cssText = `
-      left:${node.x}px; top:${node.y}px;
-      width:${node.w}px; height:${node.h}px;
-      background:${getColor(node, currentLayer)};
-    `;
+  const newLayoutItems = [];
+  const newLayoutGroups = [];
 
-    // Label if large enough
-    if (node.w > 40 && node.h > 20) {
-      const label = document.createElement('div');
-      label.className = 'node-label';
-      label.textContent = node.title;
-      el.appendChild(label);
+  for (const g of laidGroups) {
+    if (g.w < 2 || g.h < 2) continue;
+
+    // Group container div
+    const groupEl = document.createElement('div');
+    groupEl.className = 'group';
+    const borderColor = currentLayer === 'domaine'
+      ? (DOMAINE_COLORS[g.code] || 'rgba(255,255,255,0.15)')
+      : 'rgba(255,255,255,0.12)';
+    groupEl.style.cssText = `left:${g.x}px;top:${g.y}px;width:${g.w}px;height:${g.h}px;border-color:${borderColor};`;
+    groupEl.dataset.code = g.code;
+
+    // Group label
+    const hasLabel = g.h > LABEL_H + 10 && g.w > 60;
+    if (hasLabel) {
+      const labelEl = document.createElement('div');
+      labelEl.className = 'group-label';
+      const nameSpan = document.createElement('span');
+      nameSpan.className = 'group-name';
+      nameSpan.textContent = DOMAINE_LABELS[g.code] || g.code;
+      labelEl.appendChild(nameSpan);
+
+      if (g.w > 120) {
+        const totalGroupOffers = g.items.reduce((s, d) => s + (d.job_offers || 0), 0);
+        const countSpan = document.createElement('span');
+        countSpan.className = 'group-count';
+        countSpan.textContent = `${totalGroupOffers.toLocaleString('fr-FR')} offres`;
+        labelEl.appendChild(countSpan);
+      }
+      groupEl.appendChild(labelEl);
     }
 
-    el.dataset.idx = i;
-    el.addEventListener('mouseenter', (e) => showTooltip(e, node));
-    el.addEventListener('mousemove', moveTooltip);
-    el.addEventListener('mouseleave', hideTooltip);
-    el.addEventListener('click', () => window.open(node.url, '_blank'));
+    fragment.appendChild(groupEl);
+    newLayoutGroups.push({ code: g.code, x: g.x, y: g.y, w: g.w, h: g.h });
 
-    fragment.appendChild(el);
+    // ── Pass 2: layout items within group ──
+    const innerX = g.x + PAD;
+    const innerY = g.y + (hasLabel ? LABEL_H : PAD);
+    const innerW = g.w - PAD * 2;
+    const innerH = g.h - (hasLabel ? LABEL_H + PAD : PAD * 2);
+
+    if (innerW < 4 || innerH < 4) continue;
+
+    // Normalize item areas to fill inner area
+    const groupTotalArea = g.items.reduce((s, d) => s + d._area, 0);
+    if (groupTotalArea <= 0) continue;
+    const innerScale = (innerW * innerH) / groupTotalArea;
+    const scaledItems = g.items.map(d => ({ ...d, _area: d._area * innerScale }));
+
+    const laid = squarify(scaledItems, innerX, innerY, innerW, innerH);
+
+    for (const node of laid) {
+      if (node.w < 2 || node.h < 2) continue;
+
+      const idx = newLayoutItems.length;
+      const el = document.createElement('div');
+      el.className = 'node';
+      el.style.cssText = `left:${node.x}px;top:${node.y}px;width:${node.w}px;height:${node.h}px;background:${getColor(node, currentLayer)};`;
+
+      if (node.w > 40 && node.h > 20) {
+        const label = document.createElement('div');
+        label.className = 'node-label';
+        label.textContent = node.title;
+        el.appendChild(label);
+      }
+
+      el.dataset.idx = idx;
+      el.addEventListener('mouseenter', (e) => showTooltip(e, node));
+      el.addEventListener('mousemove', moveTooltip);
+      el.addEventListener('mouseleave', hideTooltip);
+      el.addEventListener('click', () => window.open(node.url, '_blank'));
+
+      fragment.appendChild(el);
+      newLayoutItems.push(node);
+    }
   }
+
   container.appendChild(fragment);
-  layoutCache = laid;
+  layoutCache = { items: newLayoutItems, groups: newLayoutGroups };
   applySearch(document.getElementById('search-input').value);
 }
 
@@ -723,9 +823,16 @@ document.querySelectorAll('.layer-btn').forEach(btn => {
     currentLayer = btn.dataset.layer;
     // Re-color without full re-layout
     if (layoutCache) {
-      const nodes = document.querySelectorAll('.node');
-      nodes.forEach((el, i) => {
-        if (layoutCache[i]) el.style.background = getColor(layoutCache[i], currentLayer);
+      document.querySelectorAll('.node').forEach(el => {
+        const d = layoutCache.items[+el.dataset.idx];
+        if (d) el.style.background = getColor(d, currentLayer);
+      });
+      // Update group borders
+      document.querySelectorAll('.group').forEach(el => {
+        const code = el.dataset.code;
+        el.style.borderColor = currentLayer === 'domaine'
+          ? (DOMAINE_COLORS[code] || 'rgba(255,255,255,0.15)')
+          : 'rgba(255,255,255,0.12)';
       });
     }
     renderLegend(currentLayer);
@@ -745,11 +852,12 @@ function applySearch(query) {
   }
   let matches = 0;
   nodes.forEach(el => {
-    const d = layoutCache[+el.dataset.idx];
+    const d = layoutCache && layoutCache.items ? layoutCache.items[+el.dataset.idx] : null;
     if (!d) return;
     const hit = d.title.toLowerCase().includes(q) ||
                 d.code_rome.toLowerCase().includes(q) ||
-                d.domaine_pro.toLowerCase().includes(q);
+                d.domaine_pro.toLowerCase().includes(q) ||
+                (DOMAINE_LABELS[d.grand_domaine_code] || '').toLowerCase().includes(q);
     if (hit) {
       el.classList.remove('search-dim');
       el.classList.add('search-match');

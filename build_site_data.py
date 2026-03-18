@@ -54,6 +54,7 @@ def main():
             "grand_domaine_code": row["grand_domaine_code"],
             "grand_domaine": row["grand_domaine"],
             "domaine_pro": row["domaine_pro"],
+            "domaine_pro_code": code[:3],
             # Taille : offres d'emploi (source principale)
             "job_offers": lm.get("job_offers") or 0,
             "job_seekers": lm.get("job_seekers") or 0,
