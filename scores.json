@@ -3,455 +3,938 @@
     "slug": "a1101",
     "code_rome": "A1101",
     "title": "Conducteur / Conductrice d'engins agricoles",
-    "exposure": 3,
-    "rationale": "Le cœur de ce métier est l'opération physique d'engins agricoles lourds dans des environnements extérieurs variables et imprévisibles, nécessitant une présence humaine et un jugement en temps réel. Bien que l'IA soit de plus en plus intégrée dans les machines pour l'optimisation et l'automatisation (guidage GPS, agriculture de précision), l'opérateur reste essentiel pour la supervision, la maintenance de premier niveau et la gestion des imprévus. Le travail n'est pas fondamentalement numérique."
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, une présence physique sur le terrain et la manipulation d'engins agricoles, ce qui limite fortement l'impact de l'IA. Les tâches sont principalement mécaniques et environnementales, sans composante numérique majeure."
   },
   {
     "slug": "a1102",
     "code_rome": "A1102",
     "title": "Conducteur / Conductrice d'engins d'exploitation forestière",
     "exposure": 1,
-    "rationale": "Ce métier est presque entièrement physique et manuel, impliquant la conduite d'engins lourds dans des environnements forestiers complexes et imprévisibles. La nécessité d'une présence humaine en temps réel pour le jugement (préserver le peuplement) et la gestion des aléas du terrain rend l'automatisation par l'IA très difficile. L'IA n'aura qu'un impact minimal sur le cœur de métier."
+    "rationale": "Le métier repose sur des compétences manuelles, physiques et une présence en environnement naturel imprévisible (abattage, débardage, entretien d'engins), limitant fortement l'impact de l'IA. Les tâches numériques (planification, maintenance) sont mineures et périphériques."
   },
   {
     "slug": "a1201",
     "code_rome": "A1201",
     "title": "Bûcheron / Bûcheronne",
     "exposure": 1,
-    "rationale": "Le métier de bûcheron est intrinsèquement physique et manuel, se déroulant en extérieur dans des environnements naturels imprévisibles. Les tâches principales comme l'abattage, l'écorçage, le débitage et le reboisement nécessitent une présence humaine, des compétences manuelles et un jugement en temps réel pour la sécurité et l'adaptation au terrain. L'IA a un impact minimal sur ces opérations fondamentales."
+    "rationale": "Le métier de bûcheron repose sur des compétences physiques, manuelles et une présence en environnement naturel imprévisible, avec des interactions complexes avec la nature et les équipements. L'IA ne peut pas remplacer ces aspects fondamentaux."
   },
   {
     "slug": "a1202",
     "code_rome": "A1202",
     "title": "Agent / Agente d'entretien des espaces naturels",
-    "exposure": 2,
-    "rationale": "Ce métier est fondamentalement physique et manuel, nécessitant une présence sur le terrain et l'utilisation d'engins ou d'outils pour l'entretien et l'aménagement des espaces naturels. L'IA ne peut pas automatiser les tâches essentielles de travail manuel, de conduite d'engins ou d'intervention directe dans des environnements naturels variés. Son impact se limiterait à des aides périphériques comme la planification ou l'identification d'espèces, sans toucher au cœur de l'activité."
+    "exposure": 1,
+    "rationale": "Ce métier repose presque entièrement sur des compétences manuelles, physiques et une présence sur le terrain dans des environnements naturels imprévisibles. L'IA n'a aucun impact direct ou indirect sur les tâches principales comme l'élagage, l'entretien des végétaux ou la restauration écologique."
   },
   {
     "slug": "a1203",
     "code_rome": "A1203",
     "title": "Agent / Agente d'entretien des espaces verts",
-    "exposure": 2,
-    "rationale": "Le cœur de ce métier est intrinsèquement physique et manuel, nécessitant une présence sur le terrain pour des tâches comme la plantation, la taille, la tonte et le nettoyage. Bien que l'IA puisse potentiellement aider à optimiser la planification des itinéraires ou à identifier des maladies végétales, elle ne peut pas automatiser la dextérité, le jugement humain et l'adaptation aux environnements variés requis pour l'exécution des tâches principales."
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, physiques et des interactions avec l'environnement naturel, avec une forte composante de travail en extérieur et l'utilisation d'outils mécaniques. L'IA n'a pas d'impact significatif sur les tâches principales comme la taille, la plantation ou l'entretien des espaces verts."
   },
   {
     "slug": "a1204",
     "code_rome": "A1204",
     "title": "Garde de parc naturel",
     "exposure": 2,
-    "rationale": "Ce métier est fortement ancré dans le monde physique, nécessitant une présence sur le terrain pour la surveillance, la patrouille et l'intervention dans des environnements naturels imprévisibles. Les interactions humaines directes pour la sensibilisation du public et l'application des réglementations sont également centrales. L'IA peut offrir des outils d'aide à la surveillance (drones, capteurs) ou à l'analyse de données, mais elle ne peut pas remplacer la présence physique, le jugement humain et l'interaction relationnelle qui constituent le cœur de ce métier."
+    "rationale": "Le métier repose principalement sur des activités physiques en extérieur (surveillance, gestion des milieux naturels, interactions avec le public et les animaux) et nécessite une présence humaine constante dans des environnements imprévisibles. L'IA peut assister pour des tâches périphériques comme la veille réglementaire ou l'analyse de données, mais ne peut remplacer le cœur du métier."
   },
   {
     "slug": "a1205",
     "code_rome": "A1205",
     "title": "Sylviculteur / Sylvicultrice",
-    "exposure": 3,
-    "rationale": "Le métier de sylviculteur est intrinsèquement lié à la gestion physique et à la supervision d'opérations sur le terrain dans des environnements naturels. Bien que l'IA puisse apporter une aide précieuse pour l'analyse de données (santé des arbres via drones, prévisions de croissance, optimisation des coupes), elle ne peut pas remplacer la présence physique, le jugement humain en temps réel et la coordination des équipes sur le terrain. L'IA agit comme un outil d'aide à la décision plutôt qu'un substitut aux tâches centrales."
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, physiques (travaux forestiers, conduite d'engins) et des interactions humaines en milieu naturel, avec une faible composante numérique. L'IA peut assister pour la planification ou l'analyse de données, mais ne transforme pas le cœur du métier."
   },
   {
     "slug": "a1206",
     "code_rome": "A1206",
     "title": "Concepteur / Conceptrice paysagiste",
-    "exposure": 7,
-    "rationale": "Le cœur du métier, la conception de plans et maquettes 3D, ainsi que la sélection de matériaux et plantes, est fortement numérique et sera grandement transformé par l'IA (design génératif, analyse environnementale, recommandations intelligentes). Bien que la supervision sur le terrain et le conseil client nécessitent une présence humaine et des compétences relationnelles, l'IA augmentera considérablement la productivité dans les phases de conception et de planification."
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches numériques (conception 3D, plans, maquettes) exposées à l'IA, mais reste fortement ancré dans le monde physique (supervision de chantiers, choix de végétaux, interactions terrain). L'IA peut assister la modélisation et l'analyse, mais ne remplace pas la présence humaine pour la créativité et la gestion de projets complexes."
   },
   {
     "slug": "a1207",
     "code_rome": "A1207",
     "title": "Chef / Cheffe d'équipe d'entretien d'espaces naturels",
-    "exposure": 5,
-    "rationale": "Ce métier combine une part significative de supervision physique sur le terrain, de gestion d'équipe et d'interactions humaines directes dans des environnements naturels. Bien que l'IA puisse optimiser la planification, l'analyse de données pour les rapports et le suivi des écosystèmes (ex: via imagerie drone), le cœur du rôle exige un jugement humain, une présence physique pour la sécurité et la formation, et une coordination d'activités manuelles complexes."
+    "exposure": 3,
+    "rationale": "Le métier combine une forte composante physique (travaux d'entretien en extérieur, gestion d'équipes sur le terrain) et des tâches de coordination/organisation qui pourraient être partiellement assistées par l'IA. Cependant, les interactions humaines, la gestion des aléas naturels et les compétences manuelles limitent fortement l'automatisation."
   },
   {
     "slug": "a1208",
     "code_rome": "A1208",
     "title": "Jardinier / Jardinière paysagiste",
-    "exposure": 3,
-    "rationale": "Le cœur du métier de jardinier paysagiste est intrinsèquement physique, impliquant des tâches manuelles en extérieur comme la taille, la tonte, le désherbage et l'installation d'équipements. Bien que l'IA puisse aider à la conception de plans paysagers ou à l'optimisation des systèmes d'irrigation, l'exécution et l'entretien nécessitent une présence humaine et des compétences pratiques, limitant l'automatisation directe des activités principales."
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, physiques et des interactions avec l'environnement naturel, avec une forte composante de travail en extérieur et de gestion d'équipements mécaniques. L'IA peut assister pour des tâches périphériques comme la planification ou la veille technique, mais ne peut pas remplacer le cœur du métier."
   },
   {
     "slug": "a1209",
     "code_rome": "A1209",
     "title": "Elagueur / Elagueuse",
     "exposure": 1,
-    "rationale": "Le métier d'élagueur est fondamentalement physique et manuel, exigeant des compétences de grimpe, l'utilisation d'outils dangereux et un jugement humain en temps réel dans des environnements naturels imprévisibles. L'IA ne peut pas automatiser les tâches centrales de taille et d'entretien des arbres, ni la présence physique requise en hauteur. L'impact de l'IA sur ce métier est donc minimal, se limitant à des aides périphériques très limitées."
-  },
-  {
-    "slug": "n4202",
-    "code_rome": "N4202",
-    "title": "Responsable d'exploitation transport routier de personnes",
-    "exposure": 7,
-    "rationale": "Ce métier combine une forte composante de gestion et d'analyse de données (optimisation d'itinéraires, planification, analyse de performance) qui est très susceptible d'être transformée par l'IA. Bien que la supervision humaine des chauffeurs et la gestion des relations clients conservent une part d'interaction humaine, l'IA peut considérablement augmenter la productivité et automatiser de nombreuses tâches de planification et de suivi."
-  },
-  {
-    "slug": "n4203",
-    "code_rome": "N4203",
-    "title": "Agent / Agente d'exploitation en transport routier de marchandises",
-    "exposure": 7,
-    "rationale": "Ce métier est fortement exposé à l'IA car il repose sur la coordination et l'optimisation de flux, des tâches qui peuvent être largement automatisées par des algorithmes d'IA. Bien que la gestion des aléas et la communication humaine restent importantes, l'IA peut considérablement améliorer la planification, le suivi et la prise de décision, augmentant la productivité et potentiellement réduisant le besoin en personnel pour certaines fonctions."
+    "rationale": "Le métier d'élagueur repose principalement sur des compétences manuelles, physiques et une présence en hauteur dans un environnement imprévisible, ce qui limite fortement l'impact de l'IA. Les tâches nécessitent une interaction directe avec la nature et des décisions en temps réel."
   },
   {
     "slug": "a1210",
     "code_rome": "A1210",
     "title": "Ouvrier forestier / Ouvrière forestière",
-    "exposure": 2,
-    "rationale": "Le métier d'ouvrier forestier est intrinsèquement lié à des tâches physiques et manuelles réalisées en extérieur, dans des environnements naturels et souvent imprévisibles. Bien que l'IA puisse potentiellement aider à la planification ou à la maintenance des équipements, elle ne peut remplacer la présence humaine et les compétences physiques requises pour l'entretien, la coupe et la plantation des arbres."
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, physiques et une présence en milieu naturel imprévisible, avec des interactions directes avec l'environnement et les équipements. L'IA n'a pas d'impact significatif sur les tâches principales comme la plantation, l'entretien ou l'abattage."
   },
   {
     "slug": "a1211",
     "code_rome": "A1211",
     "title": "Chef / Cheffe d'équipe paysagiste",
     "exposure": 3,
-    "rationale": "Ce métier est principalement physique et manuel, impliquant une présence sur le terrain et des interactions directes avec l'environnement. Bien que l'IA puisse aider à la planification ou à la gestion des ressources, elle ne peut pas remplacer les compétences pratiques et le jugement requis pour la coordination d'équipes et la réalisation des travaux paysagers."
+    "rationale": "Le métier combine des tâches physiques (taille, plantation, coordination sur chantier) et des activités de gestion/organisation (planification, suivi administratif) avec une composante relationnelle forte (clients, équipes). L'IA peut assister pour la planification ou la conception assistée par ordinateur, mais ne remplace pas les compétences manuelles et l'expertise terrain."
   },
   {
     "slug": "a1212",
     "code_rome": "A1212",
     "title": "Chef / Cheffe d'équipe de travaux forestiers",
-    "exposure": 2,
-    "rationale": "Ce métier est principalement physique et se déroule en extérieur, impliquant des compétences manuelles et une supervision directe sur le terrain. L'IA pourrait aider à la planification ou à la gestion des stocks, mais ne remplacera pas les tâches essentielles de supervision et d'exécution des travaux forestiers."
+    "exposure": 3,
+    "rationale": "Le métier combine une forte composante physique (travaux sur le terrain, gestion d'équipe en milieu forestier) et des tâches de supervision, de planification et de contrôle qualité qui nécessitent une présence humaine. L'IA peut assister pour l'analyse de données (croissance des arbres, santé des écosystèmes) ou la cartographie, mais ne peut remplacer les interactions humaines, la gestion des risques ou les compétences manuelles."
   },
   {
     "slug": "a1213",
     "code_rome": "A1213",
     "title": "Conducteur / Conductrice de travaux forestiers",
-    "exposure": 2,
-    "rationale": "Ce métier est intrinsèquement lié à des activités physiques et à la présence sur le terrain dans des environnements naturels. Bien que l'IA puisse aider à la planification ou à la gestion budgétaire, le cœur du métier, qui implique la supervision directe des travaux, la gestion des équipes sur site et le respect des contraintes environnementales réelles, reste largement manuel et physique."
+    "exposure": 3,
+    "rationale": "Le métier combine une forte composante physique (supervision sur le terrain, gestion d'équipes en environnement forestier) et des tâches de gestion administrative ou technique partiellement numérisables (rapports, budgets, traçabilité). L'IA peut assister pour l'analyse de données géographiques ou la planification, mais ne peut remplacer l'expertise humaine en gestion d'équipes ou en prise de décision contextuelle en milieu naturel."
   },
   {
     "slug": "a1214",
     "code_rome": "A1214",
     "title": "Patrouilleur modeleur / Patrouilleuse modeleuse VTT",
     "exposure": 2,
-    "rationale": "Ce métier est intrinsèquement lié à l'environnement physique de la montagne et à des tâches manuelles d'aménagement et d'entretien. Bien que l'IA puisse aider à la planification ou à la signalisation, le cœur du métier repose sur l'interaction physique avec le terrain et la présence humaine pour la sécurité et l'information en temps réel."
+    "rationale": "Le métier repose principalement sur des compétences manuelles, physiques et des interactions en environnement naturel ou sportif, avec une forte composante de jugement humain et de présence physique. L'IA n'a qu'un impact marginal sur les tâches centrales (aménagement, entretien, sécurité)."
   },
   {
     "slug": "a1301",
     "code_rome": "A1301",
     "title": "Technicien / Technicienne de culture maraîchère",
     "exposure": 2,
-    "rationale": "Le cœur de ce métier réside dans l'observation directe des cultures, la manipulation physique des plantes et des sols, ainsi que les interactions sur le terrain. Bien que l'IA puisse aider à l'analyse de données agronomiques ou à la planification, elle ne peut remplacer la présence physique et le jugement expert dans des environnements naturels changeants."
+    "rationale": "Ce métier repose principalement sur des compétences manuelles, des interactions physiques avec l'environnement (cultures, prélèvements, interventions techniques) et des relations humaines (conseil, formation). L'IA peut assister pour des tâches administratives ou analytiques (veille documentaire, rapports), mais ne peut remplacer le cœur du métier."
   },
   {
     "slug": "a1302",
     "code_rome": "A1302",
     "title": "Technicien / Technicienne agricole",
     "exposure": 3,
-    "rationale": "Ce métier implique une forte composante physique et de terrain (élevages, abattoirs, stockage) avec des interactions directes avec les animaux et les produits. Bien que l'IA puisse aider à l'analyse de données de production ou à la planification, le cœur du métier repose sur l'observation directe, les prélèvements manuels et la présence physique, limitant l'automatisation par l'IA."
+    "rationale": "Le métier repose principalement sur des tâches physiques (prélèvements, contrôles sur site) et des interactions avec des animaux ou des équipements, limitant l'automatisation par IA. Seules les activités de saisie, analyse de données et gestion de bases de données (marquées ★) pourraient être partiellement assistées par l'IA, sans transformer le cœur du métier."
   },
   {
     "slug": "a1303",
     "code_rome": "A1303",
     "title": "Ingénieur / Ingénieure d'études et de recherche agricoles",
     "exposure": 6,
-    "rationale": "Ce métier combine une forte composante d'analyse de données et de recherche, domaines où l'IA peut apporter une aide significative pour l'optimisation des rendements et l'évaluation environnementale. Cependant, la nécessité de terrain, la collaboration humaine et le jugement expert pour guider les agriculteurs limitent une automatisation complète."
+    "rationale": "Le métier combine des tâches numériques (analyse de données, modélisation statistique, rédaction de rapports) et des activités de terrain (expérimentations, conseil aux agriculteurs). L'IA peut automatiser une partie des analyses et de la veille technologique, mais l'expertise humaine reste cruciale pour l'interprétation des résultats et l'innovation."
   },
   {
     "slug": "a1304",
     "code_rome": "A1304",
     "title": "Conseiller / Conseillère technique agricole",
-    "exposure": 5,
-    "rationale": "Ce métier combine une forte composante d'analyse et de conseil (traitement d'informations, propositions de solutions) qui peut être assistée par l'IA, avec une nécessité de présence physique sur le terrain et d'interactions humaines directes avec les agriculteurs. L'IA peut aider à l'analyse de données de production et à la recommandation de pratiques, mais le jugement humain et la relation de confiance restent centraux."
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches numériques (analyse de données, veille technologique, rédaction de notes) et des interactions physiques essentielles (diagnostics sur le terrain, animation de réseaux). L'IA peut assister pour l'analyse de données ou la veille, mais le cœur du métier repose sur des compétences relationnelles et une expertise terrain difficilement automatisable."
   },
   {
     "slug": "a1305",
     "code_rome": "A1305",
     "title": "Technicien / Technicienne des services vétérinaires",
-    "exposure": 4,
-    "rationale": "Ce métier combine des aspects de travail de connaissance (analyse de normes, rédaction de rapports) avec une forte composante physique et d'interaction directe avec les animaux et les environnements d'élevage ou d'abattoir. L'IA peut assister dans l'analyse des données et la rédaction, mais ne peut remplacer les inspections physiques et le jugement sur le terrain."
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches physiques (inspections sur site, prélèvements) et des activités de contrôle réglementaire, de rédaction de rapports et de veille sanitaire, partiellement numérisables. L'IA peut assister pour l'analyse de données ou la détection d'irrégularités, mais le cœur du métier repose sur des compétences manuelles, relationnelles et une expertise terrain difficilement automatisable."
   },
   {
     "slug": "a1306",
     "code_rome": "A1306",
     "title": "Chargé / Chargée de mission biodiversité",
-    "exposure": 5,
-    "rationale": "Ce métier combine une part importante d'analyse de données et de rédaction de rapports, domaines où l'IA peut apporter une aide significative pour le traitement de l'information et la génération de contenu. Cependant, une part substantielle du travail implique des observations de terrain, des interactions humaines et une compréhension contextuelle des écosystèmes qui restent difficiles à automatiser entièrement par l'IA."
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches numériques (rédaction de rapports, analyse de données, gestion de bases de données) et des activités physiques ou terrain (collecte d'échantillons, observations, animations). L'IA peut assister pour l'analyse de données ou la rédaction, mais le cœur du métier repose sur des compétences humaines et une présence sur le terrain."
   },
   {
     "slug": "a1307",
     "code_rome": "A1307",
     "title": "Ingénieur forestier / Ingénieure forestière",
     "exposure": 4,
-    "rationale": "L'ingénieur forestier combine des tâches de terrain et d'analyse. L'IA peut aider à l'analyse de données (imagerie satellite, modélisation), mais la gestion physique des forêts et les interactions humaines sur le terrain restent centrales."
+    "rationale": "Le métier combine des tâches physiques (travail sur le terrain, gestion d'équipes) et des activités numériques (analyses, cartographies, études d'impact). L'IA peut assister pour le traitement de données et la modélisation, mais le cœur du métier reste ancré dans l'observation terrain et la prise de décision humaine."
   },
   {
     "slug": "a1308",
     "code_rome": "A1308",
     "title": "Technicien / Technicienne de l'insémination animale",
     "exposure": 3,
-    "rationale": "Ce métier est principalement physique et relationnel, impliquant une présence directe auprès des animaux et des éleveurs. Bien que l'IA puisse aider à la gestion des données génétiques et à la planification, elle ne peut automatiser les tâches manuelles et le jugement nécessaire lors de l'insémination et du conseil personnalisé."
+    "rationale": "Le métier combine des compétences manuelles (insémination, manipulation des animaux) et des tâches de conseil technique et de gestion de données, avec une forte composante physique et relationnelle en milieu agricole. L'IA peut assister pour l'analyse de données génétiques ou la planification, mais ne peut remplacer l'intervention humaine directe ou les interactions avec les éleveurs."
   },
   {
     "slug": "a1309",
     "code_rome": "A1309",
     "title": "Technicien / Technicienne d'élevage équin",
     "exposure": 2,
-    "rationale": "Le métier de technicien d'élevage équin est principalement physique et manuel, impliquant des soins directs aux animaux et une présence sur le terrain. Bien que l'IA puisse aider pour des tâches administratives ou de suivi de données, elle ne peut remplacer l'interaction physique et le jugement expert requis pour le bien-être et l'entraînement des chevaux."
+    "rationale": "Le métier repose sur des compétences physiques, manuelles et relationnelles avec les animaux, ainsi que sur une présence constante sur le terrain. L'IA ne peut pas remplacer l'expertise humaine en gestion du bien-être animal, en dressage ou en intervention d'urgence."
   },
   {
     "slug": "a1310",
     "code_rome": "A1310",
     "title": "Technicien / Technicienne de production animale",
-    "exposure": 3,
-    "rationale": "Ce métier combine des tâches physiques de surveillance et de soin des animaux avec des aspects de gestion et d'analyse de données. L'IA peut aider à l'optimisation des processus, à la surveillance de la santé animale via des capteurs et à la gestion des données, mais la présence physique et l'interaction directe avec les animaux restent centrales."
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, physiques et relationnelles avec les animaux, ainsi que sur des interactions en environnement non numérique. L'IA peut assister pour la gestion des données ou la maintenance prédictive, mais ne transforme pas le cœur du métier."
   },
   {
     "slug": "a1311",
     "code_rome": "A1311",
     "title": "Technicien forestier / Technicienne forestière",
     "exposure": 3,
-    "rationale": "Le métier de technicien forestier implique une forte composante de travail sur le terrain, nécessitant une présence physique et des compétences manuelles. Bien que l'IA puisse aider à l'analyse de données, à la planification et à la surveillance à distance, le cœur du métier reste ancré dans l'interaction directe avec l'environnement forestier et les opérations physiques."
+    "rationale": "Le métier combine des tâches physiques (chantiers forestiers, inventaires sur le terrain) et des activités de gestion numérique (cartographie, rapports, analyse de données). L'IA peut assister pour le traitement de données ou la modélisation, mais l'essentiel du travail reste ancré dans le monde physique et relationnel."
   },
   {
     "slug": "a1312",
     "code_rome": "A1312",
     "title": "Directeur / Directrice environnement",
-    "exposure": 6,
-    "rationale": "Le métier de Directeur environnement implique une forte composante d'analyse et de stratégie, souvent réalisée sur ordinateur, ce qui le rend sensible à l'IA pour le traitement de données et la modélisation. Cependant, la nécessité d'interactions humaines, de prise de décision complexe et de compréhension des contextes opérationnels spécifiques limite une automatisation complète."
+    "exposure": 7,
+    "rationale": "Ce métier repose sur un mélange de tâches stratégiques (rédaction de rapports, veille réglementaire, analyse de données) et de coordination humaine, mais une part significative du travail (analyse de données environnementales, rédaction de diagnostics, veille scientifique) est réalisable à distance et numérisable. L'IA peut automatiser une partie de l'analyse de données et de la veille, augmentant la productivité des directeurs environnement."
   },
   {
     "slug": "a1313",
     "code_rome": "A1313",
     "title": "Chargé / Chargée de mission environnement",
-    "exposure": 6,
-    "rationale": "Ce métier combine l'analyse de données environnementales et la conception de solutions, tâches qui peuvent être significativement assistées par l'IA. Cependant, la coordination de projets, la collaboration avec des parties prenantes et la sensibilisation nécessitent une forte composante humaine et relationnelle, limitant une automatisation complète."
+    "exposure": 7,
+    "rationale": "Ce métier repose sur un mélange de tâches numériques (analyse de données, rédaction de rapports, veille réglementaire, modélisation) et d'interactions humaines (sensibilisation, coordination de projets). L'IA peut automatiser une partie significative des analyses et des rapports, mais les compétences relationnelles et la prise de décision contextuelle restent cruciales."
   },
   {
     "slug": "a1401",
     "code_rome": "A1401",
     "title": "Cueilleur / Cueilleuse de fruits",
     "exposure": 1,
-    "rationale": "Le métier de cueilleur de fruits est intrinsèquement physique et manuel, nécessitant une présence sur le terrain et une interaction directe avec les produits. L'IA n'a pas la capacité d'automatiser la récolte physique des fruits dans des environnements naturels et imprévisibles, ni de remplacer le jugement humain pour la sélection des fruits mûrs."
+    "rationale": "Le métier de cueilleur de fruits repose sur des compétences manuelles, physiques et une interaction directe avec la nature, ce qui limite fortement l'impact de l'IA. Les tâches nécessitent une présence physique et des capacités de jugement en temps réel non automatisables."
   },
   {
     "slug": "a1402",
     "code_rome": "A1402",
     "title": "Aide agricole en production végétale",
+    "exposure": 1,
+    "rationale": "Le métier est principalement physique, manuel et nécessite une présence sur le terrain pour des tâches comme la plantation, l'entretien des cultures et la récolte. L'IA a un impact minimal, limité à des outils d'aide à la décision (ex : surveillance des cultures par drones) ou à la gestion administrative, sans transformer le cœur du métier."
+  },
+  {
+    "slug": "a1403",
+    "code_rome": "A1403",
+    "title": "Aide d'élevage agricole",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des tâches physiques, manuelles et une présence constante auprès des animaux, avec des interactions imprévisibles et des compétences relationnelles avec les animaux et les éleveurs. L'IA n'a pas d'impact direct ou indirect significatif sur ces activités."
+  },
+  {
+    "slug": "a1404",
+    "code_rome": "A1404",
+    "title": "Aquaculteur / Aquacultrice",
     "exposure": 2,
-    "rationale": "Ce métier est principalement physique et manuel, impliquant des tâches de terrain comme la préparation des sols, la plantation, l'entretien des cultures et la récolte. Bien que l'IA puisse aider à la planification ou à l'optimisation des traitements, le cœur du travail reste ancré dans l'environnement physique et les interactions directes avec les plantes et la terre."
+    "rationale": "Le métier repose principalement sur des compétences manuelles, une présence physique en milieu aquatique ou sur des sites d'élevage, et des interactions directes avec les animaux et l'environnement. L'IA peut assister pour des tâches administratives ou analytiques (traçabilité, données de production), mais ne peut pas remplacer le cœur du métier."
   },
   {
     "slug": "a1405",
     "code_rome": "A1405",
     "title": "Arboriculteur / Arboricultrice",
     "exposure": 2,
-    "rationale": "Le métier d'arboriculteur est intrinsèquement lié à des tâches physiques et manuelles en extérieur, nécessitant une présence sur le terrain et une interaction directe avec les arbres et l'environnement. Bien que l'IA puisse potentiellement aider à la planification, à la surveillance des maladies via des capteurs, ou à l'optimisation des traitements, le cœur du métier (taille, récolte, gestion physique des cultures) reste largement à l'abri de l'automatisation directe par l'IA."
+    "rationale": "Le métier d'arboriculteur repose principalement sur des compétences manuelles, physiques et une présence sur le terrain pour des tâches comme la taille, la récolte ou la surveillance des cultures. Bien que des outils technologiques (robots, surveillance à distance) puissent émerger, l'IA n'a qu'un impact marginal sur les activités centrales du métier."
   },
   {
     "slug": "a1406",
     "code_rome": "A1406",
     "title": "Capitaine de pêche",
     "exposure": 2,
-    "rationale": "Le métier de capitaine de pêche est intrinsèquement lié à un environnement physique (la mer) et à des opérations manuelles complexes (gestion de la pêche, navigation). Bien que l'IA puisse aider à la planification ou à l'analyse de données météorologiques, le cœur du métier, qui implique la prise de décision en temps réel dans des conditions changeantes et la gestion d'un équipage, reste largement humain."
+    "rationale": "Le métier repose sur des compétences physiques, manuelles et une présence en mer indispensable (navigation, manipulation des engins, gestion d'équipage), limitant fortement l'automatisation par l'IA. Seules des tâches périphériques comme la collecte de données ou la gestion administrative pourraient être assistées par des outils numériques."
+  },
+  {
+    "slug": "a1407",
+    "code_rome": "A1407",
+    "title": "Eleveur / Eleveuse de bovins",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, physiques et relationnelles avec les animaux, ainsi que sur une présence constante sur le terrain. L'IA peut assister pour des tâches administratives ou de gestion (traçabilité, optimisation des rations), mais ne peut pas remplacer le cœur du métier."
+  },
+  {
+    "slug": "a1408",
+    "code_rome": "A1408",
+    "title": "Eleveur / Eleveuse d'animaux sauvages",
+    "exposure": 2,
+    "rationale": "Ce métier repose principalement sur des compétences physiques, manuelles et relationnelles avec des animaux dans un environnement non numérique. L'IA peut assister pour des tâches administratives ou de surveillance (via capteurs), mais ne peut remplacer le cœur du métier : soins, gestion des troupeaux et interactions physiques."
+  },
+  {
+    "slug": "a1409",
+    "code_rome": "A1409",
+    "title": "Aviculteur / Avicultrice",
+    "exposure": 2,
+    "rationale": "Le métier d'aviculteur repose principalement sur des tâches physiques, manuelles et une présence constante auprès des animaux, avec des interactions en environnement non numérique. L'IA peut assister pour des tâches administratives ou analytiques (traçabilité, gestion des données), mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "a1410",
+    "code_rome": "A1410",
+    "title": "Eleveur / Eleveuse d'ovins",
+    "exposure": 1,
+    "rationale": "Ce métier repose presque entièrement sur des compétences manuelles, une présence physique constante et des interactions directes avec les animaux et l'environnement. L'IA ne peut pas remplacer ces aspects fondamentaux, limitant son impact à des tâches périphériques mineures comme la gestion administrative ou le suivi numérique."
+  },
+  {
+    "slug": "a1411",
+    "code_rome": "A1411",
+    "title": "Eleveur / Eleveuse de porcins",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences physiques, manuelles et relationnelles avec les animaux, ainsi que sur des interactions en environnement non numérique. L'IA peut assister pour la traçabilité ou la gestion administrative, mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "a1412",
+    "code_rome": "A1412",
+    "title": "Fromager-affineur / Fromagère-affineuse",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, sensorielles (goût, odorat) et une présence physique en environnement non numérique (fermentation, affinage, vente en boutique). L'IA peut assister pour la gestion administrative ou la traçabilité, mais ne peut pas remplacer les tâches clés comme l'évaluation sensorielle ou l'affinage artisanal."
+  },
+  {
+    "slug": "a1413",
+    "code_rome": "A1413",
+    "title": "Brasseur / Brasseuse de bière",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches manuelles (contrôle qualité, maintenance, brassage) et des compétences techniques (dosage, fermentation) avec une forte composante physique et sensorielle (goût, odeur). L'IA peut assister pour la planification, l'analyse chimique ou la gestion des stocks, mais ne peut remplacer le jugement humain et l'expertise artisanale."
+  },
+  {
+    "slug": "a1414",
+    "code_rome": "A1414",
+    "title": "Horticulteur / Horticultrice",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, physiques et des interactions avec des environnements naturels imprévisibles (culture, récolte, entretien des plantes), limitant fortement l'impact de l'IA. Seules des tâches administratives ou de planification pourraient être partiellement assistées par des outils numériques."
+  },
+  {
+    "slug": "a1415",
+    "code_rome": "A1415",
+    "title": "Marin-pêcheur",
+    "exposure": 1,
+    "rationale": "Le métier de marin-pêcheur repose sur des compétences physiques, manuelles et une présence constante en mer, avec des interactions humaines et environnementales complexes. L'IA ne peut pas remplacer ces aspects fondamentaux, limitant son impact à des tâches périphériques mineures (gestion des quotas, navigation électronique)."
+  },
+  {
+    "slug": "a1416",
+    "code_rome": "A1416",
+    "title": "Exploitant / Exploitante agricole",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches physiques (culture, élevage, maintenance) et des activités de gestion numérique (planification, analyse de données, traçabilité). L'IA peut optimiser certaines fonctions comme l'analyse des sols ou la gestion administrative, mais l'essentiel du travail reste ancré dans le monde physique et nécessite une présence humaine."
+  },
+  {
+    "slug": "a1417",
+    "code_rome": "A1417",
+    "title": "Saliculteur / Salicultrice",
+    "exposure": 1,
+    "rationale": "Le métier de saliculteur repose principalement sur des compétences manuelles, physiques et une présence en milieu naturel (marais salants), avec des interactions humaines et écologiques complexes. L'IA a un impact minimal sur les tâches centrales comme la récolte, l'entretien des marais ou la gestion des écosystèmes."
+  },
+  {
+    "slug": "a1418",
+    "code_rome": "A1418",
+    "title": "Viticulteur / Viticultrice",
+    "exposure": 2,
+    "rationale": "Le métier de viticulteur repose principalement sur des compétences manuelles, physiques et des interactions avec l'environnement naturel (taille, entretien, récolte), ce qui limite fortement l'impact de l'IA. Seules des tâches périphériques comme la planification ou la gestion administrative pourraient être assistées par des outils numériques."
+  },
+  {
+    "slug": "a1419",
+    "code_rome": "A1419",
+    "title": "Ouvrier agricole polyvalent / Ouvrière agricole polyvalente",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des tâches physiques, manuelles et en interaction directe avec l'environnement naturel ou animal, avec une forte composante de présence sur le terrain. L'IA a un impact limité aux outils d'aide à la décision (ex : gestion des cultures) ou à la maintenance prédictive, mais ne remplace pas le travail humain."
+  },
+  {
+    "slug": "a1420",
+    "code_rome": "A1420",
+    "title": "Chef / Cheffe de culture responsable d'unité de production agricole",
+    "exposure": 2,
+    "rationale": "Ce métier repose principalement sur des compétences manuelles, techniques et une présence physique sur le terrain (gestion des plantations, entretien des équipements, supervision d'équipe). L'IA peut assister pour la planification ou la gestion des données, mais ne peut pas remplacer les interactions humaines et les tâches physiques essentielles."
+  },
+  {
+    "slug": "a1421",
+    "code_rome": "A1421",
+    "title": "Palefrenier soigneur / Palefrenière soigneuse",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des interactions physiques constantes avec les animaux, des compétences manuelles et une présence sur le terrain, limitant fortement l'impact de l'IA. Les tâches numériques (gestion de stocks, paperasse) sont mineures et ne transforment pas le cœur du métier."
+  },
+  {
+    "slug": "a1422",
+    "code_rome": "A1422",
+    "title": "Caviste de chai",
+    "exposure": 2,
+    "rationale": "Le métier de caviste de chai repose principalement sur des compétences manuelles, techniques et sensorielles (dégustation, contrôle visuel/olfactif) ainsi que sur des interactions physiques avec les équipements et les produits, limitant fortement l'impact de l'IA. Seules des tâches périphériques (gestion de stocks, traçabilité numérique) pourraient être partiellement automatisées."
   },
   {
     "slug": "a1423",
     "code_rome": "A1423",
     "title": "¼nologue",
-    "exposure": 4,
-    "rationale": "L'œnologue combine des analyses scientifiques et sensorielles avec des conseils humains et une présence physique dans les vignobles et les caves. L'IA peut aider à l'analyse des données et à la prédiction des tendances, mais le jugement expert, la perception sensorielle fine et l'interaction directe avec le produit et les producteurs restent essentiels."
+    "exposure": 3,
+    "rationale": "Le métier d'œnologue combine des compétences manuelles (surveillance des vignes, vinification), sensorielles (dégustation, contrôle qualité) et analytiques (analyses chimiques, gestion de production), avec une forte composante physique et relationnelle. L'IA peut assister pour l'analyse de données ou la planification, mais ne peut remplacer le jugement humain, l'expertise sensorielle ou la gestion d'équipe sur le terrain."
+  },
+  {
+    "slug": "a1424",
+    "code_rome": "A1424",
+    "title": "Pisciculteur / Piscicultrice",
+    "exposure": 2,
+    "rationale": "Le métier de pisciculteur repose principalement sur des compétences manuelles, une présence physique sur site, et des interactions avec des écosystèmes vivants, limitant fortement l'automatisation par l'IA. Seules des tâches périphériques (gestion administrative, traçabilité numérique) pourraient être assistées par des outils IA."
   },
   {
     "slug": "a1425",
     "code_rome": "A1425",
     "title": "Ramendeur / Ramendeuse",
     "exposure": 1,
-    "rationale": "Le métier de ramendeur est intrinsèquement manuel et physique, impliquant la manipulation de filets et souvent une présence sur des quais ou des bateaux. Les tâches principales de réparation et d'entretien des filets sont difficiles à automatiser par l'IA, qui n'a pas de capacité physique pour interagir avec le monde réel de cette manière."
+    "rationale": "Le métier de ramendeur repose presque exclusivement sur des compétences manuelles, une expertise artisanale et une présence physique en milieu maritime ou industriel. L'IA n'a aucun impact sur les tâches clés comme le remaillage, l'inspection visuelle ou l'assemblage de filets."
   },
   {
     "slug": "a1426",
     "code_rome": "A1426",
     "title": "Educateur canin / Educatrice canine",
     "exposure": 2,
-    "rationale": "L'éducation canine repose fondamentalement sur l'interaction physique avec l'animal et l'observation de son comportement en temps réel. Bien que l'IA puisse aider à la planification ou à la gestion administrative, elle ne peut remplacer l'expertise humaine dans l'évaluation et la modification du comportement canin dans des situations concrètes."
+    "rationale": "Le métier repose sur des interactions physiques directes avec les animaux, une évaluation comportementale en temps réel et une pédagogie adaptée aux propriétaires, difficiles à automatiser. L'IA peut assister pour des tâches administratives ou des conseils génériques, mais ne remplace pas le cœur du métier."
+  },
+  {
+    "slug": "a1427",
+    "code_rome": "A1427",
+    "title": "Goémonier / Goémonière",
+    "exposure": 1,
+    "rationale": "Le métier de goémonier est principalement physique, manuel et nécessite une présence en mer avec des compétences spécifiques (navigation, récolte, gestion des ressources marines). L'IA n'a pas d'impact significatif sur les tâches centrales comme la récolte ou la maintenance des équipements."
+  },
+  {
+    "slug": "a1428",
+    "code_rome": "A1428",
+    "title": "Algoculteur / Algocultrice",
+    "exposure": 2,
+    "rationale": "Le métier d'algoculteur repose principalement sur des compétences manuelles, physiques et des interactions avec un environnement marin complexe, ce qui limite fortement l'impact de l'IA. Seules des tâches administratives ou de gestion (planification, marketing) pourraient être partiellement assistées par des outils numériques, sans transformer le cœur du métier."
   },
   {
     "slug": "a1429",
     "code_rome": "A1429",
     "title": "Apiculteur / Apicultrice",
-    "exposure": 2,
-    "rationale": "L'apiculture est un métier fondamentalement physique et manuel, nécessitant une présence sur le terrain pour l'inspection des ruches et la récolte. Bien que l'IA puisse potentiellement aider à la gestion des données ou à la prévision des maladies, le cœur du métier reste ancré dans l'interaction directe avec les abeilles et l'environnement physique."
+    "exposure": 1,
+    "rationale": "Le métier d'apiculteur repose sur des compétences manuelles, une présence physique sur le terrain, des interactions avec des êtres vivants (abeilles) et un environnement imprévisible. L'IA ne peut pas remplacer ces aspects fondamentaux, limitant son impact à des tâches périphériques mineures (gestion administrative ou suivi numérique)."
   },
   {
     "slug": "a1430",
     "code_rome": "A1430",
     "title": "Ouvrier / Ouvrière aquacole",
     "exposure": 2,
-    "rationale": "Ce métier est principalement physique et manuel, impliquant des tâches réalisées dans des environnements aquatiques. Bien que l'IA puisse potentiellement aider à la planification ou à la surveillance des conditions environnementales, le cœur du travail reste ancré dans des opérations physiques et une présence sur le terrain, limitant ainsi son exposition directe."
+    "rationale": "Le métier repose principalement sur des tâches physiques, manuelles et en environnement extérieur (manipulation d'animaux, maintenance d'équipements, récolte), avec une forte composante relationnelle et écologique. L'IA a un impact limité aux tâches périphériques (gestion administrative, suivi de données)."
   },
   {
     "slug": "a1431",
     "code_rome": "A1431",
     "title": "Ouvrier / Ouvrière piscicole",
     "exposure": 2,
-    "rationale": "Ce métier est principalement physique et manuel, impliquant la surveillance et l'entretien des bassins, le nourrissage des poissons et le contrôle de leur santé. Bien que l'IA puisse aider à la planification ou à l'analyse de données de production, le cœur du métier repose sur une présence physique et une interaction directe avec l'environnement aquatique et les animaux."
+    "rationale": "Le métier repose principalement sur des tâches physiques (nettoyage des bassins, nourrissage, récolte) et des interactions avec l'environnement aquatique, limitant l'impact direct de l'IA. Seules des tâches périphériques comme la gestion des stocks ou le contrôle de la qualité de l'eau pourraient être assistées par des outils numériques."
+  },
+  {
+    "slug": "a1432",
+    "code_rome": "A1432",
+    "title": "Osiériculteur / Osiéricultrice",
+    "exposure": 1,
+    "rationale": "Le métier d'osiériculteur repose sur des compétences manuelles, physiques et artisanales (culture, récolte, vannerie) ainsi que sur des interactions avec l'environnement naturel et les clients, ce qui limite fortement l'impact de l'IA. Les tâches sont majoritairement non numériques et nécessitent une présence sur le terrain."
   },
   {
     "slug": "a1433",
     "code_rome": "A1433",
     "title": "Maraîcher / Maraîchère",
     "exposure": 1,
-    "rationale": "Le métier de maraîcher est intrinsèquement lié à des activités physiques et manuelles en extérieur, impliquant la manipulation de la terre, des plantes et des récoltes. Bien que l'IA puisse offrir un soutien pour la planification ou la gestion des données, elle ne peut remplacer la présence physique et l'expertise manuelle nécessaires à la culture et à la récolte des légumes."
+    "rationale": "Le métier de maraîcher repose sur des compétences manuelles, physiques et une interaction constante avec l'environnement naturel (cultures, sols, climat), ce qui limite fortement l'impact de l'IA. Les tâches numériques (gestion administrative, suivi des commandes) sont marginales et ne transforment pas le cœur du métier."
   },
   {
     "slug": "a1434",
     "code_rome": "A1434",
     "title": "Tabaculteur / Tabacultrice",
     "exposure": 1,
-    "rationale": "Le métier de tabaculteur est intrinsèquement lié à des tâches physiques et manuelles en extérieur, impliquant la culture, la récolte et la transformation de plantes. L'IA a un impact très limité sur ces aspects concrets et dépendants de l'environnement physique."
+    "rationale": "Le métier de tabaculteur repose principalement sur des compétences manuelles, physiques et une présence sur le terrain pour cultiver, entretenir et récolter le tabac. L'IA a un impact limité, car les tâches nécessitent une interaction directe avec l'environnement physique et des décisions contextuelles complexes."
   },
   {
     "slug": "a1435",
     "code_rome": "A1435",
     "title": "Eleveur / Eleveuse d'animaux de compagnie",
     "exposure": 2,
-    "rationale": "Ce métier est principalement physique et relationnel, impliquant des soins directs aux animaux et une présence sur le terrain. L'IA pourrait aider pour des tâches administratives ou de planification, mais ne remplacera pas les compétences manuelles et le jugement nécessaires à l'élevage et au soin des animaux."
+    "rationale": "Le métier repose sur des interactions physiques directes avec les animaux, des soins manuels et une présence constante sur site, limitant fortement l'automatisation par l'IA. Seules des tâches administratives ou de gestion documentaire pourraient être partiellement assistées par des outils numériques."
   },
   {
     "slug": "a1436",
     "code_rome": "A1436",
     "title": "Conducteur / Conductrice de travaux en entreprise de travaux agricoles",
-    "exposure": 3,
-    "rationale": "Ce métier combine une forte composante de supervision terrain et de gestion d'équipe avec des tâches de planification et d'optimisation. Bien que l'IA puisse aider à la planification, à l'analyse des données et à la gestion des ressources, la présence physique sur le terrain, la gestion des imprévus et les interactions humaines directes restent centrales, limitant l'automatisation complète."
+    "exposure": 4,
+    "rationale": "Le métier combine une forte composante physique (supervision sur le terrain, conduite d'engins) et des tâches de gestion numérique (planification, budget, rapports). L'IA peut optimiser la planification et l'analyse, mais ne remplacera pas la présence humaine pour les opérations agricoles ou la coordination d'équipes."
   },
   {
     "slug": "a1437",
     "code_rome": "A1437",
     "title": "Champignonniste",
-    "exposure": 2,
-    "rationale": "Le métier de champignonniste est principalement physique et manuel, impliquant la culture, la récolte et le conditionnement des champignons. Bien que l'IA puisse aider à la surveillance des conditions environnementales ou à la gestion des stocks, le cœur du métier reste ancré dans des tâches physiques et une présence humaine indispensable dans la champignonnière."
+    "exposure": 1,
+    "rationale": "Le métier de champignonniste repose principalement sur des compétences manuelles, physiques et une présence en environnement contrôlé (serres, champignonnières). L'IA n'a pas d'impact significatif sur les tâches clés comme la culture, la récolte ou la gestion des substrats, qui nécessitent une expertise humaine et une interaction avec le monde physique."
   },
   {
     "slug": "a1438",
     "code_rome": "A1438",
     "title": "Pêcheur / Pêcheuse à pied",
     "exposure": 1,
-    "rationale": "Le métier de pêcheur à pied est intrinsèquement lié à l'environnement physique et aux cycles naturels. Les tâches principales impliquent une présence sur le terrain, une manipulation d'outils et une interaction directe avec les ressources marines, ce qui limite l'automatisation par l'IA."
+    "rationale": "Le métier repose sur des compétences manuelles, physiques et une présence en environnement naturel imprévisible (marées, conditions météo). L'IA ne peut pas remplacer l'observation directe des écosystèmes ou la récolte physique des produits."
+  },
+  {
+    "slug": "a1439",
+    "code_rome": "A1439",
+    "title": "Eleveur / Eleveuse d'équidés",
+    "exposure": 2,
+    "rationale": "Ce métier repose principalement sur des compétences physiques, manuelles et relationnelles avec les animaux et les clients, ainsi que sur une présence constante sur le terrain. L'IA ne peut pas remplacer les interactions humaines ou les soins directs aux équidés, limitant son impact à des tâches administratives ou logistiques mineures."
   },
   {
     "slug": "a1440",
     "code_rome": "A1440",
     "title": "Cultivateur urbain / Cultivatrice urbaine",
-    "exposure": 2,
-    "rationale": "Le métier de cultivateur urbain est principalement physique et manuel, impliquant une interaction directe avec l'environnement et les plantes. Bien que l'IA puisse aider à la planification ou à l'analyse de données environnementales, le cœur du métier reste ancré dans des tâches physiques et une présence sur le terrain, limitant l'impact direct de l'IA."
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, physiques et des interactions directes avec l'environnement naturel et humain, limitant fortement l'impact de l'IA. Les tâches numériques (gestion administrative, partenariats) sont mineures et périphériques."
   },
   {
     "slug": "a1441",
     "code_rome": "A1441",
     "title": "Pépiniériste",
     "exposure": 2,
-    "rationale": "Le métier de pépiniériste est principalement physique et manuel, impliquant des tâches de culture, de transplantation et d'entretien des végétaux en extérieur. Bien que l'IA puisse potentiellement aider à la gestion des stocks ou à l'optimisation de l'arrosage, le cœur du métier reste ancré dans des interactions directes avec l'environnement naturel et les plantes, limitant ainsi une transformation profonde par l'IA."
+    "rationale": "Le métier de pépiniériste repose principalement sur des compétences manuelles, physiques et des interactions directes avec des végétaux et des clients, ce qui limite fortement l'impact de l'IA. Les tâches numériques (gestion administrative, utilisation d'outils numériques) sont marginales et ne transforment pas le cœur du métier."
   },
   {
     "slug": "a1442",
     "code_rome": "A1442",
     "title": "Eleveur / Eleveuse de lapins",
-    "exposure": 2,
-    "rationale": "L'élevage de lapins est un métier fondamentalement physique et manuel, impliquant des soins directs aux animaux et la gestion d'installations. Bien que l'IA puisse aider pour des tâches administratives ou de suivi de données, elle ne peut remplacer l'interaction physique et le jugement nécessaire pour le bien-être animal et la gestion quotidienne de l'élevage."
+    "exposure": 1,
+    "rationale": "Ce métier est principalement physique, manuel et nécessite une présence constante sur le terrain pour soigner, surveiller et gérer des animaux dans un environnement imprévisible. L'IA ne peut pas remplacer ces interactions directes avec les animaux ou les tâches physiques."
   },
   {
     "slug": "a1443",
     "code_rome": "A1443",
     "title": "Cidrier / Cidrière",
     "exposure": 3,
-    "rationale": "Le métier de cidrier combine des aspects de production physique (manipulation de fruits, surveillance des cuves, mise en bouteille) avec des éléments de connaissance (contrôle qualité, fermentation, développement de recettes). L'IA pourrait aider à l'optimisation des processus de fermentation ou à la prévision des récoltes, mais le cœur du métier reste ancré dans des opérations manuelles et une expertise sensorielle difficilement automatisable."
+    "rationale": "Le métier de cidrier combine des tâches manuelles (récolte, manipulation des équipements, mise en bouteille) et des compétences artisanales (dégustation, création de recettes, contrôle qualité) difficiles à automatiser. L'IA peut assister pour des analyses chimiques ou la gestion administrative, mais ne remplace pas le savoir-faire humain ou les interactions physiques avec les produits."
   },
   {
     "slug": "a1444",
     "code_rome": "A1444",
     "title": "Aide agricole en production fruitière",
-    "exposure": 2,
-    "rationale": "Ce métier est principalement physique et manuel, impliquant des tâches réalisées directement dans les vergers. Bien que l'IA puisse potentiellement aider à la planification ou à l'optimisation des récoltes, le cœur du travail reste ancré dans l'intervention physique sur les arbres et les fruits, limitant l'impact direct de l'IA sur la majorité des tâches."
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, physiques et des interactions avec l'environnement naturel (taille, récolte, entretien des arbres), avec une présence physique indispensable. L'IA a un impact minimal sur ces tâches."
   },
   {
     "slug": "a1445",
     "code_rome": "A1445",
     "title": "Pêcheur sous-marin / Pêcheuse sous-marine",
     "exposure": 1,
-    "rationale": "Ce métier est intrinsèquement lié à une activité physique et manuelle dans un environnement naturel et imprévisible. L'IA n'a pas d'impact direct sur les tâches de plongée, de capture ou de gestion des risques en milieu sous-marin."
+    "rationale": "Le métier repose sur des compétences physiques, une présence en milieu sous-marin imprévisible et des interactions directes avec l'environnement naturel, limitant fortement l'impact de l'IA. Les tâches numériques ou automatisables sont marginales."
   },
   {
     "slug": "a1446",
     "code_rome": "A1446",
     "title": "Maître / Maîtresse de chai",
-    "exposure": 3,
-    "rationale": "Le métier de Maître de chai combine des aspects techniques et de gestion de processus avec une forte composante sensorielle et physique (manipulation, dégustation, surveillance des conditions de cave). Bien que l'IA puisse aider à l'analyse des données de production et à la prévision, le jugement humain, l'expertise sensorielle et la supervision directe des processus physiques restent centraux et difficiles à automatiser."
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, sensorielles (dégustation, contrôle visuel) et une présence physique en cave ou en vigne, difficiles à automatiser. L'IA peut assister pour la traçabilité, l'analyse chimique ou la gestion des stocks, mais ne remplace pas le jugement humain et l'expertise artisanale."
   },
   {
     "slug": "a1447",
     "code_rome": "A1447",
     "title": "Herboriste",
-    "exposure": 3,
-    "rationale": "Le métier d'herboriste combine des aspects de connaissance des plantes et de conseil client avec une composante physique de récolte, préparation et vente. Bien que l'IA puisse aider à la recherche d'informations sur les plantes ou à la gestion des stocks, le cœur du métier repose sur l'interaction humaine, le jugement basé sur l'expérience et la manipulation physique des produits, limitant ainsi l'impact direct de l'IA."
+    "exposure": 2,
+    "rationale": "Le métier d'herboriste repose principalement sur des compétences manuelles (cueillette, transformation), des interactions humaines (conseil personnalisé) et une présence physique (vente, ateliers). L'IA peut aider pour la gestion administrative ou la recherche d'informations, mais ne peut pas remplacer le savoir-faire sensoriel, l'empathie ou les activités en plein air."
   },
   {
     "slug": "a1501",
     "code_rome": "A1501",
     "title": "Auxiliaire vétérinaire",
     "exposure": 3,
-    "rationale": "Le métier d'auxiliaire vétérinaire est principalement axé sur l'interaction physique avec les animaux et les propriétaires, ainsi que sur des tâches manuelles. Bien que l'IA puisse aider à la gestion administrative (rendez-vous, dossiers) et à la recherche d'informations sur les soins, le cœur du métier, qui implique la manipulation directe des animaux, l'assistance lors des interventions et le contact humain, reste largement préservé de l'automatisation."
+    "rationale": "Le métier combine des tâches physiques (manipulation d'animaux, soins, nettoyage) et relationnelles (accueil, conseil) avec des activités administratives (gestion de dossiers, planification). L'IA peut assister pour la gestion des données ou la planification, mais ne peut remplacer le cœur du métier qui repose sur l'interaction humaine et physique avec les animaux."
   },
   {
     "slug": "a1502",
     "code_rome": "A1502",
     "title": "Maréchal-ferrant / Maréchale-ferrante",
     "exposure": 1,
-    "rationale": "Le métier de maréchal-ferrant est intrinsèquement physique et manuel, impliquant une interaction directe avec les animaux et l'utilisation d'outils spécifiques. L'IA n'a pas de rôle direct à jouer dans la manipulation physique des sabots ou la ferrure, bien qu'elle puisse potentiellement aider à la gestion administrative ou à la planification des rendez-vous."
+    "rationale": "Le métier de maréchal-ferrant repose sur des compétences manuelles, physiques et une interaction directe avec les animaux et leur environnement, ce qui limite fortement l'impact de l'IA. Les tâches comme le ferrage, le parage ou la manipulation des animaux nécessitent une présence physique et un savoir-faire artisanal non automatisable."
   },
   {
     "slug": "a1503",
     "code_rome": "A1503",
     "title": "Toiletteur / Toiletteuse d'animaux",
     "exposure": 2,
-    "rationale": "Le toilettage d'animaux est un métier intrinsèquement physique et manuel, impliquant une interaction directe avec des êtres vivants. Bien que l'IA puisse potentiellement aider à la gestion des rendez-vous ou à la recommandation de produits, elle ne peut pas remplacer le contact physique, la dextérité et le jugement nécessaires pour manipuler et soigner un animal."
+    "rationale": "Le métier repose principalement sur des compétences manuelles (toilettage, manipulation d'animaux), une présence physique et des interactions humaines directes, limitant fortement l'impact de l'IA. Seules des tâches périphériques (gestion administrative, stocks) pourraient être partiellement automatisées."
   },
   {
     "slug": "a1504",
     "code_rome": "A1504",
     "title": "Vétérinaire",
-    "exposure": 5,
-    "rationale": "Le métier de vétérinaire combine des compétences de diagnostic et de traitement qui impliquent une part importante d'analyse et de prise de décision, où l'IA peut apporter une aide significative pour l'analyse d'images médicales ou la recherche d'informations. Cependant, la nécessité d'une présence physique pour les examens, les interventions chirurgicales et les interactions directes avec les animaux et leurs propriétaires limite l'automatisation complète."
+    "exposure": 3,
+    "rationale": "Le métier combine des compétences manuelles (chirurgie, manipulation d'animaux), relationnelles (conseil aux propriétaires) et de connaissance (diagnostic, veille scientifique). L'IA peut assister pour l'analyse d'images médicales ou la gestion administrative, mais le cœur du métier reste ancré dans l'interaction physique et l'expertise humaine."
   },
   {
     "slug": "a1505",
     "code_rome": "A1505",
     "title": "Animalier / Animalière de laboratoire",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des tâches physiques (soins, manipulation, entretien) et des interactions directes avec les animaux, ainsi que sur des compétences relationnelles et éthiques. L'IA peut assister pour l'analyse de données ou la gestion administrative, mais ne peut remplacer le cœur du métier."
+  },
+  {
+    "slug": "a1506",
+    "code_rome": "A1506",
+    "title": "Soigneur animalier / Soigneuse animalière",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des tâches physiques (nettoyage, alimentation, manipulation d'animaux) et des interactions humaines en présentiel, avec une forte composante relationnelle et imprévisible. L'IA peut assister pour la gestion de données ou la rédaction de rapports, mais ne peut remplacer le cœur du métier."
+  },
+  {
+    "slug": "a1507",
+    "code_rome": "A1507",
+    "title": "Ostéopathe animalier / Ostéopathe animalière",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, une interaction physique avec les animaux et une évaluation en temps réel de leur état, ce qui limite fortement l'automatisation par l'IA. Seules des tâches administratives ou de documentation pourraient être partiellement assistées par des outils numériques."
+  },
+  {
+    "slug": "a1508",
+    "code_rome": "A1508",
+    "title": "Dresseur animalier / Dresseuse animalière",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des interactions physiques directes avec les animaux, une présence constante sur le terrain et des compétences manuelles et relationnelles difficiles à automatiser. L'IA peut assister pour la documentation ou la planification, mais ne peut remplacer le cœur du métier."
+  },
+  {
+    "slug": "a1509",
+    "code_rome": "A1509",
+    "title": "Comportementaliste animalier / Comportementaliste animalière",
     "exposure": 3,
-    "rationale": "Ce métier implique une forte composante physique et relationnelle avec les animaux, ainsi qu'une présence indispensable sur site. Bien que l'IA puisse aider à la gestion des données et à la planification, elle ne peut automatiser les soins directs, la surveillance de la santé en temps réel ou les manipulations physiques nécessaires."
+    "rationale": "Le métier repose principalement sur des interactions physiques avec les animaux, des observations en temps réel et des ajustements comportementaux personnalisés, ce qui limite fortement l'automatisation par l'IA. Seules des tâches administratives ou de rédaction de rapports pourraient être partiellement assistées par des outils numériques."
+  },
+  {
+    "slug": "a1510",
+    "code_rome": "A1510",
+    "title": "Préparateur / Préparatrice d'équidés",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des interactions physiques directes avec les animaux, des soins manuels et une présence constante sur le terrain, ce qui limite fortement l'impact de l'IA. Les tâches numériques (planification, gestion de stocks) sont mineures et ne transforment pas le cœur du métier."
+  },
+  {
+    "slug": "a1511",
+    "code_rome": "A1511",
+    "title": "Gardien / Gardienne d'animaux",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des interactions physiques directes avec les animaux, des soins manuels et une présence constante, ce qui limite fortement l'automatisation par l'IA. Seules des tâches administratives mineures (facturation, gestion de stocks) pourraient être assistées par des outils numériques."
+  },
+  {
+    "slug": "b1101",
+    "code_rome": "B1101",
+    "title": "Artiste Plasticien / Plasticienne",
+    "exposure": 3,
+    "rationale": "Le métier repose sur une forte composante créative, manuelle et physique (sculpture, peinture, installation), difficile à automatiser. L'IA peut assister pour des tâches secondaires (conception assistée, gestion administrative), mais ne remplace pas l'expertise artistique et l'interaction humaine."
+  },
+  {
+    "slug": "b1102",
+    "code_rome": "B1102",
+    "title": "Mosaïste d'art",
+    "exposure": 2,
+    "rationale": "Le métier de mosaïste d'art repose sur des compétences manuelles, artistiques et physiques (coupe, assemblage, pose sur support) ainsi que sur des interactions humaines pour la création et la restauration. L'IA peut assister pour la conception numérique ou la gestion de projets, mais ne peut pas remplacer le travail de précision et la créativité artistique en temps réel."
+  },
+  {
+    "slug": "b1103",
+    "code_rome": "B1103",
+    "title": "Sculpteur / Sculptrice ornemaniste sur pierre",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, artistiques et physiques (taille, sculpture, restauration) difficiles à automatiser. L'IA peut assister pour la modélisation 3D ou la documentation, mais ne remplace pas l'expertise tactile et créative requise."
+  },
+  {
+    "slug": "b1201",
+    "code_rome": "B1201",
+    "title": "Céramiste",
+    "exposure": 2,
+    "rationale": "Le métier de céramiste repose principalement sur des compétences manuelles, artistiques et techniques en atelier, avec une forte dimension physique et sensorielle (toucher, vue) difficilement reproductible par l'IA. Les interactions humaines et la créativité artistique restent centrales, limitant l'automatisation."
+  },
+  {
+    "slug": "b1301",
+    "code_rome": "B1301",
+    "title": "Etalagiste",
+    "exposure": 4,
+    "rationale": "Le métier combine une forte composante créative et manuelle (agencement physique, décors, mise en scène) avec des tâches numériques mineures (analyse des ventes, rédaction de fiches produits). L'IA peut assister pour la génération d'idées ou l'optimisation d'espaces, mais ne remplace pas le jugement esthétique et l'interaction humaine en magasin."
+  },
+  {
+    "slug": "b1302",
+    "code_rome": "B1302",
+    "title": "Décorateur / Décoratrice d'objets d'art",
+    "exposure": 2,
+    "rationale": "Ce métier repose sur des compétences manuelles, artistiques et techniques (dorure, émaillage, peinture à la main) difficiles à automatiser. L'IA peut assister pour la documentation ou la gestion administrative, mais ne peut remplacer le savoir-faire artisanal et la créativité humaine."
   },
   {
     "slug": "b1303",
     "code_rome": "B1303",
     "title": "Graveur / Graveuse d'art",
     "exposure": 2,
-    "rationale": "Le métier de graveur d'art repose principalement sur des compétences manuelles fines et une interaction directe avec des matériaux physiques. Bien que des outils numériques puissent assister dans la conception ou la préparation, l'acte de graver lui-même nécessite une dextérité et une sensibilité humaines qui ne sont pas facilement reproductibles par l'IA actuellement."
+    "rationale": "Le métier de graveur d'art repose principalement sur des compétences manuelles, artistiques et techniques nécessitant une présence physique et une interaction directe avec les matériaux. L'IA peut assister pour des tâches périphériques comme la conception numérique ou la gestion administrative, mais ne peut pas remplacer le savoir-faire artisanal et la créativité humaine."
   },
   {
     "slug": "b1304",
     "code_rome": "B1304",
     "title": "Artisan démonstrateur / Artisane démonstratrice",
     "exposure": 2,
-    "rationale": "Ce métier repose fondamentalement sur des compétences manuelles, la présence physique et l'interaction humaine directe avec un public. Bien que l'IA puisse aider à la planification ou à la promotion, elle ne peut pas remplacer la démonstration physique et l'échange en temps réel qui constituent le cœur de l'activité."
+    "rationale": "Le métier repose sur des compétences manuelles, une interaction humaine directe et une présence physique pour les démonstrations, limitant fortement l'impact de l'IA. Les tâches numériques (promotion, gestion) sont périphériques et ne transforment pas le cœur du métier."
   },
   {
     "slug": "b1401",
     "code_rome": "B1401",
     "title": "Vannier / Vannière",
     "exposure": 1,
-    "rationale": "Le métier de vannier est intrinsèquement manuel et physique, impliquant la manipulation de matériaux naturels et la création d'objets par tressage. L'IA n'a pas d'impact direct sur ces tâches fondamentales, bien qu'elle puisse potentiellement aider à la gestion administrative ou à la promotion des créations."
+    "rationale": "Le métier de vannier repose sur des compétences manuelles, créatives et physiques (tressage, sélection de matériaux végétaux, finitions) qui nécessitent une présence physique et un savoir-faire artisanal difficilement automatisable. L'IA n'a qu'un impact marginal (gestion administrative ou CAO basique)."
+  },
+  {
+    "slug": "b1402",
+    "code_rome": "B1402",
+    "title": "Relieur / Relieuse d'art",
+    "exposure": 1,
+    "rationale": "Le métier de relieur/relieuse d'art repose sur des compétences manuelles, artistiques et techniques hautement spécialisées, nécessitant une présence physique et une interaction directe avec des matériaux tangibles (livres, cuir, papier). L'IA ne peut pas reproduire la créativité, la précision manuelle ou la sensibilité aux matériaux requis."
   },
   {
     "slug": "b1403",
     "code_rome": "B1403",
     "title": "Restaurateur / Restauratrice de livres anciens",
     "exposure": 2,
-    "rationale": "Ce métier est principalement manuel et physique, impliquant des compétences artisanales spécifiques pour la manipulation et la réparation de matériaux fragiles. Bien que l'IA puisse aider à l'analyse de l'état de conservation ou à la gestion des collections, elle ne peut pas remplacer le savoir-faire manuel et le jugement expert requis pour la restauration physique des livres anciens."
+    "rationale": "Le métier repose sur des compétences manuelles spécialisées, une expertise tactile et une présence physique pour manipuler des ouvrages fragiles. L'IA peut assister pour l'analyse documentaire ou la gestion de projets, mais ne peut pas remplacer le savoir-faire artisanal ou les interactions humaines nécessaires."
   },
   {
-    "slug": "b1813",
-    "code_rome": "B1813",
-    "title": "Tailleur / Tailleuse",
+    "slug": "b1404",
+    "code_rome": "B1404",
+    "title": "Canneur rempailleur / Canneuse rempailleuse",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, artisanales et une interaction directe avec des matériaux physiques (rotin, paille) et des clients. L'IA n'a aucun impact sur les tâches centrales comme le tressage, l'assemblage ou la restauration de meubles."
+  },
+  {
+    "slug": "b1501",
+    "code_rome": "B1501",
+    "title": "Facteur / Factrice d'instruments à clavier",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, artisanales et une interaction physique avec les instruments (accordage, réparation, fabrication), limitant fortement l'automatisation par IA. Les aspects numériques (gestion administrative, expertise) sont marginaux."
+  },
+  {
+    "slug": "b1502",
+    "code_rome": "B1502",
+    "title": "Facteur / Factrice d'instruments de musique anciens",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, artisanales et une expertise historique/technique non reproductible par l'IA. Les interactions physiques avec les instruments et la créativité artistique limitent fortement l'automatisation."
+  },
+  {
+    "slug": "b1503",
+    "code_rome": "B1503",
+    "title": "Facteur / Factrice d'instruments à vent",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, artisanales et une interaction physique avec les matériaux et les instruments, limitant fortement l'automatisation par l'IA. Les aspects numériques (logiciels de modélisation) sont marginaux et ne transforment pas le cœur du métier."
+  },
+  {
+    "slug": "b1504",
+    "code_rome": "B1504",
+    "title": "Facteur / Factrice de percussions",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, artisanales et une interaction physique avec les matériaux et les instruments, avec une forte dimension créative et sensorielle (acoustique, toucher). L'IA peut assister pour la conception assistée par ordinateur (CAO/DAO) ou la gestion administrative, mais ne peut pas remplacer le savoir-faire artisanal ou la relation client en face-à-face."
+  },
+  {
+    "slug": "b1505",
+    "code_rome": "B1505",
+    "title": "Luthier / Luthière",
+    "exposure": 2,
+    "rationale": "Le métier de luthier repose sur des compétences manuelles, artisanales et une expertise sensorielle (sonorité, toucher) difficiles à automatiser. L'IA peut assister pour la gestion administrative ou la sélection de matériaux, mais ne remplace pas la création et la réparation d'instruments."
+  },
+  {
+    "slug": "b1601",
+    "code_rome": "B1601",
+    "title": "Métallier / Métallière d'art",
+    "exposure": 1,
+    "rationale": "Le métier de métallier d'art repose sur des compétences manuelles, créatives et physiques (sculpture, forgeage, ciselure, travail des métaux) qui nécessitent une présence physique et une interaction directe avec les matériaux. L'IA ne peut pas reproduire ces aspects artisanaux et sensoriels."
+  },
+  {
+    "slug": "b1602",
+    "code_rome": "B1602",
+    "title": "Souffleur / Souffleuse de verre",
+    "exposure": 1,
+    "rationale": "Le métier de souffleur/souffleuse de verre repose sur des compétences manuelles, artistiques et techniques en temps réel, avec une forte composante physique et sensorielle (travail à chaud, manipulation du verre en fusion). L'IA ne peut pas reproduire ces gestes précis et créatifs, ni l'interaction directe avec le matériau."
+  },
+  {
+    "slug": "b1603",
+    "code_rome": "B1603",
+    "title": "Opérateur / Opératrice en bijouterie",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, une dextérité fine et des interactions physiques avec des matériaux (métaux précieux, outils), limitant fortement l'automatisation par IA. Les tâches numériques (utilisation d'interfaces graphiques, consultation de documentation) sont périphériques et ne transforment pas le cœur du métier."
+  },
+  {
+    "slug": "b1604",
+    "code_rome": "B1604",
+    "title": "Horloger / Horlogère",
+    "exposure": 2,
+    "rationale": "Le métier d'horloger repose principalement sur des compétences manuelles de précision, une expertise technique en micromécanique et des interactions physiques avec des objets délicats, ce qui limite fortement l'impact direct de l'IA. Les tâches numériques (conception assistée par CAO, gestion administrative) sont marginales et ne transforment pas le cœur du métier."
+  },
+  {
+    "slug": "b1605",
+    "code_rome": "B1605",
+    "title": "Bijoutier / Bijoutière",
+    "exposure": 2,
+    "rationale": "Le métier de bijoutier repose principalement sur des compétences manuelles, créatives et techniques en manipulation de matériaux physiques, avec une forte composante artisanale et relationnelle avec les clients. L'IA peut assister pour des tâches périphériques comme la conception assistée par ordinateur (CAO) ou la gestion administrative, mais ne peut pas remplacer le savoir-faire artisanal ou les interactions humaines essentielles."
+  },
+  {
+    "slug": "b1606",
+    "code_rome": "B1606",
+    "title": "Joaillier / Joaillière",
     "exposure": 3,
-    "rationale": "Le métier de tailleur combine des compétences manuelles précises et une interaction directe avec le client pour la prise de mesures et les essayages. Bien que des outils numériques puissent aider à la conception et à la gestion, le cœur du métier reste physique et artisanal, limitant l'impact direct de l'IA sur l'exécution des tâches."
+    "rationale": "Le métier de joaillier repose principalement sur des compétences manuelles, artistiques et techniques (sculpture, assemblage, contrôle qualité) difficiles à automatiser. L'IA peut assister pour la conception (CAO/DAO) ou la gestion administrative, mais ne remplace pas la dextérité, la créativité ou l'interaction client essentielle."
+  },
+  {
+    "slug": "b1607",
+    "code_rome": "B1607",
+    "title": "Lapidaire / Diamantaire",
+    "exposure": 1,
+    "rationale": "Le métier de lapidaire/diamantaire repose sur des compétences manuelles, artistiques et une interaction physique avec des matériaux précieux, ce qui limite fortement l'impact de l'IA. Les tâches nécessitent une expertise sensorielle et une précision humaine impossible à automatiser entièrement."
+  },
+  {
+    "slug": "b1608",
+    "code_rome": "B1608",
+    "title": "Orfèvre planeur / Orfèvre planeuse",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, une expertise tactile et une présence physique en atelier pour façonner les métaux. Bien que certaines tâches administratives ou de conception (dessin, fiche technique) puissent être assistées par des outils numériques, l'essentiel du travail reste ancré dans le travail artisanal et physique."
+  },
+  {
+    "slug": "b1609",
+    "code_rome": "B1609",
+    "title": "Responsable d'atelier en bijouterie ou joaillerie",
+    "exposure": 3,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, créatives et relationnelles (encadrement, contrôle qualité, innovation) difficiles à automatiser. L'IA peut assister pour la gestion ou la conception assistée (CAO/DAO), mais ne remplace pas le savoir-faire artisanal et l'expertise humaine en bijouterie-joaillerie."
+  },
+  {
+    "slug": "b1610",
+    "code_rome": "B1610",
+    "title": "Sertisseur / Sertisseuse en bijouterie ou joaillerie",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles fines, une dextérité physique et une interaction directe avec des matériaux tangibles (pierres, métaux), limitant fortement l'automatisation par l'IA. Seules des tâches périphériques (gestion numérique des ordres de fabrication) pourraient être assistées par des outils IA."
+  },
+  {
+    "slug": "b1611",
+    "code_rome": "B1611",
+    "title": "Trieur / Trieuse de pierres et perles",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, une expertise sensorielle (évaluation visuelle et tactile des pierres/perles) et une présence physique en atelier ou laboratoire. L'IA ne peut pas remplacer ces aspects fondamentaux, limitant son impact à des tâches périphériques comme la gestion logicielle."
+  },
+  {
+    "slug": "b1612",
+    "code_rome": "B1612",
+    "title": "Concepteur / Conceptrice numérique en bijouterie joaillerie",
+    "exposure": 8,
+    "rationale": "Ce métier repose presque entièrement sur la conception numérique (CAO/DAO) et la modélisation 3D, des tâches hautement automatisables par l'IA. Les logiciels spécialisés (Rhino, Grasshopper, CREO) sont déjà compatibles avec des outils d'IA générative pour la création de designs."
+  },
+  {
+    "slug": "b1613",
+    "code_rome": "B1613",
+    "title": "Orfèvre",
+    "exposure": 2,
+    "rationale": "Le métier d'orfèvre repose principalement sur des compétences manuelles, une expertise technique artisanale et des interactions physiques avec les matériaux, limitant fortement l'impact de l'IA. Les tâches numériques (planification, gestion de fiches) sont mineures et périphériques."
+  },
+  {
+    "slug": "b1614",
+    "code_rome": "B1614",
+    "title": "Monteur / Monteuse en orfèvrerie",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles (soudure, brasure, assemblage) et une présence physique en atelier, avec des interactions techniques directes avec les matériaux. L'IA ne peut pas remplacer ces tâches physiques ou le jugement humain nécessaire pour ajuster les pièces."
+  },
+  {
+    "slug": "b1615",
+    "code_rome": "B1615",
+    "title": "Orfèvre tourneur repousseur / Orfèvre tourneuse repousseuse",
+    "exposure": 1,
+    "rationale": "Ce métier repose sur des compétences manuelles hautement spécialisées (repoussage, ajustage, polissage) et une interaction directe avec des matériaux physiques, ce qui limite fortement l'impact de l'IA. Les tâches numériques (dessin, planification) sont mineures et ne remettent pas en cause le cœur du métier."
+  },
+  {
+    "slug": "b1616",
+    "code_rome": "B1616",
+    "title": "Opérateur / Opératrice en horlogerie",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles fines, une présence physique et des interactions avec des objets physiques (composants horlogers), ce qui limite fortement l'impact de l'IA. Seules des tâches périphériques (documentation numérique, gestion de planning) pourraient être assistées par l'IA."
+  },
+  {
+    "slug": "b1701",
+    "code_rome": "B1701",
+    "title": "Taxidermiste",
+    "exposure": 1,
+    "rationale": "Le métier de taxidermiste repose sur des compétences manuelles, artistiques et techniques hautement spécialisées, nécessitant une présence physique en atelier et une interaction directe avec des matériaux organiques. L'IA ne peut pas remplacer les gestes précis, l'expertise anatomique ou les interactions humaines essentielles à ce métier."
+  },
+  {
+    "slug": "b1702",
+    "code_rome": "B1702",
+    "title": "Technicien / Technicienne en ostéologie-moulage",
+    "exposure": 3,
+    "rationale": "Le métier combine des compétences manuelles (préparation des os, moulage) et techniques (utilisation de logiciels 3D, protocoles scientifiques) avec une forte composante physique et artisanale. L'IA peut assister pour l'archivage numérique, l'analyse de données ou la modélisation, mais ne remplace pas le travail de précision et la manipulation d'objets physiques."
+  },
+  {
+    "slug": "b1801",
+    "code_rome": "B1801",
+    "title": "Modiste",
+    "exposure": 2,
+    "rationale": "Le métier de modiste repose sur des compétences manuelles, créatives et artisanales (conception, découpe, assemblage, finition) ainsi que sur des interactions humaines directes avec les clients, ce qui limite fortement l'automatisation par l'IA. Les aspects numériques (CAO, gestion administrative) sont marginaux et ne transforment pas le cœur du métier."
+  },
+  {
+    "slug": "b1802",
+    "code_rome": "B1802",
+    "title": "Maroquinier / Maroquinière",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, une dextérité fine et une interaction physique avec les matériaux (cuir, outils), ce qui limite fortement l'automatisation par l'IA. Seules des tâches périphériques (gestion administrative, conception basique via CAO/DAO) pourraient être assistées par des outils numériques, sans transformer le cœur du métier."
+  },
+  {
+    "slug": "b1803",
+    "code_rome": "B1803",
+    "title": "Couturier / Couturière",
+    "exposure": 3,
+    "rationale": "Le métier de couturier repose sur des compétences manuelles, créatives et relationnelles (mesures, essayages, ajustements esthétiques) difficiles à automatiser. L'IA peut assister pour la conception numérique (patrons, simulations) ou la gestion administrative, mais ne remplace pas l'expertise humaine en atelier ou en interaction client."
+  },
+  {
+    "slug": "b1804",
+    "code_rome": "B1804",
+    "title": "Brodeur / Brodeuse",
+    "exposure": 2,
+    "rationale": "Le métier de brodeur repose principalement sur des compétences manuelles, artistiques et techniques nécessitant une présence physique et une interaction directe avec les matériaux. L'IA peut assister pour des tâches périphériques comme la conception numérique de motifs, mais ne peut pas remplacer le savoir-faire artisanal et la créativité humaine."
+  },
+  {
+    "slug": "b1805",
+    "code_rome": "B1805",
+    "title": "Styliste",
+    "exposure": 8,
+    "rationale": "Le métier de styliste repose principalement sur des tâches numériques (conception assistée par ordinateur, analyse de tendances, création de croquis, gestion de projets) où l'IA progresse rapidement (génération d'images, prédiction de tendances, optimisation de collections). Cependant, la créativité humaine, les interactions physiques avec les matériaux et les relations clients restent cruciales, limitant partiellement l'automatisation."
+  },
+  {
+    "slug": "b1806",
+    "code_rome": "B1806",
+    "title": "Tapissier / Tapissière d'ameublement",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, techniques et artistiques (garnissage, couture, pose de tissus) nécessitant une présence physique et un savoir-faire artisanal difficilement automatisable. L'IA peut assister pour la conception de modèles ou la gestion administrative, mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "b1807",
+    "code_rome": "B1807",
+    "title": "Assistant / Assistante styliste",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (croquis, veille, analyse de tendances, gestion de projets) et créatives, mais conserve une forte composante humaine (jugement esthétique, relations avec fournisseurs et équipes). L'IA peut automatiser une partie des analyses et générer des croquis, mais la créativité et la coordination restent difficiles à remplacer."
+  },
+  {
+    "slug": "b1808",
+    "code_rome": "B1808",
+    "title": "Premier / Première d'atelier",
+    "exposure": 3,
+    "rationale": "Le métier combine une forte composante manuelle, créative et relationnelle (gestion d'équipe, ajustements sur mesure, contrôle qualité) difficilement automatisable, limitant l'exposition directe de l'IA. Cependant, des outils d'IA pourraient assister pour la planification, la gestion des stocks ou l'optimisation des processus de production."
+  },
+  {
+    "slug": "b1809",
+    "code_rome": "B1809",
+    "title": "Sellier / Sellière",
+    "exposure": 1,
+    "rationale": "Le métier de sellier/sellière repose presque entièrement sur des compétences manuelles, une expertise artisanale et une interaction physique avec des matériaux (cuir, peaux) et des outils spécifiques. L'IA ne peut pas reproduire ces gestes techniques, la créativité tactile ou les interactions clients en atelier."
+  },
+  {
+    "slug": "b1810",
+    "code_rome": "B1810",
+    "title": "Fourreur / Fourreuse",
+    "exposure": 2,
+    "rationale": "Le métier de fourreur repose principalement sur des compétences manuelles, artistiques et techniques (découpe, assemblage, finition) difficiles à automatiser. L'IA peut aider pour des tâches périphériques comme la gestion administrative ou la conception assistée par ordinateur, mais ne remplace pas le savoir-faire artisanal et les interactions humaines essentielles."
+  },
+  {
+    "slug": "b1811",
+    "code_rome": "B1811",
+    "title": "Sellier-garnisseur / Sellière-garnisseuse",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles (couture, découpe, finitions) et une présence physique en atelier, avec des interactions techniques et créatives difficiles à automatiser. L'IA peut assister pour la conception numérique ou la gestion logistique, mais ne remplace pas le savoir-faire artisanal."
+  },
+  {
+    "slug": "b1812",
+    "code_rome": "B1812",
+    "title": "Modéliste",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches numériques (CAO/DAO, création de patrons, fiches techniques) et créatives, où l'IA peut automatiser la génération de patrons, l'analyse de tendances ou la simulation de prototypes. La composante manuelle (essayages, couture) limite partiellement l'exposition, mais l'IA transforme déjà les processus de conception."
   }
 ]
