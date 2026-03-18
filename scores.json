@@ -446,5 +446,12 @@
     "title": "Restaurateur / Restauratrice de livres anciens",
     "exposure": 2,
     "rationale": "Ce métier est principalement manuel et physique, impliquant des compétences artisanales spécifiques pour la manipulation et la réparation de matériaux fragiles. Bien que l'IA puisse aider à l'analyse de l'état de conservation ou à la gestion des collections, elle ne peut pas remplacer le savoir-faire manuel et le jugement expert requis pour la restauration physique des livres anciens."
+  },
+  {
+    "slug": "b1813",
+    "code_rome": "B1813",
+    "title": "Tailleur / Tailleuse",
+    "exposure": 3,
+    "rationale": "Le métier de tailleur combine des compétences manuelles précises et une interaction directe avec le client pour la prise de mesures et les essayages. Bien que des outils numériques puissent aider à la conception et à la gestion, le cœur du métier reste physique et artisanal, limitant l'impact direct de l'IA sur l'exécution des tâches."
   }
 ]
