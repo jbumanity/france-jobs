@@ -243,5 +243,26 @@
     "title": "Capitaine de pêche",
     "exposure": 2,
     "rationale": "Le métier de capitaine de pêche est intrinsèquement lié à un environnement physique (la mer) et à des opérations manuelles complexes (gestion de la pêche, navigation). Bien que l'IA puisse aider à la planification ou à l'analyse de données météorologiques, le cœur du métier, qui implique la prise de décision en temps réel dans des conditions changeantes et la gestion d'un équipage, reste largement humain."
+  },
+  {
+    "slug": "a1423",
+    "code_rome": "A1423",
+    "title": "¼nologue",
+    "exposure": 4,
+    "rationale": "L'œnologue combine des analyses scientifiques et sensorielles avec des conseils humains et une présence physique dans les vignobles et les caves. L'IA peut aider à l'analyse des données et à la prédiction des tendances, mais le jugement expert, la perception sensorielle fine et l'interaction directe avec le produit et les producteurs restent essentiels."
+  },
+  {
+    "slug": "a1425",
+    "code_rome": "A1425",
+    "title": "Ramendeur / Ramendeuse",
+    "exposure": 1,
+    "rationale": "Le métier de ramendeur est intrinsèquement manuel et physique, impliquant la manipulation de filets et souvent une présence sur des quais ou des bateaux. Les tâches principales de réparation et d'entretien des filets sont difficiles à automatiser par l'IA, qui n'a pas de capacité physique pour interagir avec le monde réel de cette manière."
+  },
+  {
+    "slug": "a1426",
+    "code_rome": "A1426",
+    "title": "Educateur canin / Educatrice canine",
+    "exposure": 2,
+    "rationale": "L'éducation canine repose fondamentalement sur l'interaction physique avec l'animal et l'observation de son comportement en temps réel. Bien que l'IA puisse aider à la planification ou à la gestion administrative, elle ne peut remplacer l'expertise humaine dans l'évaluation et la modification du comportement canin dans des situations concrètes."
   }
 ]
