@@ -936,5 +936,1867 @@
     "title": "Modéliste",
     "exposure": 8,
     "rationale": "Le métier repose sur des tâches numériques (CAO/DAO, création de patrons, fiches techniques) et créatives, où l'IA peut automatiser la génération de patrons, l'analyse de tendances ou la simulation de prototypes. La composante manuelle (essayages, couture) limite partiellement l'exposition, mais l'IA transforme déjà les processus de conception."
+  },
+  {
+    "slug": "b1813",
+    "code_rome": "B1813",
+    "title": "Tailleur / Tailleuse",
+    "exposure": 2,
+    "rationale": "Le métier de tailleur repose sur des compétences manuelles, créatives et relationnelles (prise de mesures, essayage, retouches) difficiles à automatiser. L'IA peut assister pour la conception numérique (CAO) ou la gestion administrative, mais ne remplace pas l'expertise artisanale et l'interaction humaine."
+  },
+  {
+    "slug": "b1814",
+    "code_rome": "B1814",
+    "title": "Directeur / Directrice de collection",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches créatives, stratégiques et analytiques (veille, budgétisation, coordination) avec une forte composante numérique (logiciels CAO/DAO, outils de pilotage). L'IA peut automatiser une partie de l'analyse des tendances, la génération de concepts ou l'optimisation budgétaire, mais le leadership, la vision artistique et la gestion d'équipes restent humains."
+  },
+  {
+    "slug": "c1101",
+    "code_rome": "C1101",
+    "title": "Chargé / Chargée de produit en assurances",
+    "exposure": 8,
+    "rationale": "Ce métier repose sur des tâches principalement numériques (analyse de données, modélisation actuarielle, conception de produits, stratégie commerciale) où l'IA excelle déjà (automatisation des calculs, analyse prédictive, génération de rapports). Les compétences clés (statistiques, actuariat, marketing) sont fortement impactées par les outils d'IA."
+  },
+  {
+    "slug": "c1102",
+    "code_rome": "C1102",
+    "title": "Conseiller / Conseillère en assurances",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (conseil, rédaction de contrats, analyse de données clients, gestion administrative) où l'IA peut automatiser une grande partie du travail (chatbots pour le conseil, analyse prédictive pour les devis, traitement automatique des réclamations). La relation client et la vente restent des éléments humains, mais l'IA peut les assister massivement."
+  },
+  {
+    "slug": "c1103",
+    "code_rome": "C1103",
+    "title": "Courtier / Courtière en assurance",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des compétences commerciales, relationnelles et analytiques fortement numérisables (analyse de risques, veille marché, gestion de portefeuille clients). L'IA peut automatiser des tâches comme la sélection d'offres ou la gestion documentaire, mais l'intermédiation humaine et la négociation restent centrales."
+  },
+  {
+    "slug": "c1104",
+    "code_rome": "C1104",
+    "title": "Responsable d'agence en assurances",
+    "exposure": 7,
+    "rationale": "Le métier combine gestion administrative, analyse de risques et stratégie commerciale, avec une forte composante numérique (logiciels de gestion, analyse de données). L'IA peut automatiser une partie des tâches répétitives (traitement de dossiers, analyse de contrats) et optimiser la prise de décision, mais le jugement humain, la relation client et le management restent centraux."
+  },
+  {
+    "slug": "c1105",
+    "code_rome": "C1105",
+    "title": "Actuaire",
+    "exposure": 9,
+    "rationale": "Le métier d'actuaire repose presque exclusivement sur le traitement de données numériques, la modélisation mathématique et l'analyse statistique, domaines où l'IA progresse rapidement. Les tâches comme les calculs de rentabilité, la tarification ou la gestion de données massives sont déjà partiellement automatisables."
+  },
+  {
+    "slug": "c1106",
+    "code_rome": "C1106",
+    "title": "Expert / Experte risques en assurances",
+    "exposure": 8,
+    "rationale": "Le métier repose sur l'analyse de données, la rédaction de rapports, l'évaluation de risques et la gestion de sinistres, des tâches hautement numérisables. L'IA peut automatiser une grande partie des analyses statistiques, la détection de fraudes et la rédaction de documents techniques, tout en améliorant la précision des évaluations."
+  },
+  {
+    "slug": "c1107",
+    "code_rome": "C1107",
+    "title": "Chargé / Chargée d'indemnisations en assurances",
+    "exposure": 8,
+    "rationale": "Le métier repose principalement sur l'analyse de données, la rédaction de rapports, l'évaluation de sinistres et la gestion de processus numériques (dossiers, contrats, réglementations). Les outils d'IA peuvent automatiser une grande partie des tâches d'analyse, de synthèse et même de proposition d'indemnisation, réduisant fortement le besoin en main-d'œuvre humaine pour les tâches routinières."
+  },
+  {
+    "slug": "c1108",
+    "code_rome": "C1108",
+    "title": "Responsable de département en assurances",
+    "exposure": 8,
+    "rationale": "Ce métier repose principalement sur des tâches de gestion, d'analyse de données, de prise de décision stratégique et de communication, toutes réalisables numériquement. L'IA peut automatiser une partie des processus (évaluation des risques, gestion des sinistres, analyse de données) et augmenter la productivité des responsables grâce à des outils d'aide à la décision."
+  },
+  {
+    "slug": "c1109",
+    "code_rome": "C1109",
+    "title": "Gestionnaire en assurances",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (rédaction de contrats, gestion de dossiers, analyse de risques) où l'IA excelle déjà (automatisation des contrats, analyse de données, chatbots pour le service client). Les compétences relationnelles et juridiques complexes limitent partiellement l'automatisation totale, mais l'IA transformera radicalement la productivité et la structure du métier."
+  },
+  {
+    "slug": "c1110",
+    "code_rome": "C1110",
+    "title": "Souscripteur / Souscriptrice en assurances",
+    "exposure": 8,
+    "rationale": "Le métier repose sur l'analyse de risques, la rédaction de contrats, la veille réglementaire et la gestion de portefeuilles, des tâches hautement numérisables. L'IA peut déjà automatiser une partie de l'évaluation des risques (science actuarielle) et générer des propositions commerciales, réduisant fortement le besoin en souscripteurs humains pour les processus routiniers."
+  },
+  {
+    "slug": "c1111",
+    "code_rome": "C1111",
+    "title": "Mandataire en assurance",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des compétences commerciales, relationnelles et d'analyse de risques, mais intègre aussi des tâches numériques (CRM, veille, souscription en ligne). L'IA peut automatiser certaines analyses de risques, la personnalisation de propositions ou la gestion de données clients, tout en renforçant la productivité des mandataires."
+  },
+  {
+    "slug": "c1112",
+    "code_rome": "C1112",
+    "title": "Agent général / Agente générale d'assurance",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (analyse de risques, rédaction de contrats, gestion de sinistres) et relationnelles, mais l'IA peut automatiser une partie significative du traitement de l'information et des recommandations standardisées. La dimension commerciale et humaine reste cruciale, limitant une exposition totale."
+  },
+  {
+    "slug": "c1113",
+    "code_rome": "C1113",
+    "title": "Expert / Experte en assurances dommages automobile",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (rédaction de rapports, analyse de dossiers, estimation de coûts) et une expertise technique, mais nécessite des interactions humaines (négociation, inspection physique) et une présence sur le terrain. L'IA peut automatiser une partie significative des analyses et des rapports, mais le cœur du métier reste humain."
+  },
+  {
+    "slug": "c1201",
+    "code_rome": "C1201",
+    "title": "Chargé / Chargée d'accueil en banque",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches physiques (accueil en agence, opérations de guichet) et des activités numériques (conseil client, gestion de comptes, vente de produits). L'IA peut automatiser une partie des interactions clients (chatbots, assistants virtuels) et des tâches administratives, mais la relation humaine et la confiance restent centrales."
+  },
+  {
+    "slug": "c1202",
+    "code_rome": "C1202",
+    "title": "Analyste de crédits et risques bancaires",
+    "exposure": 9,
+    "rationale": "Ce métier repose presque exclusivement sur l'analyse de données financières, la modélisation de risques et la rédaction de rapports, des tâches hautement numérisables. Les outils d'IA (comme les algorithmes de scoring, l'analyse prédictive ou le traitement automatique de documents) peuvent automatiser une grande partie des analyses et décisions, réduisant fortement le besoin en main-d'œuvre humaine."
+  },
+  {
+    "slug": "c1203",
+    "code_rome": "C1203",
+    "title": "Chargé / Chargée d'affaires bancaires entreprise",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des compétences numériques clés (analyse financière, rédaction de rapports, gestion des risques) et une forte composante relationnelle, mais l'IA peut automatiser une partie des tâches d'analyse et de synthèse. La dimension commerciale et la prise de décision stratégique restent humaines."
+  },
+  {
+    "slug": "c1204",
+    "code_rome": "C1204",
+    "title": "Gestionnaire de produits bancaires",
+    "exposure": 8,
+    "rationale": "Ce métier repose sur des tâches hautement numériques (analyse de données, modélisation financière, prise de décision automatisée) où l'IA excelle déjà (data science, scoring de crédit, optimisation de produits). Les compétences manuelles ou relationnelles sont marginales, et l'IA peut automatiser une grande partie des processus analytiques et décisionnels."
+  },
+  {
+    "slug": "c1205",
+    "code_rome": "C1205",
+    "title": "Conseiller / Conseillère en gestion de patrimoine",
+    "exposure": 8,
+    "rationale": "Le métier repose sur l'analyse de données financières, la modélisation de portefeuilles et la rédaction de stratégies patrimoniales, toutes tâches hautement numérisables. L'IA peut automatiser l'analyse de risques, la génération de rapports et même proposer des montages financiers optimisés, réduisant fortement le besoin en effectifs humains."
+  },
+  {
+    "slug": "c1206",
+    "code_rome": "C1206",
+    "title": "Conseiller / Conseillère de clientèle bancaire",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (analyse financière, gestion de dossiers, conseil client) où l'IA peut automatiser une grande partie du traitement de l'information et des recommandations. Les interactions humaines restent importantes mais l'IA peut assister voire remplacer certaines fonctions (analyse de risques, montage de dossiers)."
+  },
+  {
+    "slug": "c1207",
+    "code_rome": "C1207",
+    "title": "Directeur / Directrice d'agence bancaire",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse financière, gestion des risques, conformité réglementaire) et des interactions humaines (management d'équipe, relation client, négociation). L'IA peut automatiser une partie des analyses et des processus, mais le jugement humain et la supervision restent essentiels pour les décisions stratégiques et la gestion d'équipe."
+  },
+  {
+    "slug": "c1208",
+    "code_rome": "C1208",
+    "title": "Courtier / Courtière en banque",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches numériques (analyse de dossiers, comparaison d'offres, calculs financiers) où l'IA peut automatiser une grande partie du travail (analyse de solvabilité, génération de rapports, veille réglementaire). Les interactions humaines restent importantes mais l'IA peut assister voire remplacer une partie des activités de conseil et de négociation."
+  },
+  {
+    "slug": "c1209",
+    "code_rome": "C1209",
+    "title": "Spécialiste de la vérification client",
+    "exposure": 8,
+    "rationale": "Le métier repose principalement sur l'analyse de données, la rédaction de rapports, la veille réglementaire et l'utilisation de logiciels spécialisés, activités hautement numérisables. L'IA peut automatiser une grande partie des tâches de vérification, d'analyse de risques et de détection d'anomalies, tout en améliorant la productivité des analystes."
+  },
+  {
+    "slug": "c1301",
+    "code_rome": "C1301",
+    "title": "Trader",
+    "exposure": 9,
+    "rationale": "Le métier de trader repose presque exclusivement sur l'analyse de données financières, l'émission d'ordres automatisés (algorithmes), et la gestion de portefeuilles numériques. L'IA excelle déjà dans ces domaines (trading algorithmique, analyse prédictive, gestion de risques) et transforme radicalement les pratiques du secteur."
+  },
+  {
+    "slug": "c1302",
+    "code_rome": "C1302",
+    "title": "Gestionnaire des opérations sur les marchés financiers",
+    "exposure": 8,
+    "rationale": "Ce métier repose presque entièrement sur le traitement numérique d'informations financières (contrôle des transactions, analyse de données, conformité réglementaire, rédaction de rapports). Les outils d'IA (automatisation des contrôles, analyse prédictive, génération de rapports) peuvent déjà réaliser une grande partie des tâches, réduisant le besoin en effectifs humains."
+  },
+  {
+    "slug": "c1303",
+    "code_rome": "C1303",
+    "title": "Gérant / Gérante de portefeuille financier",
+    "exposure": 9,
+    "rationale": "Ce métier repose presque exclusivement sur l'analyse de données financières, la rédaction de rapports, la veille de marché et la gestion de portefeuilles via des outils numériques. L'IA excelle déjà dans l'analyse prédictive, l'automatisation des rapports et la gestion algorithmique, réduisant fortement le besoin en gestionnaires humains pour les tâches routinières."
+  },
+  {
+    "slug": "c1401",
+    "code_rome": "C1401",
+    "title": "Agent administratif / Agente administrative banque ou assurance",
+    "exposure": 8,
+    "rationale": "Ce métier repose sur des tâches entièrement numériques (saisie, vérification, gestion de contrats, rapports) où l'IA peut automatiser une grande partie du travail. Les compétences manuelles ou relationnelles sont marginales, limitant l'exposition à des niveaux inférieurs."
+  },
+  {
+    "slug": "c1501",
+    "code_rome": "C1501",
+    "title": "Gestionnaire de copropriété",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches principalement numériques (gestion administrative, comptabilité, analyse de données, rédaction de rapports) et une partie relationnelle (médiation, assemblées générales). L'IA peut automatiser une grande partie des processus répétitifs (saisie, analyse de contrats, suivi de travaux) tout en laissant une place importante au jugement humain et aux interactions."
+  },
+  {
+    "slug": "c1502",
+    "code_rome": "C1502",
+    "title": "Chargé / Chargée de gestion locative en immobilier",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches administratives et numériques (gestion comptable, rédaction de rapports, suivi de systèmes d'information) avec des activités physiques et relationnelles (état des lieux, gestion d'équipes, travaux de rénovation). L'IA peut automatiser une partie significative des tâches numériques, mais la dimension humaine et physique limite une exposition plus élevée."
+  },
+  {
+    "slug": "c1503",
+    "code_rome": "C1503",
+    "title": "Chargé / Chargée d'affaires immobilières",
+    "exposure": 8,
+    "rationale": "Ce métier repose principalement sur des tâches numériques (montage financier, juridique, veille de marché, gestion administrative) où l'IA peut automatiser une grande partie du travail de traitement de l'information. Les interactions humaines et physiques restent présentes mais secondaires."
+  },
+  {
+    "slug": "c1504",
+    "code_rome": "C1504",
+    "title": "Conseiller / Conseillère immobilier",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (estimation de biens, gestion administrative, veille marché) et relationnelles (négociation, conseil client), mais l'IA peut automatiser une partie significative des analyses de données, de la rédaction de descriptifs ou de la prospection. La composante humaine (empathie, négociation en face-à-face) limite une exposition totale."
+  },
+  {
+    "slug": "c1505",
+    "code_rome": "C1505",
+    "title": "Responsable d'agence immobilière",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (gestion administrative, analyse de données, reporting) et des interactions humaines critiques (négociation, management d'équipe, conseil client). L'IA peut automatiser certaines analyses ou tâches administratives, mais le cœur du métier repose sur des compétences relationnelles et décisionnelles difficiles à remplacer."
+  },
+  {
+    "slug": "c1506",
+    "code_rome": "C1506",
+    "title": "Responsable de projet immobilier",
+    "exposure": 6,
+    "rationale": "Le métier combine gestion de projets numériques (plans, études, conformité) et coordination humaine (chantiers, équipes, négociations), avec une forte composante stratégique et relationnelle. L'IA peut automatiser des tâches comme l'analyse de données techniques ou la veille réglementaire, mais le cœur du métier (leadership, résolution de conflits, adaptation aux imprévus) reste humain."
+  },
+  {
+    "slug": "d1101",
+    "code_rome": "D1101",
+    "title": "Boucher / Bouchère",
+    "exposure": 2,
+    "rationale": "Le métier de boucher repose principalement sur des compétences manuelles (découpe, désossage), une présence physique en atelier/boutique et des interactions humaines directes avec les clients. L'IA ne peut pas remplacer ces aspects physiques et relationnels, limitant son impact à des tâches périphériques (gestion des stocks, conformité réglementaire)."
+  },
+  {
+    "slug": "d1102",
+    "code_rome": "D1102",
+    "title": "Boulanger / Boulangère",
+    "exposure": 1,
+    "rationale": "Le métier de boulanger repose sur des compétences manuelles, sensorielles (toucher, odorat, goût) et une présence physique constante en atelier ou en boutique, avec des interactions humaines directes. L'IA ne peut pas reproduire ces aspects essentiels, limitant son impact à des tâches périphériques comme la gestion des stocks ou la conception de recettes (automatisable à 10-20%)."
+  },
+  {
+    "slug": "d1103",
+    "code_rome": "D1103",
+    "title": "Charcutier-traiteur / Charcutière-traiteuse",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, sensorielles (goût, toucher) et une présence physique en environnement non numérique (manipulation de viande, interaction client en boutique). L'IA ne peut pas automatiser ces tâches clés."
+  },
+  {
+    "slug": "d1104",
+    "code_rome": "D1104",
+    "title": "Pâtissier / Pâtissière",
+    "exposure": 1,
+    "rationale": "Le métier de pâtissier repose sur des compétences manuelles, sensorielles (goût, toucher) et créatives en temps réel, difficiles à automatiser. L'IA peut assister pour la gestion des stocks ou la planification, mais ne remplace pas l'expertise artisanale et l'interaction humaine essentielle."
+  },
+  {
+    "slug": "d1105",
+    "code_rome": "D1105",
+    "title": "Poissonnier / Poissonnière",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles (découpe, préparation), une présence physique en magasin et des interactions humaines directes avec les clients, limitant fortement l'impact de l'IA. Seules des tâches périphériques (gestion des stocks, analyse des tendances) pourraient être assistées par des outils numériques."
+  },
+  {
+    "slug": "d1106",
+    "code_rome": "D1106",
+    "title": "Vendeur / Vendeuse en épicerie",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des interactions physiques avec les clients, la manipulation de produits alimentaires et des tâches manuelles (préparation, mise en rayon, entretien). L'IA peut assister pour la gestion des stocks ou l'encaissement, mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "d1107",
+    "code_rome": "D1107",
+    "title": "Vendeur / Vendeuse grossiste en produits frais",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches physiques (réception, stockage, mise en valeur des produits) et des activités relationnelles (négociation, conseil client) avec une faible composante numérique. L'IA peut assister pour le suivi des stocks ou la gestion des commandes, mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "d1108",
+    "code_rome": "D1108",
+    "title": "Chef boulanger / Cheffe boulangère",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles (pétrissage, façonnage, cuisson), une présence physique en atelier et des interactions humaines directes (gestion d'équipe, service client). L'IA peut aider pour la gestion des stocks ou l'optimisation des recettes, mais ne peut pas remplacer le savoir-faire artisanal ou la supervision humaine."
+  },
+  {
+    "slug": "d1109",
+    "code_rome": "D1109",
+    "title": "Chef boucher / Cheffe bouchère",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles (découpe, désossage, préparation), une présence physique en boutique et des interactions humaines directes avec les clients. L'IA ne peut pas remplacer ces aspects physiques et relationnels, bien qu'elle puisse assister pour la gestion des stocks ou la traçabilité."
+  },
+  {
+    "slug": "d1110",
+    "code_rome": "D1110",
+    "title": "Vendeur ambulant / Vendeuse ambulante",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des interactions physiques directes avec les clients, la gestion manuelle des stocks et des transactions, ainsi que des compétences relationnelles et commerciales qui nécessitent une présence sur le terrain. L'IA ne peut pas remplacer ces aspects fondamentaux."
+  },
+  {
+    "slug": "d1111",
+    "code_rome": "D1111",
+    "title": "Chef / Cheffe de laboratoire en charcuterie",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches manuelles (fabrication, découpe, fumage) et des responsabilités de supervision physique (contrôle qualité, encadrement d'équipe), limitant l'impact direct de l'IA. Seules des tâches périphériques (gestion des stocks, planification via logiciels) pourraient être partiellement automatisées."
+  },
+  {
+    "slug": "d1112",
+    "code_rome": "D1112",
+    "title": "Chef charcutier-traiteur / Cheffe charcutière-traiteuse",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles (découpe, préparation), une présence physique en cuisine et des interactions humaines directes (clientèle, équipe), limitant fortement l'impact de l'IA. Les tâches numériques (gestion des stocks, commandes) sont mineures et périphériques."
+  },
+  {
+    "slug": "d1113",
+    "code_rome": "D1113",
+    "title": "Commercial itinérant / Commerciale itinérante en entreprise de commerce de gros",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (reporting, gestion de portefeuille clients, analyse de données) et des interactions humaines essentielles (négociation, fidélisation, prospection). L'IA peut automatiser certaines analyses ou tâches administratives, mais la relation client et la négociation restent difficiles à remplacer."
+  },
+  {
+    "slug": "d1114",
+    "code_rome": "D1114",
+    "title": "Torréfacteur / Torréfactrice",
+    "exposure": 2,
+    "rationale": "Le métier de torréfacteur repose sur des compétences manuelles, sensorielles (goût, odorat) et une présence physique en atelier, avec des interactions humaines et une gestion artisanale. L'IA peut aider pour la gestion administrative ou l'analyse de tendances, mais ne peut pas remplacer le savoir-faire artisanal ou les décisions en temps réel basées sur l'expérience sensorielle."
+  },
+  {
+    "slug": "d1115",
+    "code_rome": "D1115",
+    "title": "Chocolatier / Chocolatière",
+    "exposure": 2,
+    "rationale": "Le métier de chocolatier repose principalement sur des compétences manuelles, créatives et sensorielles (tempérage, décoration, sélection des ingrédients) ainsi que sur des interactions physiques avec les produits et les clients. L'IA peut assister pour la gestion des stocks ou la veille concurrentielle, mais ne peut pas remplacer le savoir-faire artisanal ou la présence physique nécessaire."
+  },
+  {
+    "slug": "d1116",
+    "code_rome": "D1116",
+    "title": "Négociant / Négociante en bétail",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences physiques (manipulation des animaux, transport), relationnelles (négociation, réseau) et réglementaires (bien-être animal, traçabilité), avec une faible composante numérique. L'IA peut aider pour des tâches administratives mineures, mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "d1117",
+    "code_rome": "D1117",
+    "title": "Chef pâtissier / Cheffe pâtissière",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, créatives et relationnelles (supervision d'équipe, innovation culinaire, respect des normes d'hygiène) difficiles à automatiser. L'IA peut assister pour la gestion des stocks ou l'analyse des tendances, mais ne remplace pas le savoir-faire artisanal et l'interaction humaine."
+  },
+  {
+    "slug": "d1118",
+    "code_rome": "D1118",
+    "title": "Glacier / Glacière",
+    "exposure": 1,
+    "rationale": "Le métier de glacier repose sur des compétences manuelles, créatives et physiques (préparation, dosage, utilisation de machines spécifiques, interaction avec les clients) qui nécessitent une présence physique et un savoir-faire artisanal difficilement automatisable par l'IA. Les tâches numériques sont marginales."
+  },
+  {
+    "slug": "d1201",
+    "code_rome": "D1201",
+    "title": "Brocanteur / Brocanteuse",
+    "exposure": 3,
+    "rationale": "Le métier combine des compétences physiques (recherche, restauration, présentation des objets) et relationnelles (négociation, conseil client) avec des tâches administratives et d'expertise (estimation, gestion des stocks). L'IA peut assister pour la documentation, la gestion des bases de données ou l'analyse de tendances, mais ne peut remplacer le jugement humain, l'expertise tactile/visuelle ou les interactions sociales essentielles."
+  },
+  {
+    "slug": "d1202",
+    "code_rome": "D1202",
+    "title": "Coiffeur / Coiffeuse",
+    "exposure": 1,
+    "rationale": "Le métier de coiffeur repose sur des compétences manuelles, créatives et relationnelles en temps réel avec des clients, ainsi que sur une présence physique dans un environnement non numérique. L'IA ne peut pas remplacer ces interactions humaines ou les manipulations physiques des cheveux."
+  },
+  {
+    "slug": "d1203",
+    "code_rome": "D1203",
+    "title": "Agent / Agente de soins en hydrothérapie",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des interactions physiques directes avec les clients (soins manuels, accompagnement, massages) et une présence obligatoire dans des environnements thermaux, limitant fortement l'automatisation par l'IA. Seules des tâches périphériques (gestion de dossiers, promotion) pourraient être assistées par des outils numériques."
+  },
+  {
+    "slug": "d1204",
+    "code_rome": "D1204",
+    "title": "Agent technico-commercial / Agente technico-commerciale en location de véhicules",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches physiques (livraison, vérification des véhicules, réparations mineures) et relationnelles (accueil, conseil, gestion des conflits), avec une partie administrative numérique (réservations, facturation). L'IA peut automatiser certaines tâches comme la gestion des réservations ou l'analyse des besoins clients, mais le cœur du métier reste ancré dans l'interaction humaine et la présence physique."
+  },
+  {
+    "slug": "d1205",
+    "code_rome": "D1205",
+    "title": "Employé / Employée de pressing",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, physiques et une interaction directe avec les clients et les textiles, ce qui limite fortement l'impact de l'IA. Les tâches sont majoritairement réalisées dans un environnement physique et nécessitent une présence humaine."
+  },
+  {
+    "slug": "d1206",
+    "code_rome": "D1206",
+    "title": "Cordonnier / Cordonnière",
+    "exposure": 1,
+    "rationale": "Le métier de cordonnier repose principalement sur des compétences manuelles, une expertise artisanale et des interactions physiques avec des matériaux (cuir, outils, machines). L'IA n'a pas d'impact significatif sur les tâches centrales comme la réparation, la couture ou l'ajustement."
+  },
+  {
+    "slug": "d1207",
+    "code_rome": "D1207",
+    "title": "Retoucheur / Retoucheuse en habillement",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles (couture, ajustements physiques) et des interactions humaines directes (conseil client, essayage), difficiles à automatiser. L'IA pourrait assister pour la gestion administrative ou la planification, mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "d1208",
+    "code_rome": "D1208",
+    "title": "Esthéticien / Esthéticienne",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, des interactions humaines en temps réel et une présence physique pour les soins esthétiques, ce qui limite fortement l'automatisation par l'IA. Seules des tâches périphériques (gestion des stocks, prise de rendez-vous) pourraient être partiellement assistées par des outils numériques."
+  },
+  {
+    "slug": "d1209",
+    "code_rome": "D1209",
+    "title": "Fleuriste",
+    "exposure": 2,
+    "rationale": "Le métier de fleuriste repose principalement sur des compétences manuelles, créatives et relationnelles en contact direct avec les clients et les produits physiques. L'IA ne peut pas remplacer l'expertise tactile, visuelle et sensorielle nécessaire pour sélectionner, préserver et arranger les fleurs."
+  },
+  {
+    "slug": "d1210",
+    "code_rome": "D1210",
+    "title": "Vendeur / Vendeuse en animalerie",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des interactions physiques avec les animaux, des compétences manuelles (nettoyage, manipulation) et un conseil client en temps réel, difficiles à automatiser. L'IA peut aider pour la gestion des stocks ou la facturation, mais n'impacte pas le cœur du métier."
+  },
+  {
+    "slug": "d1211",
+    "code_rome": "D1211",
+    "title": "Vendeur / Vendeuse d'articles de sport et loisirs",
+    "exposure": 3,
+    "rationale": "Le métier repose sur des interactions humaines en face-à-face, des compétences manuelles (réglages, maintenance) et une présence physique en boutique, limitant l'automatisation par l'IA. Seules les tâches administratives (gestion des stocks, inventaire) ou numériques (outils de gestion) pourraient être partiellement assistées par l'IA."
+  },
+  {
+    "slug": "d1212",
+    "code_rome": "D1212",
+    "title": "Vendeur / Vendeuse en équipement de la maison",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches physiques (manutention, découpe, mise en rayon) et relationnelles (conseil client, vente) avec des activités numériques limitées (gestion de stock, CAO/DAO). L'IA peut automatiser certaines tâches administratives ou de gestion, mais le cœur du métier reste ancré dans l'interaction humaine et le travail manuel."
+  },
+  {
+    "slug": "d1213",
+    "code_rome": "D1213",
+    "title": "Vendeur / Vendeuse grossiste en équipement du foyer",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches physiques (réception, manutention, présentation des produits) et des activités numériques (gestion des stocks, commandes, négociation avec les fournisseurs). L'IA peut automatiser partiellement la gestion des stocks et l'analyse des tendances, mais l'interaction humaine et la logistique restent essentielles."
+  },
+  {
+    "slug": "d1214",
+    "code_rome": "D1214",
+    "title": "Vendeur / Vendeuse en prêt-à-porter",
+    "exposure": 3,
+    "rationale": "Le métier repose principalement sur des interactions humaines en magasin, la démonstration de produits et la gestion physique des stocks, ce qui limite l'impact direct de l'IA. Cependant, des outils d'analyse de données clients ou de gestion automatisée des stocks pourraient partiellement transformer certaines tâches."
+  },
+  {
+    "slug": "d1215",
+    "code_rome": "D1215",
+    "title": "Posticheur / Posticheuse",
+    "exposure": 2,
+    "rationale": "Le métier de posticheur repose principalement sur des compétences manuelles, artistiques et relationnelles en présentiel, avec une forte composante tactile et créative difficilement automatisable. L'IA peut assister pour la conception numérique de modèles ou la gestion administrative, mais ne peut remplacer l'expertise humaine en matière de confort, d'esthétique naturelle ou de collaboration directe avec les clients."
+  },
+  {
+    "slug": "d1216",
+    "code_rome": "D1216",
+    "title": "Coiffeur barbier / Coiffeuse barbière",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, artistiques et relationnelles en présentiel, avec une forte composante physique (coupes, rasages) et une interaction humaine directe. L'IA ne peut pas reproduire ces aspects."
+  },
+  {
+    "slug": "d1217",
+    "code_rome": "D1217",
+    "title": "Socio-coiffeur / Socio-coiffeuse",
+    "exposure": 2,
+    "rationale": "Le métier de socio-coiffeur repose principalement sur des interactions humaines en présentiel, des compétences manuelles et une dimension sociale et psychologique forte, difficiles à automatiser. L'IA peut aider pour la gestion administrative ou la promotion, mais ne peut remplacer le cœur du métier."
+  },
+  {
+    "slug": "d1218",
+    "code_rome": "D1218",
+    "title": "Formateur coiffeur / Formatrice coiffeuse",
+    "exposure": 3,
+    "rationale": "Le métier combine des compétences manuelles (coiffure) et pédagogiques, avec une forte composante relationnelle et physique en atelier. L'IA peut assister pour la gestion administrative ou la veille technique, mais ne peut pas remplacer l'enseignement pratique ou l'expertise humaine en coiffure."
+  },
+  {
+    "slug": "d1219",
+    "code_rome": "D1219",
+    "title": "Vendeur / Vendeuse conseil en jardinerie",
+    "exposure": 3,
+    "rationale": "Le métier combine des compétences physiques (entretien des végétaux, démonstrations pratiques) et relationnelles (conseil client, vente) avec des tâches administratives mineures (gestion des stocks, commandes). L'IA peut assister pour la planification ou l'analyse des tendances, mais le cœur du métier reste ancré dans le monde physique et l'interaction humaine."
+  },
+  {
+    "slug": "d1220",
+    "code_rome": "D1220",
+    "title": "Gérant / Gérante salon de coiffure",
+    "exposure": 3,
+    "rationale": "Le métier combine gestion administrative (planification, stocks, marketing) et interactions humaines (accueil, conseil, formation), avec une forte composante manuelle et créative. L'IA peut assister pour la gestion ou l'analyse de données, mais ne peut remplacer l'expertise technique, relationnelle ou artistique du coiffeur."
+  },
+  {
+    "slug": "d1221",
+    "code_rome": "D1221",
+    "title": "Vendeur / Vendeuse de produits culturels et ludiques",
+    "exposure": 3,
+    "rationale": "Le métier combine des interactions humaines essentielles (conseil, accueil, vente) et des tâches physiques (mise en rayon, gestion des stocks) avec une faible composante numérique. L'IA peut assister pour la gestion des stocks ou l'analyse des tendances, mais ne remplace pas le cœur relationnel et manuel du métier."
+  },
+  {
+    "slug": "d1222",
+    "code_rome": "D1222",
+    "title": "Masseur / Masseuse bien-être",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, un toucher humain et une interaction physique directe avec le client, ce qui limite fortement l'automatisation par l'IA. Les aspects relationnels et sensoriels sont centraux et difficiles à reproduire par des outils numériques."
+  },
+  {
+    "slug": "d1223",
+    "code_rome": "D1223",
+    "title": "Conseiller / Conseillère de vente en pièces de rechange et accessoires de véhicules",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches numériques (gestion des stocks, logiciels de vente) et des interactions physiques/relationnelles (conseil technique, accueil client, manutention). L'IA peut optimiser la gestion des stocks et la préparation des commandes, mais le cœur du métier repose sur des compétences humaines (relation client, expertise technique)."
+  },
+  {
+    "slug": "d1224",
+    "code_rome": "D1224",
+    "title": "Chargé / Chargée de location d'engins et de matériel de chantier",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches physiques (manipulation d'engins, maintenance) et des activités numériques (gestion de contrats, plannings, logiciels de suivi). L'IA peut automatiser partiellement la gestion administrative et l'analyse de données, mais l'interaction humaine, la logistique terrain et la maintenance restent essentielles."
+  },
+  {
+    "slug": "d1225",
+    "code_rome": "D1225",
+    "title": "Responsable d'institut de beauté",
+    "exposure": 3,
+    "rationale": "Le métier combine gestion administrative, commerciale et encadrement d'équipe (tâches numériques potentielles) avec des activités physiques, manuelles et relationnelles en contact direct avec la clientèle (soins, hygiène, animation). L'IA peut assister pour la gestion, la planification ou le marketing, mais ne peut remplacer le cœur du métier."
+  },
+  {
+    "slug": "d1226",
+    "code_rome": "D1226",
+    "title": "Nettoyeur / Nettoyeuse en cuir et peausserie",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des compétences manuelles, une expertise tactile et des interactions physiques avec des matériaux nobles, ce qui limite fortement l'automatisation par l'IA. Les tâches de nettoyage, restauration et conseil client nécessitent une présence physique et un jugement humain."
+  },
+  {
+    "slug": "d1227",
+    "code_rome": "D1227",
+    "title": "Acheteur vendeur / Acheteuse vendeuse d'or, de métaux précieux",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches physiques (stockage, authentification, restauration) et des activités numériques (analyse de marché, gestion administrative, négociation). L'IA peut assister pour l'analyse des tendances ou la gestion des stocks, mais le cœur du métier repose sur l'expertise humaine et les interactions physiques."
+  },
+  {
+    "slug": "d1228",
+    "code_rome": "D1228",
+    "title": "Employé / Employée de laverie automatique",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des tâches physiques (manipulation du linge, maintenance des machines), une présence physique obligatoire et des interactions humaines directes avec les clients. L'IA ne peut pas remplacer ces aspects, limitant son impact à des tâches périphériques mineures comme la gestion des stocks ou des paiements."
+  },
+  {
+    "slug": "d1229",
+    "code_rome": "D1229",
+    "title": "Responsable de pressing",
+    "exposure": 2,
+    "rationale": "Le métier combine des tâches physiques (nettoyage, repassage, manipulation de textiles) et des activités relationnelles (gestion d'équipe, relation client) avec une faible composante numérique. L'IA peut assister pour la gestion administrative ou la planification, mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "d1230",
+    "code_rome": "D1230",
+    "title": "Responsable d'agence de location de matériel de transport",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches managériales, relationnelles et analytiques avec une composante physique (supervision des opérations de transport). L'IA peut automatiser certaines analyses de données, la gestion administrative ou la planification, mais le cœur du métier repose sur des interactions humaines, la supervision terrain et la prise de décision stratégique, limitant fortement l'exposition."
+  },
+  {
+    "slug": "d1231",
+    "code_rome": "D1231",
+    "title": "Spa Praticien / Spa Praticienne",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, des interactions humaines en temps réel et une présence physique dans un environnement non numérique (soins, massages, gestion d'un espace physique). L'IA peut assister pour la gestion administrative ou la formation, mais ne peut pas remplacer le cœur du métier."
+  },
+  {
+    "slug": "d1232",
+    "code_rome": "D1232",
+    "title": "Formateur / Formatrice en esthétisme",
+    "exposure": 5,
+    "rationale": "Le métier combine des compétences pédagogiques et relationnelles (adaptation aux apprenants, gestion de groupe) avec des tâches numériques (conception de supports, utilisation d'outils digitaux). L'IA peut assister pour la personnalisation des parcours ou la création de contenus, mais l'interaction humaine et les ateliers pratiques restent centraux."
+  },
+  {
+    "slug": "d1233",
+    "code_rome": "D1233",
+    "title": "Galeriste",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches physiques (organisation d'expositions, accueil des visiteurs) et des activités numériques (gestion de bases de données, analyse de tendances, négociation de contrats). L'IA peut assister pour l'analyse de marché ou la détection de contrefaçons, mais l'expertise humaine et les interactions relationnelles restent centrales."
+  },
+  {
+    "slug": "d1234",
+    "code_rome": "D1234",
+    "title": "Chargé / Chargée de location de matériel de transport ou de loisirs",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches physiques (contrôle du matériel, livraison, entretien) et des activités numériques (gestion des réservations, contrats, relation client). L'IA peut automatiser partiellement la gestion administrative et le conseil client via chatbots, mais le cœur du métier reste ancré dans l'interaction humaine et la manipulation de matériel."
+  },
+  {
+    "slug": "d1235",
+    "code_rome": "D1235",
+    "title": "Plagiste",
+    "exposure": 2,
+    "rationale": "Le métier de plagiste repose principalement sur des activités physiques (surveillance, entretien, accueil en présentiel) et des interactions humaines directes, avec une composante environnementale et logistique. L'IA ne peut pas remplacer ces tâches, limitant son impact à des outils d'organisation ou de gestion administrative mineure."
+  },
+  {
+    "slug": "d1236",
+    "code_rome": "D1236",
+    "title": "Repasseur / Repasseuse",
+    "exposure": 1,
+    "rationale": "Le métier de repasseur repose presque exclusivement sur des compétences manuelles, une présence physique et des interactions avec des matériaux tangibles. L'IA n'a aucun impact sur les tâches clés comme le repassage, la détection de plis ou les retouches."
+  },
+  {
+    "slug": "d1237",
+    "code_rome": "D1237",
+    "title": "Socio-esthéticien / Socio-esthéticienne",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des interactions humaines directes, un toucher relationnel et des compétences manuelles adaptées à des publics fragilisés, ce qui limite fortement l'automatisation par l'IA. Les tâches numériques (planification, rapports) sont mineures et périphériques."
+  },
+  {
+    "slug": "d1238",
+    "code_rome": "D1238",
+    "title": "Chef / Cheffe d'agence de location de véhicules",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse de tableaux de bord, gestion de flotte via logiciels, stratégie commerciale) et des interactions humaines (management d'équipe, relation client). L'IA peut automatiser une partie significative des analyses de données et des processus de gestion, tout en optimisant la rentabilité et la satisfaction client."
+  },
+  {
+    "slug": "d1239",
+    "code_rome": "D1239",
+    "title": "Perceur corporel / Perceuse corporelle",
+    "exposure": 1,
+    "rationale": "Le métier de perceur corporel repose sur des compétences manuelles, une interaction humaine directe, des normes d'hygiène strictes et une présence physique obligatoire. L'IA ne peut pas remplacer ces aspects essentiels, limitant son impact à des tâches administratives mineures."
+  },
+  {
+    "slug": "d1240",
+    "code_rome": "D1240",
+    "title": "Prothésiste ongulaire",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, une interaction physique directe avec les clients et une créativité artistique difficile à automatiser. L'IA peut assister pour la gestion administrative ou la veille des tendances, mais ne peut remplacer le travail de précision et relationnel."
+  },
+  {
+    "slug": "d1241",
+    "code_rome": "D1241",
+    "title": "Conseiller / Conseillère en image personnelle",
+    "exposure": 3,
+    "rationale": "Le métier repose principalement sur des interactions humaines en présentiel, des compétences manuelles (maquillage, coiffure) et une créativité artistique difficilement automatisable. L'IA peut assister pour des tâches périphériques comme la veille des tendances ou la gestion administrative, mais ne peut remplacer le cœur du métier."
+  },
+  {
+    "slug": "d1242",
+    "code_rome": "D1242",
+    "title": "Linger / Lingère",
+    "exposure": 1,
+    "rationale": "Le métier de linger/lingère repose principalement sur des tâches manuelles, physiques et nécessitant une présence en environnement réel (lavage, repassage, manipulation de textiles, gestion de stocks physiques). L'IA n'a pas d'impact significatif sur ces activités, qui restent difficiles à automatiser entièrement."
+  },
+  {
+    "slug": "d1243",
+    "code_rome": "D1243",
+    "title": "Acheteur vendeur / Acheteuse vendeuse en dépôt-vente",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches physiques (réception, préparation des produits) et relationnelles (négociation, conseil client) avec une dimension numérique limitée (gestion des stocks, utilisation basique de logiciels). L'IA peut assister pour l'estimation automatisée des produits ou la gestion des stocks, mais le cœur du métier reste ancré dans l'interaction humaine et la manipulation d'objets physiques."
+  },
+  {
+    "slug": "d1301",
+    "code_rome": "D1301",
+    "title": "Gérant / Gérante de magasin d'alimentation générale",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches physiques (gestion des stocks, mise en rayon, accueil client) et des activités numériques (analyse de données, gestion administrative, utilisation de logiciels). L'IA peut automatiser certaines analyses ou optimisations, mais l'essentiel du travail repose sur des interactions humaines et une présence physique."
+  },
+  {
+    "slug": "d1302",
+    "code_rome": "D1302",
+    "title": "Responsable de boutique",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches physiques (gestion des stocks, merchandising, accueil client) et des activités numériques (analyse de données, gestion administrative, utilisation de logiciels). L'IA peut optimiser certaines fonctions (analyse prédictive des ventes, automatisation des commandes), mais l'interaction humaine et la gestion d'équipe restent centrales."
+  },
+  {
+    "slug": "d1303",
+    "code_rome": "D1303",
+    "title": "Responsable de station-service",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches physiques (supervision des opérations, maintenance, accueil client) et des activités de gestion numérique (logiciels de gestion, comptabilité, stocks). L'IA peut automatiser certaines tâches administratives ou analytiques, mais l'essentiel du travail repose sur la présence physique et les interactions humaines, limitant fortement son exposition."
+  },
+  {
+    "slug": "d1304",
+    "code_rome": "D1304",
+    "title": "Responsable de station de lavage",
+    "exposure": 3,
+    "rationale": "Le métier combine gestion administrative, supervision d'équipe et maintenance d'équipements physiques, avec une forte composante manuelle et relationnelle. L'IA peut assister pour la gestion des stocks, la planification ou l'analyse de données, mais ne peut remplacer les tâches physiques ou l'encadrement humain."
+  },
+  {
+    "slug": "d1305",
+    "code_rome": "D1305",
+    "title": "Responsable de magasin cycles",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches de gestion numérique (budget, stocks, logiciels de gestion) et des interactions physiques avec l'équipe, les clients et les fournisseurs. L'IA peut optimiser certaines fonctions (analyse de données, gestion des stocks), mais le cœur du métier repose sur des compétences managériales, relationnelles et techniques non automatisables."
+  },
+  {
+    "slug": "d1401",
+    "code_rome": "D1401",
+    "title": "Assistant commercial / Assistante commerciale",
+    "exposure": 8,
+    "rationale": "Le métier repose principalement sur des tâches numériques (gestion de bases de données, rédaction de propositions commerciales, suivi client, analyse de données) où l'IA peut automatiser ou assister significativement. Les interactions humaines et physiques restent limitées, mais l'IA transforme déjà la productivité et la restructuration des processus."
+  },
+  {
+    "slug": "d1402",
+    "code_rome": "D1402",
+    "title": "Commercial / Commerciale grands comptes et entreprises",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (analyse de données, prospection, négociation, gestion de portefeuille clients) où l'IA peut automatiser une partie du travail (analyse prédictive, génération de leads, chatbots pour le suivi client). Cependant, la dimension relationnelle et la négociation complexe limitent une automatisation totale."
+  },
+  {
+    "slug": "d1403",
+    "code_rome": "D1403",
+    "title": "Conseiller commercial / Conseillère commerciale auprès des particuliers",
+    "exposure": 7,
+    "rationale": "Le métier repose principalement sur des interactions humaines, de la négociation et de la prospection, mais intègre des tâches numériques (CRM, analyse de données, veille concurrentielle) très exposées à l'IA. L'automatisation des processus de vente et l'analyse prédictive pourraient réduire le besoin en effectifs, tout en augmentant la productivité des conseillers utilisant ces outils."
+  },
+  {
+    "slug": "d1404",
+    "code_rome": "D1404",
+    "title": "Vendeur / Vendeuse automobile",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches physiques (accueil client, présentation de véhicules) et des activités numériques (gestion de bases de données, prospection digitale, rédaction de rapports). L'IA peut automatiser certaines tâches administratives ou analytiques (estimation de reprise, veille commerciale), mais l'interaction humaine et la négociation restent centrales."
+  },
+  {
+    "slug": "d1405",
+    "code_rome": "D1405",
+    "title": "Conseiller / Conseillère en information médicale",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse de données médicales, veille réglementaire, rédaction de rapports) et des interactions humaines (conseil aux professionnels de santé, prospection). L'IA peut automatiser une partie significative des analyses et de la gestion de l'information, mais l'expertise humaine et la relation client restent cruciales."
+  },
+  {
+    "slug": "d1406",
+    "code_rome": "D1406",
+    "title": "Directeur / Directrice des ventes",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches principalement numériques (analyse de données, stratégie commerciale, négociation, gestion d'équipe) où l'IA peut automatiser une partie de l'analyse des tendances, des tableaux de bord et des propositions commerciales. Cependant, les interactions humaines, le leadership et la prise de décision stratégique restent cruciaux, limitant une automatisation totale."
+  },
+  {
+    "slug": "d1407",
+    "code_rome": "D1407",
+    "title": "Technico-commercial / Technico-commerciale",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse de données clients, reporting, veille technologique, gestion de CRM) et des interactions humaines (négociation, conseil technique, fidélisation). L'IA peut automatiser une partie du traitement de l'information et du suivi commercial, mais la dimension relationnelle et la négociation restent difficiles à remplacer."
+  },
+  {
+    "slug": "d1408",
+    "code_rome": "D1408",
+    "title": "Conseiller / Conseillère clientèle à distance",
+    "exposure": 9,
+    "rationale": "Le métier repose presque entièrement sur des interactions numériques (téléphone, emails, chats, réseaux sociaux) et des tâches de traitement de l'information (gestion de dossiers, réponses standardisées). Les outils d'IA générative et de chatbots sont déjà capables d'automatiser une grande partie de ces activités, réduisant fortement le besoin en main-d'œuvre humaine."
+  },
+  {
+    "slug": "d1409",
+    "code_rome": "D1409",
+    "title": "Assistant / Assistante administration des ventes",
+    "exposure": 8,
+    "rationale": "Ce métier repose principalement sur le traitement numérique d'informations (commandes, factures, bases de données, contrats) et la communication écrite/orale, des tâches où l'IA excelle déjà (automatisation des processus, génération de documents, analyse de données). Les interactions humaines restent limitées à des cas spécifiques (réclamations complexes), mais l'essentiel du travail est vulnérable à l'automatisation."
+  },
+  {
+    "slug": "d1410",
+    "code_rome": "D1410",
+    "title": "Attaché commercial / Attachée commerciale",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (CRM, reporting, analyse de données, prospection digitale) et des interactions humaines, mais l'IA peut automatiser une partie significative des processus (analyse de besoins, génération de propositions commerciales, suivi client). La négociation et la relation client restent des compétences humaines clés, mais l'IA peut augmenter la productivité des commerciaux."
+  },
+  {
+    "slug": "d1411",
+    "code_rome": "D1411",
+    "title": "Responsable Efficacité Commerciale (SFE) en industrie pharmaceutique",
+    "exposure": 8,
+    "rationale": "Ce métier repose principalement sur l'analyse de données, la stratégie commerciale, la rédaction de rapports et l'utilisation d'outils numériques (CRM, outils d'analyse). Ces tâches sont hautement exposées à l'IA, qui peut automatiser l'analyse de performances, générer des synthèses ou proposer des stratégies optimisées."
+  },
+  {
+    "slug": "d1412",
+    "code_rome": "D1412",
+    "title": "Délégué médical hospitalier / Déléguée médicale hospitalière",
+    "exposure": 6,
+    "rationale": "Le métier combine des interactions humaines complexes (relation avec les professionnels de santé, argumentation, pédagogie) et des tâches numériques (rédaction de rapports, analyse de données médicales, utilisation de bases de données). L'IA peut automatiser certaines analyses ou supports de communication, mais le cœur du métier repose sur des compétences relationnelles et médicales difficiles à remplacer."
+  },
+  {
+    "slug": "d1413",
+    "code_rome": "D1413",
+    "title": "Délégué / Déléguée pharmaceutique",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches commerciales et relationnelles (visites, négociation, conseil) avec des activités numériques (analyse de données, veille réglementaire, gestion de stocks). L'IA peut automatiser certaines analyses ou supports de communication, mais l'interaction humaine et la présence physique restent centrales pour la vente et le conseil."
+  },
+  {
+    "slug": "d1414",
+    "code_rome": "D1414",
+    "title": "Responsable de zone internationale",
+    "exposure": 8,
+    "rationale": "Ce métier repose sur des tâches principalement numériques (analyse de données, reporting, veille stratégique, négociation à distance) et des compétences cognitives élevées. L'IA peut automatiser une grande partie de l'analyse de marché, la génération de rapports, la veille concurrentielle et même assister la négociation via des outils d'aide à la décision."
+  },
+  {
+    "slug": "d1415",
+    "code_rome": "D1415",
+    "title": "Chargé / Chargée de relation client",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (rédaction de rapports, analyse de données clients, gestion de bases de données, communication écrite/orale via outils digitaux) où l'IA progresse rapidement. Les interactions humaines, bien que centrales, sont de plus en plus médiatisées par des outils numériques, rendant le cœur du métier vulnérable à l'automatisation."
+  },
+  {
+    "slug": "d1416",
+    "code_rome": "D1416",
+    "title": "Commercial / Commerciale auprès d'une clientèle d'entreprises",
+    "exposure": 6,
+    "rationale": "Le métier repose sur des interactions humaines, de la négociation et de la relation client, difficiles à automatiser entièrement. Cependant, l'IA peut automatiser des tâches périphériques (analyse de données, reporting, gestion de planning) et améliorer la productivité via des outils de prospection ou de personnalisation, réduisant potentiellement le besoin en effectifs."
+  },
+  {
+    "slug": "d1417",
+    "code_rome": "D1417",
+    "title": "Chef / Cheffe des ventes",
+    "exposure": 7,
+    "rationale": "Le métier repose principalement sur des tâches numériques (analyse de données, stratégie commerciale, gestion administrative) et une forte composante de traitement de l'information, où l'IA peut automatiser des analyses ou générer des insights. Cependant, le leadership, la négociation et la gestion d'équipe restent des compétences humaines critiques, limitant une exposition totale."
+  },
+  {
+    "slug": "d1418",
+    "code_rome": "D1418",
+    "title": "Négociant / Négociante en bois",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches commerciales et logistiques (négociation, gestion de portefeuille clients, analyse de données) avec des aspects physiques (contrôle qualité, logistique de distribution). L'IA peut automatiser certaines analyses de marché ou la gestion des stocks, mais l'interaction humaine, la négociation et la vérification physique limitent fortement l'exposition."
+  },
+  {
+    "slug": "d1419",
+    "code_rome": "D1419",
+    "title": "Courtier / Courtière en vins",
+    "exposure": 4,
+    "rationale": "Le métier combine des compétences commerciales, relationnelles et une expertise produit (évaluation sensorielle, connaissance des vignobles) difficiles à automatiser. L'IA peut assister pour l'analyse de données marché, la veille concurrentielle ou la gestion administrative, mais le cœur du métier repose sur des interactions humaines, des négociations complexes et une expertise sensorielle."
+  },
+  {
+    "slug": "d1420",
+    "code_rome": "D1420",
+    "title": "Cadre Technico-commercial / Technico-commerciale",
+    "exposure": 7,
+    "rationale": "Le métier combine des compétences techniques et commerciales, avec une forte composante numérique (analyse de données, reporting, veille technologique, gestion de portefeuille clients). L'IA peut automatiser des tâches comme l'analyse des tendances du marché, la génération de devis ou le suivi des ventes, mais les interactions humaines et la négociation restent cruciales."
+  },
+  {
+    "slug": "d1421",
+    "code_rome": "D1421",
+    "title": "Conseiller commercial / Conseillère commerciale en véhicules industriels",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (analyse de données clients, gestion de dossiers, outils CRM) et des interactions humaines cruciales (négociation, relation client, démonstrations techniques). L'IA peut automatiser certaines analyses ou générer des propositions commerciales, mais la dimension relationnelle et technique limite fortement l'automatisation complète."
+  },
+  {
+    "slug": "d1422",
+    "code_rome": "D1422",
+    "title": "Chargé / Chargée de recouvrement de créances",
+    "exposure": 8,
+    "rationale": "Le métier repose principalement sur des tâches numériques (analyse de comptes, relances automatisées, gestion de dossiers, rédaction de rapports) où l'IA peut automatiser une grande partie du travail répétitif. Les interactions humaines (négociation, relation client) restent importantes mais peuvent être assistées par des outils IA."
+  },
+  {
+    "slug": "d1423",
+    "code_rome": "D1423",
+    "title": "Conseiller / Conseillère produits en véhicules",
+    "exposure": 3,
+    "rationale": "Le métier combine des interactions humaines essentielles (accueil, conseil personnalisé, vente) et des tâches physiques (présentation de véhicules, synchronisation technique) avec une faible composante numérique directe. L'IA peut assister pour la gestion de données clients ou la configuration de véhicules, mais ne remplace pas le cœur relationnel et technique du métier."
+  },
+  {
+    "slug": "d1424",
+    "code_rome": "D1424",
+    "title": "Conseiller vendeur / Conseillère vendeuse à domicile",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des interactions physiques en face-à-face avec les clients, des démonstrations de produits et une forte dimension relationnelle et commerciale, difficiles à automatiser. L'IA peut assister pour la gestion administrative ou le suivi client, mais ne remplace pas le cœur du métier."
+  },
+  {
+    "slug": "d1425",
+    "code_rome": "D1425",
+    "title": "Conseiller vendeur / Conseillère vendeuse de véhicules poids lourds",
+    "exposure": 3,
+    "rationale": "Le métier combine des interactions humaines essentielles (conseil, négociation, démonstration) et des compétences physiques (conduite de véhicules lourds, sécurité) avec des tâches administratives mineures (rapports, conformité). L'IA peut assister pour la veille concurrentielle ou la gestion des données clients, mais ne remplace pas le cœur relationnel et technique du métier."
+  },
+  {
+    "slug": "d1426",
+    "code_rome": "D1426",
+    "title": "Vendeur / Vendeuse en véhicules de collection",
+    "exposure": 3,
+    "rationale": "Le métier combine des interactions humaines complexes (conseil personnalisé, négociation, réseau de collectionneurs) et des tâches physiques (restauration, transport, exposition) difficiles à automatiser. L'IA peut assister pour l'estimation de valeur ou la gestion administrative, mais ne remplace pas le cœur relationnel et technique du métier."
+  },
+  {
+    "slug": "d1427",
+    "code_rome": "D1427",
+    "title": "Conseiller vendeur / Conseillère vendeuse d'autocars",
+    "exposure": 4,
+    "rationale": "Le métier combine des interactions humaines essentielles (conseil, négociation, relation client) avec des tâches numériques (gestion de bases de données, analyse de tendances, rédaction de rapports). L'IA peut assister pour l'analyse de données ou la personnalisation des offres, mais le cœur du métier reste relationnel et physique (essais de véhicules, accueil en agence)."
+  },
+  {
+    "slug": "d1428",
+    "code_rome": "D1428",
+    "title": "Superviseur / Superviseuse technique et logistique en assistance de régulation médicale",
+    "exposure": 5,
+    "rationale": "Le métier combine gestion d'équipe, prise de décision en temps réel et coordination logistique, avec une composante numérique modérée (logiciels de régulation, tableaux de bord). L'IA peut optimiser l'analyse des données et la planification, mais l'interaction humaine et la gestion de crise restent centrales."
+  },
+  {
+    "slug": "d1429",
+    "code_rome": "D1429",
+    "title": "Assistant / Assistante import-export",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (gestion de dossiers, analyse de données, veille réglementaire, négociation de contrats) où l'IA peut automatiser une grande partie du travail administratif et analytique. Les interactions humaines et la gestion de relations restent importantes, mais l'IA peut significativement augmenter la productivité."
+  },
+  {
+    "slug": "d1430",
+    "code_rome": "D1430",
+    "title": "Conseiller vendeur / Conseillère vendeuse de véhicules de loisirs",
+    "exposure": 5,
+    "rationale": "Le métier combine des interactions humaines essentielles (conseil personnalisé, négociation, démonstrations) avec des tâches numériques (CRM, analyse de marché, gestion de dossiers). L'IA peut automatiser certaines analyses ou tâches administratives, mais le cœur du métier reste relationnel et physique (présentation des véhicules)."
+  },
+  {
+    "slug": "d1431",
+    "code_rome": "D1431",
+    "title": "Assistant / Assistante achat",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (analyse de données, rédaction de cahiers des charges, gestion des fournisseurs, négociation via outils digitaux) où l'IA peut automatiser une grande partie du travail de traitement de l'information et d'optimisation. Les interactions humaines et la négociation restent, mais l'IA accélère déjà des processus comme le sourcing ou l'analyse de tendances."
+  },
+  {
+    "slug": "d1432",
+    "code_rome": "D1432",
+    "title": "Assistant / Assistante service clients",
+    "exposure": 8,
+    "rationale": "Le métier repose principalement sur des interactions numériques (email, chat, CRM) et des tâches de traitement de l'information (analyse de données, gestion de dossiers). Les outils d'IA conversationnelle et d'automatisation des réponses (chatbots, analyse de sentiments) peuvent déjà automatiser une grande partie des demandes standardisées, réduisant le besoin en effectifs humains."
+  },
+  {
+    "slug": "d1433",
+    "code_rome": "D1433",
+    "title": "Commercial / Commerciale export",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse de marchés, veille concurrentielle, gestion administrative) et des interactions humaines complexes (négociation, fidélisation client, adaptation culturelle). L'IA peut automatiser une partie des analyses et du suivi, mais la dimension relationnelle et stratégique limite l'exposition totale."
+  },
+  {
+    "slug": "d1434",
+    "code_rome": "D1434",
+    "title": "Conseiller commercial / Conseillère commerciale motocycles",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches numériques (gestion CRM, analyse de données, reporting) et des interactions humaines essentielles (conseil client, vente en face-à-face, service après-vente). L'IA peut automatiser certaines analyses ou tâches administratives, mais le cœur du métier repose sur des compétences relationnelles et physiques (présentation de véhicules, démonstrations)."
+  },
+  {
+    "slug": "d1435",
+    "code_rome": "D1435",
+    "title": "Responsable de plateau de centre d'appels",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches principalement numériques (gestion des appels, analyse de données, supervision d'équipes) et des compétences en gestion de la relation client. L'IA peut automatiser une partie de l'analyse des données et des scripts d'appels, mais le leadership, la gestion des conflits et la formation des équipes restent humains."
+  },
+  {
+    "slug": "d1436",
+    "code_rome": "D1436",
+    "title": "Assistant / Assistante de régulation médicale (ARM)",
+    "exposure": 6,
+    "rationale": "Le métier repose sur l'évaluation d'urgence et la coordination, avec une forte composante de traitement d'informations numériques (saisie, logiciels, systèmes d'information). Cependant, l'interaction humaine en temps réel, la gestion du stress et l'empathie restent cruciales, limitant l'automatisation totale."
+  },
+  {
+    "slug": "d1437",
+    "code_rome": "D1437",
+    "title": "Gérant / Gérante de négoce automobile",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (gestion administrative, analyse de marché, stratégie commerciale, CRM) et des interactions physiques (vente, négociation, gestion d'équipe). L'IA peut automatiser une partie significative des processus de gestion et d'analyse, mais le cœur du métier repose sur des compétences relationnelles et une présence terrain, limitant une exposition totale."
+  },
+  {
+    "slug": "d1438",
+    "code_rome": "D1438",
+    "title": "Assistant / Assistante e-commerce",
+    "exposure": 8,
+    "rationale": "Le métier est entièrement numérique et repose sur des tâches de gestion de données, analyse de performances, rédaction de contenus (fiches produits, stratégies), optimisation SEO et gestion de la relation client. L'IA peut automatiser une grande partie de ces activités (analyse de données, génération de contenus, chatbots pour le service client) et augmenter significativement la productivité des travailleurs."
+  },
+  {
+    "slug": "d1501",
+    "code_rome": "D1501",
+    "title": "Animateur / Animatrice des ventes",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches physiques (animation en magasin, démonstrations) et des activités numériques (analyse de données, reporting, veille concurrentielle). L'IA peut automatiser certaines analyses ou supports marketing, mais l'interaction humaine et la présence sur le terrain restent centrales."
+  },
+  {
+    "slug": "d1502",
+    "code_rome": "D1502",
+    "title": "Chef / Cheffe de rayon produits alimentaires",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches manuelles (mise en rayon, contrôle qualité physique), relationnelles (animation d'équipe, accueil client) et de gestion numérique (suivi des stocks, analyse des ventes). L'IA peut automatiser partiellement la gestion des données et l'analyse des performances, mais l'essentiel du travail reste ancré dans l'environnement physique et humain du magasin."
+  },
+  {
+    "slug": "d1503",
+    "code_rome": "D1503",
+    "title": "Chef / Cheffe de rayon de produits non alimentaires",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches physiques (mise en rayon, contrôle qualité) et des activités numériques (analyse de données de vente, gestion des stocks, merchandising). L'IA peut automatiser certaines analyses commerciales et optimiser l'approvisionnement, mais l'interaction humaine, la supervision d'équipe et la gestion des imprévus restent centrales."
+  },
+  {
+    "slug": "d1504",
+    "code_rome": "D1504",
+    "title": "Directeur / Directrice de magasin de grande distribution",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches managériales, relationnelles et analytiques avec une forte composante physique (gestion des stocks, supervision en magasin). L'IA peut optimiser l'analyse des données commerciales et la gestion budgétaire, mais le leadership, la négociation et la présence sur le terrain restent essentiels."
+  },
+  {
+    "slug": "d1505",
+    "code_rome": "D1505",
+    "title": "Hôte / Hôtesse de caisse",
+    "exposure": 7,
+    "rationale": "Le métier repose principalement sur des tâches numériques (gestion de caisse, transactions, saisie) et relationnelles, mais l'IA peut automatiser une grande partie des opérations de caisse et de gestion des flux clients. L'interaction humaine et la gestion des réclamations restent des barrières partielles."
+  },
+  {
+    "slug": "d1506",
+    "code_rome": "D1506",
+    "title": "Merchandiser",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des compétences numériques (analyse de données, reporting, optimisation de stratégies) et une partie physique (contrôle en magasin, formation terrain). L'IA peut automatiser l'analyse des KPI, la veille concurrentielle et la génération de rapports, mais l'interaction humaine et la supervision physique restent essentielles."
+  },
+  {
+    "slug": "d1507",
+    "code_rome": "D1507",
+    "title": "Employé / Employée de rayon libre-service",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des tâches physiques (mise en rayon, nettoyage, manutention) et des interactions humaines directes (conseil client, gestion des stocks), limitant l'impact de l'IA. Seules des tâches périphériques comme la gestion des stocks ou l'étiquetage pourraient être partiellement automatisées."
+  },
+  {
+    "slug": "d1508",
+    "code_rome": "D1508",
+    "title": "Responsable de caisses",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches de supervision d'équipe, de gestion des flux clients et de contrôle des opérations de caisse, avec une forte composante physique et relationnelle en magasin. L'IA peut assister pour l'analyse des données de performance ou l'optimisation des flux, mais ne remplace pas le leadership humain ou les interactions en temps réel."
+  },
+  {
+    "slug": "d1509",
+    "code_rome": "D1509",
+    "title": "Responsable de département en grande distribution",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse de données, gestion des stocks, merchandising, négociation avec fournisseurs) et des interactions humaines (management d'équipe, formation, relation client). L'IA peut automatiser une partie des analyses et optimisations, mais le leadership et la gestion humaine restent centraux."
+  },
+  {
+    "slug": "d1510",
+    "code_rome": "D1510",
+    "title": "Chef / Cheffe de secteur magasin",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (analyse de données, gestion des stocks, reporting) et des activités physiques/relationnelles (animation d'équipe, merchandising, vérification terrain). L'IA peut automatiser une partie de l'analyse des indicateurs et optimiser la gestion des stocks, mais le cœur du métier repose sur le leadership, la relation client et l'adaptation en temps réel, limitant une exposition totale."
+  },
+  {
+    "slug": "d1511",
+    "code_rome": "D1511",
+    "title": "Opérateur / Opératrice de station service",
+    "exposure": 1,
+    "rationale": "Le métier repose sur des interactions physiques avec les clients, la manipulation de produits dangereux, des tâches manuelles (réapprovisionnement, entretien) et une présence obligatoire sur site. L'IA ne peut pas remplacer ces aspects concrets et imprévisibles."
+  },
+  {
+    "slug": "e1101",
+    "code_rome": "E1101",
+    "title": "Community manager",
+    "exposure": 8,
+    "rationale": "Le métier est entièrement numérique et repose sur des tâches de création de contenu, modération, analyse de données et gestion de communautés en ligne, domaines où l'IA progresse rapidement. Les outils d'IA générative et d'analyse automatisée peuvent déjà assister ou remplacer une grande partie des activités."
+  },
+  {
+    "slug": "e1102",
+    "code_rome": "E1102",
+    "title": "Ecrivain / Ecrivaine",
+    "exposure": 9,
+    "rationale": "Le métier repose presque entièrement sur la création et le traitement de contenu textuel ou narratif, des domaines où l'IA progresse rapidement (génération de texte, correction, adaptation). Les outils d'IA peuvent déjà assister ou remplacer une grande partie des tâches d'écriture, de réécriture et de correction, réduisant la demande en écrivains humains pour des contenus standardisés."
+  },
+  {
+    "slug": "e1103",
+    "code_rome": "E1103",
+    "title": "Chargé / Chargée des relations publiques",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (rédaction, analyse de données, gestion de réseaux sociaux, veille stratégique) où l'IA excelle déjà (génération de communiqués, analyse de retombées, automatisation de campagnes). Les interactions humaines et la gestion de crise restent cruciales, mais l'IA peut assister significativement ces activités."
+  },
+  {
+    "slug": "e1104",
+    "code_rome": "E1104",
+    "title": "Concepteur / Conceptrice de contenus multimedia",
+    "exposure": 9,
+    "rationale": "Ce métier repose presque entièrement sur des tâches numériques (création graphique, vidéo, animation, rédaction de scripts, optimisation SEO) où l'IA progresse rapidement (génération d'images, montage automatisé, analyse de tendances). Les outils IA deviennent des assistants centraux pour la production et la personnalisation de contenus."
+  },
+  {
+    "slug": "e1105",
+    "code_rome": "E1105",
+    "title": "Editeur / Editrice",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (rédaction, mise en page, sélection de contenus, gestion de projets digitaux) où l'IA excelle déjà (génération de textes, analyse de manuscrits, outils PAO avancés). Les compétences manuelles ou relationnelles sont marginales, limitant l'impact direct de l'IA."
+  },
+  {
+    "slug": "e1106",
+    "code_rome": "E1106",
+    "title": "Journaliste",
+    "exposure": 8,
+    "rationale": "Le journalisme repose principalement sur des tâches numériques (rédaction, synthèse, vérification d'informations) où l'IA excelle déjà (génération de textes, analyse de données, traduction). Les compétences relationnelles et l'éthique restent cruciales, mais l'IA transforme radicalement la productivité et la structure du métier."
+  },
+  {
+    "slug": "e1107",
+    "code_rome": "E1107",
+    "title": "Chef / Cheffe de projet événementiel",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (planification, gestion de budget, veille, communication) et des interactions humaines complexes (négociation, gestion d'équipes, résolution d'imprévus). L'IA peut automatiser une partie des processus (outils de planification, analyse de données, génération de contenus) mais le cœur du métier repose sur la créativité, la relation client et la gestion de situations imprévisibles, limitant une exposition totale."
+  },
+  {
+    "slug": "e1108",
+    "code_rome": "E1108",
+    "title": "Traducteur / Traductrice",
+    "exposure": 9,
+    "rationale": "Le métier repose presque entièrement sur des tâches numériques (rédaction, analyse linguistique, adaptation de contenus) où l'IA progresse rapidement (traduction automatique, outils de TAO avancés). Seules la nuance culturelle et la révision fine restent partiellement humaines, mais l'IA réduit déjà fortement le besoin en traducteurs humains pour les contenus standardisés."
+  },
+  {
+    "slug": "e1109",
+    "code_rome": "E1109",
+    "title": "Directeur / Directrice de la communication",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (stratégie, analyse de données, création de contenus, gestion de campagnes) où l'IA peut automatiser une partie significative du travail (rédaction, analyse d'audience, optimisation de messages). La composante humaine (leadership, gestion de crise, relations publiques) limite une exposition totale."
+  },
+  {
+    "slug": "e1110",
+    "code_rome": "E1110",
+    "title": "Directeur / Directrice de la rédaction",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (stratégie éditoriale, analyse de données, gestion de contenu) mais conserve une forte composante humaine (leadership, créativité, gestion de crise). L'IA peut automatiser certaines analyses ou optimisations, mais l'essentiel du travail reste dépendant du jugement et des interactions humaines."
+  },
+  {
+    "slug": "e1111",
+    "code_rome": "E1111",
+    "title": "Game master",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (gestion de communautés, analyse de comportements, veille technologique) avec des interactions humaines en temps réel, mais repose largement sur des compétences numériques. L'IA peut automatiser certaines analyses ou modérer des conflits, mais l'animation et la créativité restent difficiles à remplacer."
+  },
+  {
+    "slug": "e1112",
+    "code_rome": "E1112",
+    "title": "Chargé / Chargée de communication",
+    "exposure": 8,
+    "rationale": "Le métier repose principalement sur des tâches numériques (rédaction, analyse de données, gestion de sites web, SEO, création de contenus multimédias) où l'IA progresse rapidement. Les compétences manuelles ou relationnelles sont secondaires, et l'automatisation des tâches routinières (rédaction de communiqués, veille, optimisation) est déjà tangible."
+  },
+  {
+    "slug": "e1113",
+    "code_rome": "E1113",
+    "title": "Responsable e-commerce",
+    "exposure": 8,
+    "rationale": "Le métier repose presque entièrement sur des tâches numériques (analyse de données, gestion de plateformes, communication en ligne, optimisation de stratégies digitales) où l'IA excelle déjà (automatisation des réponses clients, prédiction des tendances, personnalisation des campagnes). Les compétences manuelles ou physiques sont absentes, et l'IA peut significativement remplacer ou augmenter la productivité des tâches clés."
+  },
+  {
+    "slug": "e1114",
+    "code_rome": "E1114",
+    "title": "Reporter / Reportrice",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (rédaction, analyse, synthèse, vérification d'informations) où l'IA progresse rapidement (génération de texte, analyse de données, transcription, traduction). Les compétences relationnelles et le terrain restent importants, mais l'IA peut automatiser une part majeure des processus de collecte, rédaction et diffusion."
+  },
+  {
+    "slug": "e1115",
+    "code_rome": "E1115",
+    "title": "Chef / Cheffe de projet jeux vidéo",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (coordination d'équipes, gestion de projets, analyse de données, optimisation de l'expérience utilisateur) avec une forte composante créative et technique. L'IA peut automatiser une partie de l'analyse de données, la génération de rapports, ou même assister la conception de niveaux, mais le leadership, la créativité et la gestion humaine restent centraux."
+  },
+  {
+    "slug": "e1116",
+    "code_rome": "E1116",
+    "title": "Responsable d'édition en presse",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches entièrement numériques (rédaction, analyse de tendances, gestion éditoriale, stratégie de contenu) où l'IA excelle déjà (génération de textes, analyse de données, automatisation de processus). Les compétences manuelles ou physiques sont quasi inexistantes, et l'IA peut significativement augmenter la productivité des équipes."
+  },
+  {
+    "slug": "e1117",
+    "code_rome": "E1117",
+    "title": "Wedding planner",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches numériques (gestion de projets, négociation, analyse de tendances) et des interactions humaines complexes (relation client, gestion de crise, créativité). L'IA peut automatiser certaines tâches administratives ou analytiques, mais l'essentiel du travail repose sur des compétences relationnelles et une présence physique lors des événements."
+  },
+  {
+    "slug": "e1118",
+    "code_rome": "E1118",
+    "title": "Présentateur / Présentatrice journaliste",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des compétences de traitement de l'information, de rédaction, d'analyse et de communication, toutes fortement impactées par l'IA (génération de contenus, analyse de données, outils de montage automatisé). Cependant, l'interaction humaine en direct, la gestion du stress et la neutralité éditoriale restent des barrières majeures à une automatisation complète."
+  },
+  {
+    "slug": "e1119",
+    "code_rome": "E1119",
+    "title": "Concepteur rédacteur / Conceptrice rédactrice",
+    "exposure": 9,
+    "rationale": "Le métier repose presque entièrement sur la création de contenus textuels et multimédias, des tâches hautement numérisables où l'IA excelle déjà (rédaction, optimisation SEO, adaptation de ton). Les compétences manuelles ou relationnelles sont marginales, et l'IA peut automatiser une grande partie du processus créatif et analytique."
+  },
+  {
+    "slug": "e1120",
+    "code_rome": "E1120",
+    "title": "Chef / Cheffe de projets traduction",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches numériques (gestion de projets, coordination, contrôle qualité, utilisation d'outils TAO) où l'IA progresse rapidement (automatisation des traductions, gestion des mémoires de traduction, optimisation des processus). La composante humaine (leadership, négociation, adaptation culturelle) reste importante mais l'IA transforme déjà une grande partie des activités."
+  },
+  {
+    "slug": "e1121",
+    "code_rome": "E1121",
+    "title": "Secrétaire de rédaction",
+    "exposure": 9,
+    "rationale": "Le métier est entièrement numérique (rédaction, correction, mise en page, SEO, gestion de contenus) et repose sur des tâches routinières comme la vérification de textes, la correction orthographique ou la structuration d'informations, déjà fortement automatisables par l'IA. Les outils d'IA générative et de traitement automatique du langage (TAL) peuvent remplacer une grande partie des activités actuelles."
+  },
+  {
+    "slug": "e1122",
+    "code_rome": "E1122",
+    "title": "Transcripteur adaptateur / Transcriptrice adaptatrice",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des compétences de transcription, d'adaptation de documents et de maîtrise d'outils numériques spécialisés, toutes fortement exposées à l'automatisation par l'IA. Cependant, la dimension relationnelle, l'expertise en accessibilité et la gestion de contextes complexes (médical, juridique) limitent partiellement l'impact de l'IA."
+  },
+  {
+    "slug": "e1123",
+    "code_rome": "E1123",
+    "title": "Interprète",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des compétences linguistiques et culturelles complexes, mais l'interprétation simultanée ou technique peut être partiellement automatisée par des outils d'IA (ex: traduction en temps réel). Les interactions humaines et la nuance contextuelle restent difficiles à remplacer, limitant l'exposition totale."
+  },
+  {
+    "slug": "e1124",
+    "code_rome": "E1124",
+    "title": "Social media manager - Responsable des médias sociaux",
+    "exposure": 9,
+    "rationale": "Le métier repose presque entièrement sur des tâches numériques (création de contenu, analyse de données, gestion de campagnes, veille stratégique) où l'IA progresse rapidement. Les outils d'IA générative et d'analyse automatisée peuvent déjà automatiser une grande partie du travail, réduisant le besoin en effectifs humains."
+  },
+  {
+    "slug": "e1125",
+    "code_rome": "E1125",
+    "title": "Concepteur / Conceptrice de jeux vidéo",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (création de scénarios, design graphique, modélisation 3D, analyse de données) où l'IA progresse rapidement (génération de contenu, optimisation de mécaniques, outils de prototypage). Les compétences créatives et collaboratives restent cruciales, mais l'IA transforme déjà une partie significative du processus."
+  },
+  {
+    "slug": "e1126",
+    "code_rome": "E1126",
+    "title": "Auteur / Auteure de jeux de société",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches créatives et rédactionnelles (conception de règles, scénarios, univers) qui peuvent être assistées par l'IA, mais nécessite aussi des compétences manuelles (prototypage, tests) et relationnelles (collaboration avec éditeurs/illustrateurs). La partie numérique (rédaction, analyse de données) est fortement exposée."
+  },
+  {
+    "slug": "e1127",
+    "code_rome": "E1127",
+    "title": "Brand content manager",
+    "exposure": 9,
+    "rationale": "Le métier repose presque entièrement sur des tâches numériques (création de contenu, analyse de données, gestion de plateformes) où l'IA excelle déjà (rédaction, SEO, analyse de performance, veille concurrentielle). Les outils IA peuvent automatiser une grande partie du travail, réduisant le besoin en humains pour les tâches routinières."
+  },
+  {
+    "slug": "e1128",
+    "code_rome": "E1128",
+    "title": "Directeur / Directrice de création",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (création de contenus, veille technologique, analyse de données) où l'IA peut automatiser des processus (génération d'idées, analyse de tendances, optimisation de campagnes). La supervision d'équipes et la relation client restent humaines, mais l'IA transforme déjà la production créative."
+  },
+  {
+    "slug": "e1129",
+    "code_rome": "E1129",
+    "title": "Directeur / Directrice artistique communication",
+    "exposure": 8,
+    "rationale": "Ce métier repose sur la création de contenus visuels et sonores, la gestion de projets numériques et la coordination d'équipes créatives, des tâches majoritairement réalisables à distance via des outils numériques. L'IA générative (images, vidéos, sons) et les outils d'automatisation de la production (maquettes, pré-maquettes) menacent une partie des tâches créatives, tandis que la gestion de projets et la relation client restent partiellement humaines mais optimisables par l'IA."
+  },
+  {
+    "slug": "e1201",
+    "code_rome": "E1201",
+    "title": "Photographe",
+    "exposure": 5,
+    "rationale": "Le métier de photographe combine une forte composante créative et artistique (prise de vue, cadrage, composition) difficile à automatiser, avec des tâches techniques numériques (retouche, traitement d'images) partiellement exposées à l'IA. La présence physique et les interactions humaines restent centrales, limitant l'automatisation complète."
+  },
+  {
+    "slug": "e1202",
+    "code_rome": "E1202",
+    "title": "Opérateur / Opératrice de laboratoire cinématographique",
+    "exposure": 7,
+    "rationale": "Le métier repose sur un traitement numérique et technique des films (numérisation, étalonnage, contrôle qualité), domaines où l'IA progresse rapidement. Cependant, une partie des tâches (manipulation physique des pellicules, maintenance des équipements spécialisés) limite une exposition totale."
+  },
+  {
+    "slug": "e1203",
+    "code_rome": "E1203",
+    "title": "Technicien / Technicienne de laboratoire photographique",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches manuelles (développement chimique, retouches) et numériques (traitement d'images, logiciels), mais la composante physique et artistique reste centrale. L'IA peut automatiser certaines étapes (retouches, calibration) et optimiser les processus, mais ne remplacera pas totalement l'expertise humaine et la relation client."
+  },
+  {
+    "slug": "e1204",
+    "code_rome": "E1204",
+    "title": "Technicien / Technicienne d'exploitation cinématographique",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches techniques manuelles (chargement de bobines, maintenance matérielle) et des activités numériques (réglages de projection numérique, gestion de serveurs). L'IA peut assister pour la maintenance prédictive ou l'optimisation des paramètres, mais l'essentiel du travail reste physique et nécessite une présence sur site."
+  },
+  {
+    "slug": "e1205",
+    "code_rome": "E1205",
+    "title": "Designer graphique",
+    "exposure": 9,
+    "rationale": "Le métier repose presque entièrement sur des tâches numériques (création, retouche, animation, conception) où l'IA progresse rapidement (génération d'images, automatisation de mises en page, outils de design assisté). Les compétences artistiques humaines restent cruciales, mais l'IA transforme déjà une grande partie du processus."
+  },
+  {
+    "slug": "e1206",
+    "code_rome": "E1206",
+    "title": "UX - UI Designer",
+    "exposure": 9,
+    "rationale": "Le métier s'effectue entièrement sur ordinateur avec des tâches hautement numériques (conception d'interfaces, analyse de données, tests utilisateurs, rédaction de spécifications). L'IA peut déjà générer des maquettes, analyser des comportements utilisateurs ou automatiser des tests, réduisant fortement le besoin en main-d'œuvre pour les tâches routinières."
+  },
+  {
+    "slug": "e1207",
+    "code_rome": "E1207",
+    "title": "Motion designer",
+    "exposure": 8,
+    "rationale": "Le métier est entièrement numérique (conception, animation, compositing) et repose sur des outils logiciels où l'IA progresse rapidement (génération d'images, automatisation de tâches répétitives, optimisation de workflows). La créativité humaine reste centrale, mais l'IA peut assister ou remplacer une partie des tâches techniques."
+  },
+  {
+    "slug": "e1208",
+    "code_rome": "E1208",
+    "title": "Chef / Cheffe de studio de photographie",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches créatives et techniques (prise de vue, retouche, gestion d'équipe) avec une forte composante numérique (logiciels de traitement d'images, gestion de projet). L'IA peut automatiser une partie du post-traitement et de la retouche, mais la créativité, la gestion humaine et la coordination restent essentielles."
+  },
+  {
+    "slug": "e1209",
+    "code_rome": "E1209",
+    "title": "Responsable de laboratoire photographique",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches manuelles (développement chimique, finition) et des compétences numériques (traitement d'images, logiciels), mais reste ancré dans un environnement physique avec des interactions humaines. L'IA peut assister pour l'optimisation des processus ou le traitement numérique, mais ne remplace pas le cœur du métier."
+  },
+  {
+    "slug": "e1210",
+    "code_rome": "E1210",
+    "title": "Web designer",
+    "exposure": 9,
+    "rationale": "Le métier est entièrement numérique et repose sur des tâches créatives et techniques (design, intégration, optimisation) où l'IA progresse rapidement (génération d'images, automatisation de mises en page, analyse UX). Les outils IA peuvent déjà assister ou remplacer une grande partie des activités, réduisant la demande en main-d'œuvre humaine."
+  },
+  {
+    "slug": "e1211",
+    "code_rome": "E1211",
+    "title": "Dessinateur-illustrateur / Dessinatrice-illustratrice",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches créatives et techniques entièrement numériques (dessin, retouche, vectorisation) où l'IA progresse rapidement (génération d'images, automatisation de croquis). Les outils comme MidJourney ou Adobe Firefly transforment déjà une partie du processus, réduisant le besoin en main-d'œuvre pour des tâches répétitives."
+  },
+  {
+    "slug": "e1301",
+    "code_rome": "E1301",
+    "title": "Conducteur / Conductrice de machines d'impression",
+    "exposure": 3,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, techniques et une présence physique en atelier pour régler, surveiller et entretenir les machines d'impression. L'IA peut assister pour la maintenance prédictive ou l'optimisation des paramètres, mais ne peut remplacer le contrôle humain en temps réel ni les interactions physiques avec les équipements."
+  },
+  {
+    "slug": "e1302",
+    "code_rome": "E1302",
+    "title": "Conducteur / Conductrice de machines de façonnage routage",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches manuelles (opération et maintenance de machines) et des compétences techniques (réglages, contrôle qualité), avec une forte composante physique et une supervision en temps réel. L'IA peut assister pour l'optimisation des flux ou la maintenance prédictive, mais ne remplace pas le cœur du métier."
+  },
+  {
+    "slug": "e1303",
+    "code_rome": "E1303",
+    "title": "Chef / Cheffe de fabrication en industrie graphique",
+    "exposure": 6,
+    "rationale": "Le métier combine gestion de production numérique (GPAO, optimisation des flux, contrôle qualité via données) et supervision humaine d'équipes et machines physiques. L'IA peut automatiser l'analyse de données de production et optimiser les processus, mais la coordination d'équipes, la gestion des urgences et les interactions clients restent humaines."
+  },
+  {
+    "slug": "e1304",
+    "code_rome": "E1304",
+    "title": "Agent / Agente de façonnage et routage",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des tâches manuelles (pliage, encartage, conditionnement) et physiques (manutention, utilisation d'outils), avec une faible composante numérique. L'IA peut assister pour la planification ou la maintenance prédictive, mais ne transforme pas le cœur du métier."
+  },
+  {
+    "slug": "e1305",
+    "code_rome": "E1305",
+    "title": "Préparateur-correcteur / Préparatrice-correctrice en industrie graphique",
+    "exposure": 8,
+    "rationale": "Ce métier repose presque entièrement sur des tâches numériques (correction, mise en page, traitement de texte/images) réalisables via des logiciels spécialisés. L'IA excelle déjà dans la correction automatique, la relecture et l'optimisation de contenus, réduisant fortement le besoin en intervention humaine pour les tâches routinières."
+  },
+  {
+    "slug": "e1306",
+    "code_rome": "E1306",
+    "title": "Opérateur / Opératrice de prépresse",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches numériques (PAO, DAO, imposition, flashage) où l'IA peut automatiser la correction, la mise en page et la génération de visuels. Les compétences manuelles (gravure, découpe) restent, mais l'IA transforme déjà le cœur du travail."
+  },
+  {
+    "slug": "e1307",
+    "code_rome": "E1307",
+    "title": "Reprographe",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches manuelles (façonnage, contrôle qualité) et des activités numériques (PAO, gestion de commandes, paramétrage de machines). L'IA peut automatiser une partie des processus de reproduction, de mise en forme et de gestion, mais la supervision humaine et les interactions clients restent cruciales."
+  },
+  {
+    "slug": "e1308",
+    "code_rome": "E1308",
+    "title": "Technicien / Technicienne des industries graphiques",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (préparation de fichiers, PAO, GPAO, colorimétrie) très exposées à l'IA avec des activités physiques (réglage de machines, maintenance, contrôle qualité). L'automatisation et les outils IA (comme les logiciels de calibration automatique ou l'optimisation des flux de production) vont transformer une partie significative du travail, mais la présence physique et l'expertise technique restent cruciales."
+  },
+  {
+    "slug": "e1309",
+    "code_rome": "E1309",
+    "title": "Responsable d'atelier de façonnage routage",
+    "exposure": 5,
+    "rationale": "Le métier combine gestion d'équipe, supervision de machines et optimisation de processus physiques (façonnage/routage), limitant l'automatisation complète. L'IA peut assister pour la planification, l'analyse des performances ou la maintenance prédictive, mais l'essentiel repose sur des compétences managériales, techniques et une présence physique."
+  },
+  {
+    "slug": "e1310",
+    "code_rome": "E1310",
+    "title": "Contrôleur / Contrôleuse qualité en industrie graphique",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (analyse de données, utilisation de logiciels spécialisés, rédaction de rapports) et des activités physiques (contrôle visuel, maintenance de machines). L'IA peut automatiser une partie des analyses et des contrôles, mais la présence physique et l'expertise technique restent cruciales pour la qualité et la résolution de problèmes complexes."
+  },
+  {
+    "slug": "e1311",
+    "code_rome": "E1311",
+    "title": "Régleur / Régleuse de machines de façonnage routage",
+    "exposure": 3,
+    "rationale": "Le métier combine des tâches manuelles (réglages mécaniques, maintenance) et des compétences techniques (analyse de données, optimisation de processus), mais reste ancré dans un environnement industriel physique où l'IA a un impact limité. Les interactions humaines et la gestion des imprévus en temps réel limitent l'automatisation complète."
+  },
+  {
+    "slug": "e1312",
+    "code_rome": "E1312",
+    "title": "Lecteur-correcteur / Lectrice-correctrice",
+    "exposure": 9,
+    "rationale": "Le métier repose entièrement sur le traitement numérique de textes (correction, réécriture, analyse linguistique), des tâches où l'IA progresse rapidement (ex : outils comme Grammarly, DeepL Write, ou IA générative pour la réécriture). Les compétences humaines (jugement stylistique, adaptation au public) restent utiles mais l'automatisation partielle est déjà une réalité."
+  },
+  {
+    "slug": "e1313",
+    "code_rome": "E1313",
+    "title": "Agent / Agente d'encadrement en industrie graphique",
+    "exposure": 7,
+    "rationale": "Le métier combine une forte composante de gestion numérique (GPAO, analyse de données, optimisation des flux) avec des tâches managériales et techniques. L'IA peut automatiser une partie de l'analyse des données, l'optimisation des plannings et le contrôle qualité, mais l'encadrement humain reste crucial pour la coordination d'équipe et la gestion des imprévus."
+  },
+  {
+    "slug": "e1314",
+    "code_rome": "E1314",
+    "title": "Conducteur / Conductrice de machines à pelliculer",
+    "exposure": 2,
+    "rationale": "Le métier repose principalement sur des compétences manuelles, une présence physique en atelier et des interactions avec des machines industrielles, limitant fortement l'automatisation par IA. Les tâches de réglage et de contrôle qualité restent majoritairement humaines et non numériques."
+  },
+  {
+    "slug": "e1315",
+    "code_rome": "E1315",
+    "title": "Conducteur / Conductrice de machines de reliure automatique",
+    "exposure": 2,
+    "rationale": "Le métier repose sur des compétences manuelles, une présence physique en atelier et la gestion d'équipements industriels concrets. L'IA peut assister pour la maintenance prédictive ou l'optimisation des flux, mais ne remplace pas le cœur du travail (réglage, contrôle qualité, intervention sur machines)."
+  },
+  {
+    "slug": "e1401",
+    "code_rome": "E1401",
+    "title": "Chef / Cheffe de publicité",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (stratégie, analyse de données, gestion de campagnes digitales, veille concurrentielle) où l'IA excelle déjà (automatisation des rapports, génération de contenus, optimisation des budgets). Les interactions humaines (négociation, leadership) restent importantes mais l'IA transforme radicalement la productivité et la structure des équipes."
+  },
+  {
+    "slug": "e1402",
+    "code_rome": "E1402",
+    "title": "Média planneur / Média planneuse",
+    "exposure": 8,
+    "rationale": "Ce métier repose presque entièrement sur l'analyse de données, la planification numérique et la gestion de campagnes publicitaires, des tâches hautement automatisables par l'IA. Les outils d'IA générative et d'analyse prédictive peuvent déjà assister, voire remplacer, une grande partie des activités stratégiques et opérationnelles."
+  },
+  {
+    "slug": "e1403",
+    "code_rome": "E1403",
+    "title": "Consultant / Consultante média",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches entièrement numériques (analyse de données, stratégie digitale, rédaction de rapports, veille concurrentielle) où l'IA excelle déjà (automatisation des rapports, génération de contenu, optimisation SEO). Les compétences relationnelles et créatives restent, mais l'IA transforme radicalement les processus clés."
+  },
+  {
+    "slug": "e1404",
+    "code_rome": "E1404",
+    "title": "Assistant / Assistante en publicité",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (coordination, analyse de données, rédaction, gestion de campagnes) avec une forte composante créative et analytique. L'IA peut automatiser une grande partie du suivi, de l'analyse et même de la génération de contenus, tout en optimisant la planification et la personnalisation des campagnes."
+  },
+  {
+    "slug": "e1405",
+    "code_rome": "E1405",
+    "title": "Référenceur / Référenceuse web",
+    "exposure": 9,
+    "rationale": "Le métier repose presque entièrement sur des tâches numériques (analyse de données, rédaction de contenus optimisés, gestion de campagnes SEA/SEO, veille technologique) où l'IA progresse rapidement. Les outils d'IA générative et d'analyse automatisée peuvent déjà automatiser une grande partie du travail, réduisant le besoin en effectifs humains."
+  },
+  {
+    "slug": "e1406",
+    "code_rome": "E1406",
+    "title": "Influenceur / Influenceuse web",
+    "exposure": 8,
+    "rationale": "Le métier repose presque entièrement sur la création de contenu numérique (vidéos, posts, interactions en ligne) et l'analyse de données, domaines où l'IA progresse rapidement. Les tâches comme la rédaction, la modération, l'analyse de tendances ou la génération de visuels peuvent être fortement automatisées ou assistées par IA."
+  },
+  {
+    "slug": "e1407",
+    "code_rome": "E1407",
+    "title": "Traffic manager",
+    "exposure": 9,
+    "rationale": "Le métier est entièrement numérique, centré sur l'analyse de données, l'optimisation de campagnes publicitaires et l'utilisation d'outils d'IA pour le ciblage et le suivi. Les tâches de programmation, d'analyse statistique et de gestion automatisée des budgets sont déjà fortement impactées par l'IA, avec une productivité accrue pour les professionnels maîtrisant ces outils."
+  },
+  {
+    "slug": "e1408",
+    "code_rome": "E1408",
+    "title": "Responsable trafic création",
+    "exposure": 7,
+    "rationale": "Le métier repose sur une forte composante numérique (gestion de projets, coordination, analyse de données) et des tâches de traitement de l'information, mais nécessite aussi des interactions humaines complexes (négociation, leadership, gestion de crise). L'IA peut automatiser une partie des tâches de planification et d'analyse, mais le cœur du métier (créativité, coordination humaine) reste difficile à remplacer."
+  },
+  {
+    "slug": "e1409",
+    "code_rome": "E1409",
+    "title": "Acheteur / Acheteuse média",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches entièrement numériques (analyse de données, négociation automatisable via algorithmes, optimisation de campagnes en temps réel) et une forte composante de traitement de l'information. Les outils IA (programmatic buying, analyse prédictive) transforment déjà profondément les pratiques."
+  },
+  {
+    "slug": "e1410",
+    "code_rome": "E1410",
+    "title": "Responsable programmatique",
+    "exposure": 9,
+    "rationale": "Le métier repose entièrement sur des tâches numériques (analyse de données, gestion de campagnes en temps réel, optimisation programmatique) où l'IA excelle déjà (automatisation des enchères, ciblage algorithmique, génération de rapports). Les compétences manuelles ou relationnelles sont marginales."
+  },
+  {
+    "slug": "e1411",
+    "code_rome": "E1411",
+    "title": "Chargé / Chargée de développement du patrimoine publicitaire",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (analyse de données, stratégie d'achat, veille marché, négociation de contrats) et une forte composante de traitement de l'information, où l'IA peut automatiser l'analyse de tendances, la gestion de portefeuilles ou la génération de rapports. Cependant, les interactions humaines (négociation, partenariats) et la prise de décision stratégique limitent une exposition totale."
+  },
+  {
+    "slug": "e1412",
+    "code_rome": "E1412",
+    "title": "Directeur / Directrice média",
+    "exposure": 8,
+    "rationale": "Ce métier repose sur des tâches hautement numériques (analyse de données, optimisation de campagnes, veille technologique, négociation d'espaces publicitaires en ligne) où l'IA excelle déjà (automatisation des achats programmatiques, génération de rapports, analyse prédictive). Les compétences managériales et relationnelles restent cruciales, mais l'IA transforme profondément les processus clés."
+  },
+  {
+    "slug": "e1413",
+    "code_rome": "E1413",
+    "title": "Chef / Cheffe de projet publicitaire",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches principalement numériques (gestion de projets, analyse de données, coordination via outils digitaux) et créatives (stratégie, brainstorming), où l'IA peut automatiser une partie du travail (analyse de performances, génération de rapports) et augmenter la productivité. Les interactions humaines et créatives restent importantes, mais l'IA transforme déjà significativement les processus."
+  },
+  {
+    "slug": "e1414",
+    "code_rome": "E1414",
+    "title": "Chargé / Chargée de diffusion publicitaire",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches numériques (analyse de données, gestion de campagnes, optimisation publicitaire) où l'IA excelle déjà (automatisation des enchères, analyse prédictive, génération de rapports). Les interactions clients et la stratégie créative restent humaines, mais l'IA transforme radicalement l'exécution."
+  },
+  {
+    "slug": "e1415",
+    "code_rome": "E1415",
+    "title": "Directeur / Directrice de la production publicitaire",
+    "exposure": 7,
+    "rationale": "Le métier repose sur une forte composante de gestion de projets, de coordination d'équipes et de traitement de données numériques (tableaux de bord, KPI, appels d'offres), mais conserve une part importante de jugement humain, de relations clients et de gestion de crises en temps réel."
+  },
+  {
+    "slug": "f1101",
+    "code_rome": "F1101",
+    "title": "Architecte du bâtiment",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (conception assistée par ordinateur, BIM, maquettes 3D) très exposées à l'IA, mais conserve une forte composante physique (chantiers, interactions clients) et créative (design, adaptation contextuelle) qui limite une automatisation totale."
+  },
+  {
+    "slug": "f1102",
+    "code_rome": "F1102",
+    "title": "Architecte d'intérieur",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (conception assistée par ordinateur, modélisation 3D, rendu visuel) très exposées à l'IA générative et aux outils d'automatisation. Cependant, la dimension créative, relationnelle et la gestion de chantiers physiques limitent une exposition totale."
+  },
+  {
+    "slug": "f1103",
+    "code_rome": "F1103",
+    "title": "Diagnostiqueur / Diagnostiqueuse immobilier",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches physiques (prélèvements, mesures sur site) et des compétences numériques (analyse de données, rédaction de rapports, veille réglementaire). L'IA peut automatiser une partie de l'analyse des résultats et la génération de rapports, mais la présence sur le terrain et l'interaction avec les clients restent essentielles."
+  },
+  {
+    "slug": "f1104",
+    "code_rome": "F1104",
+    "title": "Dessinateur-projeteur / Dessinatrice-projeteuse de la construction",
+    "exposure": 8,
+    "rationale": "Le métier repose sur des tâches numériques (DAO/CAO, BIM, modélisation 3D) où l'IA progresse rapidement pour automatiser la génération de plans, l'analyse de données techniques et la conformité réglementaire. Les interactions humaines et le terrain restent nécessaires, mais l'IA transforme déjà une grande partie du travail de conception."
+  },
+  {
+    "slug": "f1105",
+    "code_rome": "F1105",
+    "title": "Géologue",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches de terrain (peu exposées à l'IA) et des activités numériques (modélisation, analyse de données, rédaction de rapports). Les outils d'IA progressent rapidement pour la simulation, l'interprétation de données géophysiques et la cartographie, mais le jugement humain et les interactions restent essentiels pour les décisions complexes et la gestion de projets."
+  },
+  {
+    "slug": "f1106",
+    "code_rome": "F1106",
+    "title": "Ingénieur / Ingénieure d'études de prix BTP",
+    "exposure": 7,
+    "rationale": "Ce métier repose sur des tâches numériques (analyse de données, chiffrage, modélisation 3D/BIM, rédaction de cahiers des charges) où l'IA peut automatiser une partie significative du travail (estimation de coûts, optimisation énergétique, gestion de documentation). Cependant, la coordination d'équipes, la gestion de relations clients et la prise de décision stratégique en contexte incertain (chantiers) limitent l'exposition totale."
+  },
+  {
+    "slug": "f1107",
+    "code_rome": "F1107",
+    "title": "Géomètre-topographe",
+    "exposure": 7,
+    "rationale": "Le métier repose principalement sur des tâches numériques (analyse de données, DAO, SIG, modélisation 3D) où l'IA peut automatiser une partie significative du travail (traitement de données, génération de plans, cartographie). Cependant, les interactions terrain, le jugement technique et la validation juridique limitent une exposition maximale."
+  },
+  {
+    "slug": "f1108",
+    "code_rome": "F1108",
+    "title": "Métreur / Métreuse de la construction",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (calculs de métré, utilisation de logiciels CAO/DAO, analyse de données techniques) et des activités physiques (relevés terrain, visites de chantier). L'IA peut automatiser une partie des calculs et des estimations, mais la présence sur site et les interactions humaines restent essentielles."
+  },
+  {
+    "slug": "f1109",
+    "code_rome": "F1109",
+    "title": "Assistant / Assistante géomètre",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches physiques (relevés sur le terrain, pilotage de drones) et des activités numériques (création de plans, analyse de données SIG, modélisation 3D). L'IA peut automatiser une partie des traitements de données et de la cartographie, mais la présence physique et le jugement humain restent essentiels pour la précision et la conformité."
+  },
+  {
+    "slug": "f1110",
+    "code_rome": "F1110",
+    "title": "Dessinateur / Dessinatrice enveloppe du bâtiment",
+    "exposure": 8,
+    "rationale": "Ce métier repose presque entièrement sur la modélisation numérique (CAO/DAO, BIM) et la gestion de données techniques, des domaines où l'IA progresse rapidement. Les outils d'IA générative et d'automatisation des plans pourraient automatiser une grande partie des tâches de dessin et de conception."
+  },
+  {
+    "slug": "f1111",
+    "code_rome": "F1111",
+    "title": "Ingénieur / Ingénieure génie civil",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (modélisation BIM, calculs techniques, rédaction de cahiers des charges) et des activités physiques (suivi de chantier, coordination d'équipes). L'IA peut automatiser une partie des analyses techniques et de la planification, mais la supervision humaine reste cruciale pour la gestion des risques et des aléas."
+  },
+  {
+    "slug": "f1112",
+    "code_rome": "F1112",
+    "title": "Ingénieur / Ingénieure calcul et structure",
+    "exposure": 9,
+    "rationale": "Ce métier repose presque entièrement sur des tâches numériques (modélisation, calculs, analyse de données, rédaction de documentation technique) où l'IA progresse rapidement. Les outils d'IA peuvent automatiser une grande partie des calculs, simulations et analyses, tout en améliorant la productivité des ingénieurs."
+  },
+  {
+    "slug": "f1113",
+    "code_rome": "F1113",
+    "title": "Responsable énergie",
+    "exposure": 7,
+    "rationale": "Le métier repose principalement sur des tâches numériques (diagnostics énergétiques, simulations, rédaction de cahiers des charges, analyse de données) avec une forte composante de traitement de l'information. Cependant, les interactions humaines (conseil client, gestion d'équipes, animation de formations) et la présence physique sur le terrain (visites de sites, chantiers) limitent l'exposition totale à l'IA."
+  },
+  {
+    "slug": "f1114",
+    "code_rome": "F1114",
+    "title": "Conseiller / Conseillère en rénovation énergétique",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches numériques (audits énergétiques, calculs techniques, rédaction de rapports) et des interactions physiques (visites de logements, suivi de chantiers). L'IA peut automatiser une partie des analyses et des conseils standardisés, mais l'expertise humaine, la relation client et la coordination de projets restent cruciales."
+  },
+  {
+    "slug": "f1115",
+    "code_rome": "F1115",
+    "title": "Vulcanologue",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches de terrain (collecte d'échantillons, surveillance physique) nécessitant une présence humaine et des activités numériques (modélisation, analyse de données, rédaction de rapports). L'IA peut assister dans l'analyse de données sismiques ou géochimiques, mais ne remplace pas les missions critiques sur le terrain ou la prise de décision en temps réel."
+  },
+  {
+    "slug": "f1116",
+    "code_rome": "F1116",
+    "title": "Ingénieur / Ingénieure démantèlement nucléaire",
+    "exposure": 3,
+    "rationale": "Le métier combine une forte composante physique (travail sur site, supervision des opérations de démantèlement) et des tâches de gestion de projet, d'analyse de risques et de conformité réglementaire. L'IA peut assister pour la modélisation 3D, l'analyse de données ou la documentation, mais ne peut remplacer l'expertise humaine en radioprotection, la prise de décision en temps réel ou la coordination d'équipes sur le terrain."
+  },
+  {
+    "slug": "f1117",
+    "code_rome": "F1117",
+    "title": "Ingénieur / Ingénieure d'étude CVC",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (conception, simulation, analyse de données, gestion de projets) où l'IA peut automatiser une partie significative du travail (ex : optimisation énergétique via IA, génération de plans, analyse de faisabilité). Cependant, la supervision humaine, les interactions terrain et la créativité technique limitent une exposition totale."
+  },
+  {
+    "slug": "f1118",
+    "code_rome": "F1118",
+    "title": "Sismologue",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse de données sismiques, modélisation, simulation) avec des activités de terrain et de coordination. L'IA peut automatiser une partie significative des analyses et simulations, mais la collecte de données sur le terrain et l'interprétation humaine des résultats restent cruciales."
+  },
+  {
+    "slug": "f1119",
+    "code_rome": "F1119",
+    "title": "Pédologue",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches de terrain (collecte d'échantillons, prospection) et des activités numériques (modélisation 3D, cartographie SIG, analyse de données). L'IA peut automatiser une partie de l'analyse des données et de la modélisation, mais la présence physique et l'expertise humaine restent essentielles pour l'interprétation et la prise de décision."
+  },
+  {
+    "slug": "f1120",
+    "code_rome": "F1120",
+    "title": "Economiste de la construction",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (chiffrage, métré, BIM, rédaction de cahiers des charges) où l'IA peut automatiser l'analyse de données, la génération de rapports et l'estimation des coûts. Cependant, la négociation, la coordination physique sur chantier et le jugement humain limitent une exposition totale."
+  },
+  {
+    "slug": "f1121",
+    "code_rome": "F1121",
+    "title": "Architecte du patrimoine national",
+    "exposure": 4,
+    "rationale": "Le métier combine des compétences manuelles (diagnostic sur site, supervision de chantiers) et des tâches numériques (modélisation BIM, analyse de données historiques), mais reste ancré dans le monde physique et la gestion de projets complexes nécessitant des interactions humaines et une expertise contextuelle."
+  },
+  {
+    "slug": "f1122",
+    "code_rome": "F1122",
+    "title": "Ingénieur / Ingénieure Chantier nucléaire",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches de gestion de chantier, de supervision technique et de conformité réglementaire (fortement ancrées dans le monde physique et les interactions humaines), avec des activités de modélisation, d'analyse de données et de documentation (numériques). L'IA peut assister pour l'optimisation des processus ou l'analyse de risques, mais le cœur du métier reste dépendant de la présence physique et du jugement humain."
+  },
+  {
+    "slug": "f1123",
+    "code_rome": "F1123",
+    "title": "Glaciologue",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches de terrain (expéditions, collecte d'échantillons) nécessitant une présence physique et des compétences manuelles, avec des activités numériques (modélisation, analyse de données, rédaction de rapports). L'IA peut assister certaines analyses ou traitements de données, mais ne remplace pas le travail physique ou les interactions humaines essentielles."
+  },
+  {
+    "slug": "f1124",
+    "code_rome": "F1124",
+    "title": "Hydrologue",
+    "exposure": 7,
+    "rationale": "Le métier repose sur l'analyse de données hydrologiques, la modélisation (simulation de flux d'eau), et la rédaction de rapports techniques ou scientifiques, activités hautement numérisables. Cependant, les interactions terrain (collecte d'échantillons, prospection) et la prise de décision contextuelle limitent une exposition maximale."
+  },
+  {
+    "slug": "f1125",
+    "code_rome": "F1125",
+    "title": "BIM Manager",
+    "exposure": 8,
+    "rationale": "Le métier de BIM Manager repose presque entièrement sur des outils numériques (modélisation 3D, gestion de données, logiciels CAO/DAO) et des compétences en analyse de données. L'IA peut automatiser une grande partie des tâches de modélisation, de simulation et d'optimisation, tout en améliorant la collaboration et la gestion de projets. La dimension physique et relationnelle reste limitée, ce qui expose fortement le métier à la transformation par l'IA."
+  },
+  {
+    "slug": "f1126",
+    "code_rome": "F1126",
+    "title": "Assistant / Assistante maîtrise d'½uvre en architecture",
+    "exposure": 8,
+    "rationale": "Ce métier repose principalement sur des tâches numériques (CAO/DAO, BIM, gestion de dossiers administratifs, analyse de données techniques) où l'IA peut automatiser une grande partie du travail de conception, de modélisation et de conformité. Les interactions humaines et le suivi de chantier restent, mais l'IA transformera radicalement les processus de production et de coordination."
+  },
+  {
+    "slug": "f1127",
+    "code_rome": "F1127",
+    "title": "Architecte-urbaniste",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (modélisation 3D, BIM, SIG, analyse de données) avec des interactions humaines et physiques (coordination, consultations publiques, gestion de chantiers). L'IA transformera significativement les aspects numériques (simulations, optimisation de plans) et la productivité des architectes, mais le cœur du métier reste ancré dans le jugement humain et la gestion de projets complexes."
+  },
+  {
+    "slug": "f1128",
+    "code_rome": "F1128",
+    "title": "Géotechnicien / Géotechnicienne",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches de terrain (prélèvements, sondages) nécessitant une présence physique et des compétences manuelles, avec des activités de traitement de données et de rédaction de rapports réalisables numériquement. L'IA peut assister pour l'analyse de données géotechniques et la modélisation, mais ne remplace pas les interventions physiques ou les interactions humaines essentielles."
+  },
+  {
+    "slug": "f1129",
+    "code_rome": "F1129",
+    "title": "Ingénieur / Ingénieure réservoir",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques clés comme la modélisation, la simulation et l'analyse de données géologiques, très exposées à l'IA. Cependant, les aspects physiques (supervision de forage, gestion d'équipes sur site) et les interactions complexes limitent une exposition totale."
+  },
+  {
+    "slug": "f1130",
+    "code_rome": "F1130",
+    "title": "Contrôleur / Contrôleuse technique de la construction (CTC)",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches physiques (inspections sur chantier, prélèvements) et des activités numériques (analyse de données, rédaction de rapports, BIM). L'IA peut automatiser certaines analyses techniques et la veille réglementaire, mais la présence humaine reste indispensable pour le jugement expert et les interactions terrain."
+  },
+  {
+    "slug": "f1131",
+    "code_rome": "F1131",
+    "title": "Géomètre du cadastre",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (traitement de données géospatiales, cartographie, calculs) avec des outils comme les SIG et le GPS, mais nécessite une présence sur le terrain pour les relevés et une expertise humaine pour l'interprétation juridique et technique des plans."
+  },
+  {
+    "slug": "f1132",
+    "code_rome": "F1132",
+    "title": "Acousticien / Acousticienne du bâtiment",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (modélisation, simulation, analyse de données acoustiques, rédaction de cahiers des charges) et des activités physiques (mesures sur site, supervision d'installations). L'IA peut automatiser une partie des analyses et simulations, mais la présence humaine reste indispensable pour l'expertise terrain et les interactions avec les clients."
+  },
+  {
+    "slug": "f1133",
+    "code_rome": "F1133",
+    "title": "Chargé / Chargée d'affaires foncières",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse de données foncières, cartographie SIG, études de faisabilité) et des interactions humaines (négociation, conseil juridique). L'IA peut automatiser une partie des analyses techniques et documentaires, mais la négociation, la gestion des relations et le jugement humain restent centraux."
+  },
+  {
+    "slug": "f1134",
+    "code_rome": "F1134",
+    "title": "Domoticien / Domoticienne",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches techniques (programmation, installation, maintenance) avec des compétences relationnelles (conseil client, formation). L'IA peut automatiser une partie des diagnostics, de la configuration et de la surveillance à distance, mais la présence physique et l'expertise humaine restent cruciales pour l'adaptation aux besoins spécifiques et l'installation."
+  },
+  {
+    "slug": "f1135",
+    "code_rome": "F1135",
+    "title": "Chargé / Chargée d'affaires BTP",
+    "exposure": 7,
+    "rationale": "Le métier combine des tâches numériques (analyse de données, rédaction de cahiers des charges, veille technologique, gestion administrative) et des interactions physiques (suivi de chantier, négociation client). L'IA peut automatiser une partie significative des activités de traitement de l'information et d'optimisation, mais la coordination humaine, la résolution de problèmes complexes et les relations clients restent cruciales."
+  },
+  {
+    "slug": "f1136",
+    "code_rome": "F1136",
+    "title": "Chef / Cheffe de projet éolien",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches numériques (analyse de données, modélisation 3D, gestion de projets) et des activités physiques ou relationnelles (supervision de chantiers, négociation avec parties prenantes, évaluation de sites). L'IA peut automatiser certaines analyses techniques ou administratives, mais le cœur du métier reste ancré dans le terrain et les interactions humaines."
+  },
+  {
+    "slug": "f1137",
+    "code_rome": "F1137",
+    "title": "Chargé / Chargée de méthodes BTP",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches hautement numériques (analyse de données, CAO/DAO, BIM, rédaction de cahiers des charges) où l'IA peut automatiser une partie significative du travail (simulations, optimisation, veille technologique). Cependant, la coordination terrain, le jugement technique et les interactions humaines limitent une exposition maximale."
+  },
+  {
+    "slug": "f1138",
+    "code_rome": "F1138",
+    "title": "Géothermicien / Géothermicienne",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches physiques (forages, supervision de chantiers) et des activités numériques (modélisation, analyse de données, rédaction de rapports). L'IA peut assister pour la simulation, l'analyse de risques ou la planification, mais le cœur du métier repose sur des compétences terrain et une expertise humaine indispensable."
+  },
+  {
+    "slug": "f1139",
+    "code_rome": "F1139",
+    "title": "Décorateur / Décoratrice d'intérieur",
+    "exposure": 7,
+    "rationale": "Le métier repose sur des tâches numériques (conception 3D, CAO/DAO, gestion de projets) et créatives, très exposées aux outils d'IA générative et d'automatisation. Cependant, la coordination physique avec clients, artisans et fournisseurs limite partiellement l'impact direct de l'IA."
+  },
+  {
+    "slug": "f1140",
+    "code_rome": "F1140",
+    "title": "Concepteur / Conceptrice agencement",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches numériques (conception 3D, plans CAO/DAO, gestion de projets) et des activités physiques (suivi de chantier, coordination d'équipes, pose). L'IA peut automatiser une partie des dessins techniques et de l'optimisation spatiale, mais l'expertise humaine reste cruciale pour la créativité, la relation client et la gestion des imprévus."
+  },
+  {
+    "slug": "f1141",
+    "code_rome": "F1141",
+    "title": "Ingénieur / Ingénieure études conception électrique",
+    "exposure": 8,
+    "rationale": "Ce métier repose sur des tâches hautement numériques (conception, modélisation, simulation, rédaction de cahiers des charges) où l'IA peut automatiser une grande partie du travail technique (ex : génération de schémas, analyse de données, optimisation énergétique). Les compétences manuelles ou physiques sont marginales, et l'IA accélère déjà la productivité des ingénieurs."
+  },
+  {
+    "slug": "f1142",
+    "code_rome": "F1142",
+    "title": "Océanographe",
+    "exposure": 6,
+    "rationale": "Le métier combine des tâches numériques (analyse de données, modélisation, rédaction de rapports) et des activités physiques (campagnes en mer, prélèvements). L'IA peut automatiser une partie de l'analyse de données et de la modélisation, mais la présence humaine reste cruciale pour l'interprétation, la validation et les interactions terrain."
+  },
+  {
+    "slug": "f1143",
+    "code_rome": "F1143",
+    "title": "Géophysicien / Géophysicienne",
+    "exposure": 8,
+    "rationale": "Le métier repose principalement sur l'analyse de données, la modélisation numérique (3D, géophysique), la simulation et la rédaction de rapports scientifiques, activités entièrement réalisables à distance via des outils numériques. L'IA peut automatiser une grande partie du traitement des données, de l'interprétation des relevés et de la génération de modèles prédictifs."
+  },
+  {
+    "slug": "f1201",
+    "code_rome": "F1201",
+    "title": "Conducteur / Conductrice de travaux du bâtiment",
+    "exposure": 6,
+    "rationale": "Le métier combine une forte composante numérique (gestion de budgets, BIM, logiciels de planification) avec des tâches physiques et relationnelles (supervision de chantiers, coordination d'équipes). L'IA peut automatiser une partie de l'analyse de données et de la planification, mais l'encadrement humain et la gestion des imprévus restent centraux."
+  },
+  {
+    "slug": "f1202",
+    "code_rome": "F1202",
+    "title": "Chef / Cheffe de chantier bâtiment",
+    "exposure": 5,
+    "rationale": "Le métier combine des tâches de gestion numérique (plannings, maquette BIM, suivi administratif) et des responsabilités physiques (supervision de chantier, coordination des équipes). L'IA peut optimiser la planification et l'analyse de données, mais l'essentiel du travail repose sur des interactions humaines et une présence sur site."
+  },
+  {
+    "slug": "f1203",
+    "code_rome": "F1203",
+    "title": "Responsable d'exploitation de gisements et de carrières",
+    "exposure": 3,
+    "rationale": "Le métier combine une forte composante physique (supervision de chantiers, extraction, forage) et des tâches de gestion administrative ou technique (planification, budget, QHSSE). L'IA peut assister pour l'analyse de données géologiques ou la gestion des ressources, mais ne remplace pas la présence sur site ni les décisions humaines en environnement imprévisible."
+  },
+  {
+    "slug": "f1204",
+    "code_rome": "F1204",
+    "title": "Animateur / Animatrice QSE - Qualité Sécurité Environnement BTP",
+    "exposure": 4,
+    "rationale": "Le métier combine des tâches numériques (analyse de données, rédaction de procédures, gestion documentaire) et des activités physiques incontournables (visites de chantier, formations pratiques, contrôle des installations). L'IA peut automatiser une partie de l'analyse des risques et de la documentation, mais l'essentiel du travail repose sur des interactions humaines et une présence sur site."
   }
 ]
