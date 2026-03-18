@@ -30,6 +30,14 @@ def main():
 
     print(f"Données marché du travail: {len(labour)}")
 
+    # Charger les offres actives (snapshot temps réel, E1 uniquement)
+    active = {}
+    if os.path.exists("active_offers.json"):
+        with open("active_offers.json", encoding="utf-8") as f:
+            active = json.load(f).get("counts", {})
+
+    print(f"Offres actives (E1): {len(active)}")
+
     # Charger les stats
     with open("occupations.csv", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -55,7 +63,8 @@ def main():
             "grand_domaine": row["grand_domaine"],
             "domaine_pro": row["domaine_pro"],
             "domaine_pro_code": code[:3],
-            # Taille : offres d'emploi (source principale)
+            # Taille : offres actives (snapshot) ou cumul 12 mois (fallback)
+            "active_offers": active.get(code) or 0,
             "job_offers": lm.get("job_offers") or 0,
             "job_seekers": lm.get("job_seekers") or 0,
             "min_salary": lm.get("min_salary"),
@@ -75,6 +84,8 @@ def main():
 
     # Stats
     scored = sum(1 for d in data if d["exposure"] is not None)
+    with_active = sum(1 for d in data if d["active_offers"])
+    total_active = sum(d["active_offers"] for d in data)
     with_offers = sum(1 for d in data if d["job_offers"])
     total_offers = sum(d["job_offers"] for d in data)
     total_seekers = sum(d["job_seekers"] for d in data)
@@ -83,8 +94,10 @@ def main():
 
     print(f"\ndocs/data.json:")
     print(f"  Total métiers: {len(data)}")
-    print(f"  Avec offres > 0: {with_offers}/{len(data)}")
-    print(f"  Total offres: {total_offers:,}")
+    print(f"  Avec offres actives > 0: {with_active}/{len(data)}")
+    print(f"  Total offres actives (E1): {total_active:,}")
+    print(f"  Avec offres cumul > 0: {with_offers}/{len(data)}")
+    print(f"  Total offres cumul 12m: {total_offers:,}")
     print(f"  Total demandeurs: {total_seekers:,}")
     print(f"  Avec salaire: {with_salary}/{len(data)}")
     print(f"  Avec score IA: {scored}/{len(data)}")
