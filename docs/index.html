@@ -284,8 +284,7 @@ body {
       </h1>
       <p>
         Visualisation interactive de <strong id="total-count">1 584</strong> métiers du référentiel <strong>ROME 4.0</strong>.
-        La surface de chaque rectangle est proportionnelle aux <strong>projets de recrutement</strong> (BMO 2025, France Travail).
-        Les métiers sans données BMO ont une taille minimale.
+        La surface de chaque rectangle est proportionnelle aux <strong>offres d'emploi</strong> déposées sur 12 mois (France Travail, T4 2025).
         Cliquez sur un métier pour ouvrir sa fiche officielle.
       </p>
       <p style="font-size:12px; color: rgba(255,255,255,0.25); margin-top: 4px;">
@@ -310,7 +309,7 @@ body {
 
   <div id="statsbar">
     <span class="stat-item"><strong id="stat-total">–</strong> métiers</span>
-    <span class="stat-item" id="stat-projets-wrap"><strong id="stat-projets">–</strong> projets de recrutement (BMO 2025)</span>
+    <span class="stat-item" id="stat-projets-wrap"><strong id="stat-projets">–</strong> offres d'emploi (France Travail, 12 mois)</span>
     <span class="stat-item" id="stat-metric-wrap"></span>
   </div>
 
@@ -468,9 +467,9 @@ async function loadData() {
   document.getElementById('ai-scored-badge').textContent = `(${scored} scorés)`;
 
   // Stats
-  const totalProjets = allData.reduce((s, d) => s + (d.projets_recrutement || 0), 0);
+  const totalOffers = allData.reduce((s, d) => s + (d.job_offers || 0), 0);
   document.getElementById('stat-total').textContent = allData.length.toLocaleString('fr-FR');
-  document.getElementById('stat-projets').textContent = totalProjets.toLocaleString('fr-FR');
+  document.getElementById('stat-projets').textContent = totalOffers.toLocaleString('fr-FR');
 
   document.getElementById('loading').style.display = 'none';
   render();
@@ -593,17 +592,16 @@ function render() {
   const W = container.clientWidth;
   const H = container.clientHeight || 700;
 
-  // Minimum area for métiers without BMO data
-  const MIN_AREA = 400; // px²
+  // Minimum area for métiers sans offres
+  const MIN_AREA = 200; // px²
 
-  // Compute areas
-  const totalProjets = allData.reduce((s, d) => s + (d.projets_recrutement || 0), 0);
+  // Compute areas proportional to job offers
+  const totalOffers = allData.reduce((s, d) => s + (d.job_offers || 0), 0);
   const targetTotalArea = W * H;
 
-  // Items with area proportional to recrutements, minimum for empty ones
   const items = allData.map(d => {
-    const baseArea = d.projets_recrutement
-      ? (d.projets_recrutement / totalProjets) * targetTotalArea
+    const baseArea = d.job_offers
+      ? (d.job_offers / totalOffers) * targetTotalArea
       : 0;
     return { ...d, _area: Math.max(baseArea, MIN_AREA) };
   });
@@ -666,8 +664,14 @@ function showTooltip(e, d) {
   html += `<div class="tt-row"><span>Domaine</span><span class="tt-val">${d.grand_domaine.split(',')[0]}</span></div>`;
   html += `<div class="tt-row"><span>Famille</span><span class="tt-val">${d.domaine_pro}</span></div>`;
 
-  if (d.projets_recrutement) {
-    html += `<div class="tt-row"><span>Projets recrutement</span><span class="tt-val">${d.projets_recrutement.toLocaleString('fr-FR')}</span></div>`;
+  if (d.job_offers) {
+    html += `<div class="tt-row"><span>Offres d'emploi</span><span class="tt-val">${d.job_offers.toLocaleString('fr-FR')}</span></div>`;
+  }
+  if (d.job_seekers) {
+    html += `<div class="tt-row"><span>Demandeurs d'emploi</span><span class="tt-val">${d.job_seekers.toLocaleString('fr-FR')}</span></div>`;
+  }
+  if (d.min_salary && d.max_salary) {
+    html += `<div class="tt-row"><span>Salaire brut mensuel</span><span class="tt-val">${d.min_salary.toLocaleString('fr-FR')}€ – ${d.max_salary.toLocaleString('fr-FR')}€</span></div>`;
   }
   if (d.taux_difficulte !== null) {
     html += `<div class="tt-row"><span>Difficulté recrutement</span><span class="tt-val">${d.taux_difficulte}%</span></div>`;
