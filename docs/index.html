@@ -294,16 +294,17 @@ body {
         Cliquez sur un métier pour ouvrir sa fiche officielle.
       </p>
       <p style="font-size:12px; color: rgba(255,255,255,0.25); margin-top: 4px;">
-        Sources : ROME 4.0 · API Offres d'emploi France Travail (offres actives, E1) · BMO 2025 · Scores IA : Gemini 2.5 Flash · Projet open source
+        Sources : ROME 4.0 · API Offres d'emploi France Travail (offres actives, E1) · BMO 2025 · Scores IA : Mistral Small · Projet open source
       </p>
     </div>
   </div>
 
   <div id="toolbar">
-    <button class="layer-btn active" data-layer="domaine">Grand Domaine</button>
+    <button class="layer-btn" data-layer="domaine">Grand Domaine</button>
+    <button class="layer-btn active" data-layer="ai">Exposition IA <span id="ai-scored-badge" style="font-size:10px; opacity:0.6"></span></button>
+    <button class="layer-btn" data-layer="salary">Salaire</button>
     <button class="layer-btn" data-layer="tension">Difficulté de Recrutement</button>
     <button class="layer-btn" data-layer="digital">Transition Numérique</button>
-    <button class="layer-btn" data-layer="ai">Exposition IA <span id="ai-scored-badge" style="font-size:10px; opacity:0.6"></span></button>
     <button class="layer-btn" data-layer="eco">Transition Écologique</button>
     <div id="search-wrap">
       <input id="search-input" type="text" placeholder="Rechercher un métier…" autocomplete="off" spellcheck="false">
@@ -383,9 +384,10 @@ function colorScale(value, min, max, colors) {
 
 // Color palettes
 const RED_GREEN = [[180,40,40],[220,120,40],[200,180,60],[80,180,80],[30,140,30]];
-const BLUE_YELLOW = [[20,60,180],[80,140,210],[200,200,80],[220,160,40],[180,80,20]];
+const BLUE_YELLOW = [[20,60,180],[80,140,210],[200,200,80],[220,120,30],[220,60,60]];
 const GREEN_RED = [[30,140,30],[80,180,80],[200,180,60],[220,120,40],[180,40,40]];
 const PURPLE_CYAN = [[60,20,120],[120,60,200],[80,160,220],[40,200,200]];
+const SALARY_SCALE = [[60,30,140],[40,110,180],[40,175,140],[180,200,60],[230,190,40]];
 
 // ── Treemap layout (Squarified) ───────────────────────────────────────────────
 function squarify(items, x, y, w, h) {
@@ -460,7 +462,7 @@ function worst(row, w, h, totalArea, rowArea) {
 
 // ── Main app ──────────────────────────────────────────────────────────────────
 let allData = [];
-let currentLayer = 'domaine';
+let currentLayer = 'ai';
 let layoutCache = null;
 
 async function loadData() {
@@ -487,7 +489,7 @@ function getColor(d, layer) {
       return DOMAINE_COLORS[d.grand_domaine_code] || '#3a3a5a';
 
     case 'tension':
-      return colorScale(d.taux_difficulte, 20, 85, GREEN_RED);
+      return colorScale(d.tension_score, 20, 85, GREEN_RED);
 
     case 'digital':
       return d.is_digital ? '#3a8aff' : '#2a2a4a';
@@ -495,6 +497,11 @@ function getColor(d, layer) {
     case 'ai':
       if (d.exposure === null || d.exposure === undefined) return '#2a2a3a';
       return colorScale(d.exposure, 0, 10, BLUE_YELLOW);
+
+    case 'salary':
+      if (!d.min_salary || !d.max_salary) return '#2a2a3a';
+      const midSalary = (d.min_salary + d.max_salary) / 2;
+      return colorScale(midSalary, 1800, 5000, SALARY_SCALE);
 
     case 'eco':
       if (!d.transition_eco) return '#2a2a3a';
@@ -520,11 +527,13 @@ function renderLegend(layer) {
       ).join('')
     }</div>`;
   } else if (layer === 'tension') {
+    const bmoCount = allData.filter(d => d.taux_difficulte !== null).length;
+    const estCount = allData.filter(d => d.tension_score !== null && d.taux_difficulte === null).length;
     el.innerHTML = `<div class="legend-gradient">
       <span>Peu difficile</span>
       <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
       <span>Très difficile</span>
-      <span style="margin-left:8px; font-size:11px; opacity:0.5">(gris = pas de données)</span>
+      <span style="margin-left:8px; font-size:11px; opacity:0.5">(${bmoCount} BMO · ${estCount} estimés · gris = pas de données)</span>
     </div>`;
     drawGradientBar('grad-canvas', GREEN_RED);
   } else if (layer === 'digital') {
@@ -540,6 +549,15 @@ function renderLegend(layer) {
       <span style="margin-left:8px; font-size:11px; opacity:0.5">(gris = non évalué)</span>
     </div>`;
     drawGradientBar('grad-canvas', BLUE_YELLOW);
+  } else if (layer === 'salary') {
+    const withSalary = allData.filter(d => d.min_salary && d.max_salary).length;
+    el.innerHTML = `<div class="legend-gradient">
+      <span>~1 800€</span>
+      <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
+      <span>~5 000€+</span>
+      <span style="margin-left:8px; font-size:11px; opacity:0.5">(salaire brut mensuel médian · ${withSalary} métiers · gris = pas de données)</span>
+    </div>`;
+    drawGradientBar('grad-canvas', SALARY_SCALE);
   } else if (layer === 'eco') {
     el.innerHTML = `<div class="legend-items">
       <div class="legend-item"><div class="legend-dot" style="background:#2da84f"></div><span>Emploi stratégique pour la transition écologique</span></div>
@@ -569,10 +587,11 @@ function updateStats(layer) {
   const data = allData.filter(d => d[layer === 'tension' ? 'taux_difficulte' : layer === 'ai' ? 'exposure' : null] !== null);
 
   if (layer === 'tension') {
-    const vals = allData.filter(d => d.taux_difficulte !== null).map(d => d.taux_difficulte);
-    if (vals.length) {
-      const avg = vals.reduce((s, v) => s + v, 0) / vals.length;
-      el.innerHTML = `<strong>${avg.toFixed(1)}%</strong> taux de difficulté moyen (${vals.length} métiers)`;
+    const bmoVals = allData.filter(d => d.taux_difficulte !== null).map(d => d.taux_difficulte);
+    const totalWithScore = allData.filter(d => d.tension_score !== null).length;
+    if (bmoVals.length) {
+      const avg = bmoVals.reduce((s, v) => s + v, 0) / bmoVals.length;
+      el.innerHTML = `<strong>${avg.toFixed(1)}%</strong> taux de difficulté moyen BMO · <strong>${totalWithScore}</strong> métiers couverts`;
     }
   } else if (layer === 'ai') {
     const vals = allData.filter(d => d.exposure !== null).map(d => d.exposure);
@@ -581,6 +600,12 @@ function updateStats(layer) {
       el.innerHTML = `<strong>${avg.toFixed(1)}/10</strong> exposition IA moyenne (${vals.length} métiers scorés)`;
     } else {
       el.innerHTML = `<span>Scoring en cours...</span>`;
+    }
+  } else if (layer === 'salary') {
+    const salaries = allData.filter(d => d.min_salary && d.max_salary).map(d => (d.min_salary + d.max_salary) / 2);
+    if (salaries.length) {
+      const avg = salaries.reduce((s, v) => s + v, 0) / salaries.length;
+      el.innerHTML = `<strong>${Math.round(avg).toLocaleString('fr-FR')}€</strong> salaire brut moyen · <strong>${salaries.length}</strong> métiers avec données`;
     }
   } else if (layer === 'digital') {
     const n = allData.filter(d => d.is_digital).length;
@@ -777,7 +802,9 @@ function showTooltip(e, d) {
     html += `<div class="tt-row"><span>Salaire brut mensuel</span><span class="tt-val">${d.min_salary.toLocaleString('fr-FR')}€ – ${d.max_salary.toLocaleString('fr-FR')}€</span></div>`;
   }
   if (d.taux_difficulte !== null) {
-    html += `<div class="tt-row"><span>Difficulté recrutement</span><span class="tt-val">${d.taux_difficulte}%</span></div>`;
+    html += `<div class="tt-row"><span>Difficulté recrutement</span><span class="tt-val">${d.taux_difficulte}% <span style="opacity:0.5;font-size:11px">(BMO)</span></span></div>`;
+  } else if (d.tension_score !== null) {
+    html += `<div class="tt-row"><span>Difficulté recrutement</span><span class="tt-val">${d.tension_score}e pct <span style="opacity:0.5;font-size:11px">(estimé)</span></span></div>`;
   }
   if (d.is_digital) {
     html += `<div class="tt-row"><span>Transition numérique</span><span class="tt-val">Oui ✓</span></div>`;
