@@ -837,6 +837,8 @@ function moveTooltip(e) {
   let ly = e.clientY + pad;
   if (lx + tw > window.innerWidth - 8) lx = e.clientX - tw - pad;
   if (ly + th > window.innerHeight - 8) ly = e.clientY - th - pad;
+  if (ly < 8) ly = 8;
+  if (lx < 8) lx = 8;
   tooltip.style.left = lx + 'px';
   tooltip.style.top = ly + 'px';
 }
