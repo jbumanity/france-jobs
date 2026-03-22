@@ -1,0 +1,3458 @@
+{
+  "10a": {
+    "code_pcs": "10a",
+    "title": "Exploitants agricoles",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10a1": {
+    "code_pcs": "10a1",
+    "title": "Exploitants agricoles en grandes cultures",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10a2": {
+    "code_pcs": "10a2",
+    "title": "Maraîchers, horticulteurs et pépiniéristes",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10a3": {
+    "code_pcs": "10a3",
+    "title": "Viticulteurs, arboriculteurs",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10a4": {
+    "code_pcs": "10a4",
+    "title": "Éleveurs de bovins",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10a5": {
+    "code_pcs": "10a5",
+    "title": "Éleveurs de moutons, chèvres, chevaux et autres herbivores",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10a6": {
+    "code_pcs": "10a6",
+    "title": "Éleveurs de volailles et de porcs",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10a7": {
+    "code_pcs": "10a7",
+    "title": "Autres exploitants agricoles",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10b": {
+    "code_pcs": "10b",
+    "title": "Entrepreneurs de travaux agricoles, ruraux et forestiers",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10b1": {
+    "code_pcs": "10b1",
+    "title": "Entrepreneurs de travaux agricoles, ruraux et forestiers",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10c": {
+    "code_pcs": "10c",
+    "title": "Entrepreneurs de la pêche et de l’aquaculture",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "10c1": {
+    "code_pcs": "10c1",
+    "title": "Entrepreneurs de la pêche et de l’aquaculture",
+    "group_code": "1",
+    "group_label": "Agriculteurs exploitants",
+    "category_code": "10",
+    "category_label": "Exploitants de l’agriculture, sylviculture, pêche et aquaculture"
+  },
+  "21a": {
+    "code_pcs": "21a",
+    "title": "Entrepreneurs en parcs et jardins, paysagistes",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21a1": {
+    "code_pcs": "21a1",
+    "title": "Entrepreneurs en parcs et jardins, paysagistes",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21b": {
+    "code_pcs": "21b",
+    "title": "Artisans du bâtiment et des travaux publics",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21b1": {
+    "code_pcs": "21b1",
+    "title": "Artisans maçons",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21b2": {
+    "code_pcs": "21b2",
+    "title": "Artisans charpentiers, couvreurs",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21b3": {
+    "code_pcs": "21b3",
+    "title": "Artisans menuisiers du bâtiment",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21b4": {
+    "code_pcs": "21b4",
+    "title": "Artisans plombiers, chauffagistes",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21b5": {
+    "code_pcs": "21b5",
+    "title": "Artisans électriciens du bâtiment",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21b6": {
+    "code_pcs": "21b6",
+    "title": "Artisans de la peinture et des finitions du bâtiment",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21b7": {
+    "code_pcs": "21b7",
+    "title": "Artisans tout corps de métier du bâtiment et artisans des travaux publics",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21c": {
+    "code_pcs": "21c",
+    "title": "Artisans de la réparation et du travail des matériaux",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21c1": {
+    "code_pcs": "21c1",
+    "title": "Garagistes et autres artisans réparateurs",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21c2": {
+    "code_pcs": "21c2",
+    "title": "Artisans du travail des métaux et du bois",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21c3": {
+    "code_pcs": "21c3",
+    "title": "Artisans de la couture et des autres fabrications",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21c4": {
+    "code_pcs": "21c4",
+    "title": "Artisans d’art",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21d": {
+    "code_pcs": "21d",
+    "title": "Artisans de l’alimentation",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21d1": {
+    "code_pcs": "21d1",
+    "title": "Artisans bouchers, charcutiers",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21d2": {
+    "code_pcs": "21d2",
+    "title": "Artisans boulangers, pâtissiers",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21e": {
+    "code_pcs": "21e",
+    "title": "Artisans des services",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21e1": {
+    "code_pcs": "21e1",
+    "title": "Conducteurs de taxis, d'ambulances et autres entrepreneurs du transport individuel",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21e2": {
+    "code_pcs": "21e2",
+    "title": "Transporteurs indépendants (routiers, fluviaux, maritimes et aériens)",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21e3": {
+    "code_pcs": "21e3",
+    "title": "Artisans coiffeurs",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21e4": {
+    "code_pcs": "21e4",
+    "title": "Esthéticiens et autres artisans des soins corporels",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "21e5": {
+    "code_pcs": "21e5",
+    "title": "Artisans du nettoyage, de la récupération et des services divers",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "21",
+    "category_label": "Artisans"
+  },
+  "22a": {
+    "code_pcs": "22a",
+    "title": "Commerçants de produits alimentaires",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22a1": {
+    "code_pcs": "22a1",
+    "title": "Commerçants de produits alimentaires",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22b": {
+    "code_pcs": "22b",
+    "title": "Commerçants de produits non alimentaires",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22b1": {
+    "code_pcs": "22b1",
+    "title": "Commerçants de biens pour le foyer",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22b2": {
+    "code_pcs": "22b2",
+    "title": "Commerçants de biens pour la personne",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22b3": {
+    "code_pcs": "22b3",
+    "title": "Buralistes, marchands de presse et autres commerçants d'articles divers",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22c": {
+    "code_pcs": "22c",
+    "title": "Exploitants de cafés, restaurants, hôtels",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22c1": {
+    "code_pcs": "22c1",
+    "title": "Exploitants de cafés, de restaurants",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22c2": {
+    "code_pcs": "22c2",
+    "title": "Exploitants d’hôtels et d’autres hébergements",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22d": {
+    "code_pcs": "22d",
+    "title": "Intermédiaires et prestataires de services",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22d1": {
+    "code_pcs": "22d1",
+    "title": "Agents généraux et courtiers d’assurance",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22d2": {
+    "code_pcs": "22d2",
+    "title": "Gérants d'agences immobilières",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22d3": {
+    "code_pcs": "22d3",
+    "title": "Agents commerciaux immobiliers",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22d4": {
+    "code_pcs": "22d4",
+    "title": "Intermédiaires du commerce",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22d5": {
+    "code_pcs": "22d5",
+    "title": "Gestionnaires d’autres établissements de service",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "22d6": {
+    "code_pcs": "22d6",
+    "title": "Indépendants d’autres prestations de service",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "22",
+    "category_label": "Commerçants et assimilés"
+  },
+  "23a": {
+    "code_pcs": "23a",
+    "title": "Chefs d’entreprise de 50 personnes et plus",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "23",
+    "category_label": "Chefs d’entreprise de plus de 10 personnes"
+  },
+  "23a1": {
+    "code_pcs": "23a1",
+    "title": "Chefs d’entreprise de 50 personnes et plus",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "23",
+    "category_label": "Chefs d’entreprise de plus de 10 personnes"
+  },
+  "23b": {
+    "code_pcs": "23b",
+    "title": "Chefs d’entreprise de 11 à 49 personnes",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "23",
+    "category_label": "Chefs d’entreprise de plus de 10 personnes"
+  },
+  "23b1": {
+    "code_pcs": "23b1",
+    "title": "Chefs d’entreprise du BTP, de 11 à 49 personnes",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "23",
+    "category_label": "Chefs d’entreprise de plus de 10 personnes"
+  },
+  "23b2": {
+    "code_pcs": "23b2",
+    "title": "Chefs d’entreprise de l’agriculture, de l’industrie et des transports, de 11 à 49 personnes",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "23",
+    "category_label": "Chefs d’entreprise de plus de 10 personnes"
+  },
+  "23b3": {
+    "code_pcs": "23b3",
+    "title": "Chefs d’entreprise du commerce, de 11 à 49 personnes",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "23",
+    "category_label": "Chefs d’entreprise de plus de 10 personnes"
+  },
+  "23b4": {
+    "code_pcs": "23b4",
+    "title": "Chefs d’entreprise de services, de 11 à 49 personnes",
+    "group_code": "2",
+    "group_label": "Artisans, commerçants et chefs d’entreprise",
+    "category_code": "23",
+    "category_label": "Chefs d’entreprise de plus de 10 personnes"
+  },
+  "31a": {
+    "code_pcs": "31a",
+    "title": "Professions libérales de santé",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31a1": {
+    "code_pcs": "31a1",
+    "title": "Médecins libéraux spécialistes",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31a2": {
+    "code_pcs": "31a2",
+    "title": "Médecins libéraux généralistes",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31a3": {
+    "code_pcs": "31a3",
+    "title": "Chirurgiens-dentistes",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31a4": {
+    "code_pcs": "31a4",
+    "title": "Psychologues, psychanalystes, psychothérapeutes (non médecins)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31a5": {
+    "code_pcs": "31a5",
+    "title": "Vétérinaires",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31a6": {
+    "code_pcs": "31a6",
+    "title": "Pharmaciens libéraux",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31b": {
+    "code_pcs": "31b",
+    "title": "Professions libérales juridiques et techniques",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31b1": {
+    "code_pcs": "31b1",
+    "title": "Avocats",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31b2": {
+    "code_pcs": "31b2",
+    "title": "Notaires",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31b3": {
+    "code_pcs": "31b3",
+    "title": "Experts comptables, comptables agréés libéraux",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31b4": {
+    "code_pcs": "31b4",
+    "title": "Experts libéraux des services administratifs et financiers",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31b5": {
+    "code_pcs": "31b5",
+    "title": "Experts libéraux en études techniques",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31b6": {
+    "code_pcs": "31b6",
+    "title": "Architectes libéraux",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "31b7": {
+    "code_pcs": "31b7",
+    "title": "Autres professions libérales judiciaires et techniques",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "31",
+    "category_label": "Professions libérales"
+  },
+  "33a": {
+    "code_pcs": "33a",
+    "title": "Cadres de direction de la fonction publique, magistrats",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33a1": {
+    "code_pcs": "33a1",
+    "title": "Cadres de direction de la fonction publique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33a2": {
+    "code_pcs": "33a2",
+    "title": "Magistrats",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33b": {
+    "code_pcs": "33b",
+    "title": "Ingénieurs et cadres techniques de la fonction publique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33b1": {
+    "code_pcs": "33b1",
+    "title": "Ingénieurs et cadres techniques de la fonction publique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33c": {
+    "code_pcs": "33c",
+    "title": "Cadres administratifs de la fonction publique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33c1": {
+    "code_pcs": "33c1",
+    "title": "Cadres administratifs de l’État",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33c2": {
+    "code_pcs": "33c2",
+    "title": "Cadres administratifs des collectivités territoriales et des hôpitaux publics",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33d": {
+    "code_pcs": "33d",
+    "title": "Officiers des Armées et de la Gendarmerie (sauf grades de colonels, généraux et équivalents)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33d1": {
+    "code_pcs": "33d1",
+    "title": "Officiers des Armées et de la Gendarmerie (sauf grades de colonels, généraux et équivalents)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33e": {
+    "code_pcs": "33e",
+    "title": "Responsables politiques et syndicaux",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "33e1": {
+    "code_pcs": "33e1",
+    "title": "Responsables politiques et syndicaux",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "33",
+    "category_label": "Cadres administratifs et techniques de la fonction publique"
+  },
+  "34a": {
+    "code_pcs": "34a",
+    "title": "Professions de l’enseignement secondaire général et technologique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34a1": {
+    "code_pcs": "34a1",
+    "title": "Enseignants titulaires du secondaire général et technologique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34a2": {
+    "code_pcs": "34a2",
+    "title": "Chefs d'établissement de l'enseignement secondaire, inspecteurs",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34a3": {
+    "code_pcs": "34a3",
+    "title": "Psychologues et conseillers de l'orientation scolaire et professionnelle",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34b": {
+    "code_pcs": "34b",
+    "title": "Professions de l’enseignement supérieur et de la recherche publique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34b1": {
+    "code_pcs": "34b1",
+    "title": "Enseignants du supérieur",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34b2": {
+    "code_pcs": "34b2",
+    "title": "Chercheurs de la recherche publique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34c": {
+    "code_pcs": "34c",
+    "title": "Médecins et pharmaciens salariés",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34c1": {
+    "code_pcs": "34c1",
+    "title": "Médecins salariés hospitaliers",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34c2": {
+    "code_pcs": "34c2",
+    "title": "Médecins salariés non hospitaliers",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34c3": {
+    "code_pcs": "34c3",
+    "title": "Internes en médecine, odontologie et pharmacie",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "34c4": {
+    "code_pcs": "34c4",
+    "title": "Pharmaciens salariés",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "34",
+    "category_label": "Professeurs et professions scientifiques supérieures"
+  },
+  "35a": {
+    "code_pcs": "35a",
+    "title": "Cadres de la documentation et du patrimoine",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35a1": {
+    "code_pcs": "35a1",
+    "title": "Documentalistes, bibliothécaires de la fonction publique et autres cadres du patrimoine",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35b": {
+    "code_pcs": "35b",
+    "title": "Journalistes, auteurs",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35b1": {
+    "code_pcs": "35b1",
+    "title": "Journalistes et professions assimilées",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35b2": {
+    "code_pcs": "35b2",
+    "title": "Auteurs littéraires, scénaristes, dialoguistes",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35c": {
+    "code_pcs": "35c",
+    "title": "Cadres de la presse, de l'édition, de l'audiovisuel et des spectacles",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35c1": {
+    "code_pcs": "35c1",
+    "title": "Cadres de la presse, de l'édition, responsables de la production et de la programmation audiovisuelle et des spectacles",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35c2": {
+    "code_pcs": "35c2",
+    "title": "Cadres artistiques et technico-artistiques des arts graphiques, du design, de la réalisation audiovisuelle et des spectacles",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35d": {
+    "code_pcs": "35d",
+    "title": "Artistes",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35d1": {
+    "code_pcs": "35d1",
+    "title": "Artistes plasticiens",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35d2": {
+    "code_pcs": "35d2",
+    "title": "Artistes de la musique et du chant",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35d3": {
+    "code_pcs": "35d3",
+    "title": "Artistes du théâtre, de la danse et des spectacles divers",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "35d4": {
+    "code_pcs": "35d4",
+    "title": "Professeurs d'art (hors établissement scolaire) et directeurs d'établissements d'enseignement artistique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "35",
+    "category_label": "Professions de l’information, de l’art et des spectacles"
+  },
+  "37a": {
+    "code_pcs": "37a",
+    "title": "Cadres dirigeants des entreprises (fonctions administratives, financières et commerciales)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37a1": {
+    "code_pcs": "37a1",
+    "title": "Cadres dirigeants des entreprises (fonctions administratives, financières et commerciales)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37b": {
+    "code_pcs": "37b",
+    "title": "Cadres spécialistes des fonctions administratives et financières (hors banque, assurance, organismes de sécurité sociale)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37b1": {
+    "code_pcs": "37b1",
+    "title": "Chargés d’études socio-économiques et experts du traitement des données",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37b2": {
+    "code_pcs": "37b2",
+    "title": "Cadres de l’organisation, du contrôle des services administratifs et financiers",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37b3": {
+    "code_pcs": "37b3",
+    "title": "Cadres spécialistes des ressources humaines et du recrutement",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37b4": {
+    "code_pcs": "37b4",
+    "title": "Cadres spécialistes de la formation et de la documentation",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37b5": {
+    "code_pcs": "37b5",
+    "title": "Juristes",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37c": {
+    "code_pcs": "37c",
+    "title": "Cadres généralistes des services administratifs et financiers",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37c1": {
+    "code_pcs": "37c1",
+    "title": "Cadres généralistes des services financiers et comptables",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37c2": {
+    "code_pcs": "37c2",
+    "title": "Cadres généralistes des services administratifs",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37d": {
+    "code_pcs": "37d",
+    "title": "Cadres des services commerciaux et de la communication",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37d1": {
+    "code_pcs": "37d1",
+    "title": "Directeurs de magasins et cadres de l’exploitation du commerce de détail",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37d2": {
+    "code_pcs": "37d2",
+    "title": "Acheteurs du commerce",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37d3": {
+    "code_pcs": "37d3",
+    "title": "Cadres commerciaux (hors banque et assurance)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37d4": {
+    "code_pcs": "37d4",
+    "title": "Chefs de produits et autres cadres du marketing",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37d5": {
+    "code_pcs": "37d5",
+    "title": "Cadres de la communication, de la publicité et des relations publiques",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37e": {
+    "code_pcs": "37e",
+    "title": "Cadres des services techniques et commerciaux de la banque, de l’assurance, des organismes de sécurité sociale et de l’immobilier",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37e1": {
+    "code_pcs": "37e1",
+    "title": "Directeurs d'agences de la banque et des assurances",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37e2": {
+    "code_pcs": "37e2",
+    "title": "Cadres commerciaux de la banque et des assurances",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37e3": {
+    "code_pcs": "37e3",
+    "title": "Cadres techniques de la banque, des assurances et des organismes de sécurité sociale",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37e4": {
+    "code_pcs": "37e4",
+    "title": "Cadres de l'immobilier",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37f": {
+    "code_pcs": "37f",
+    "title": "Cadres de l'hôtellerie et de la restauration",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "37f1": {
+    "code_pcs": "37f1",
+    "title": "Cadres de l'hôtellerie et de la restauration",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "37",
+    "category_label": "Cadres des services administratifs et commerciaux d’entreprise"
+  },
+  "38a": {
+    "code_pcs": "38a",
+    "title": "Cadres dirigeants techniques des entreprises",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38a1": {
+    "code_pcs": "38a1",
+    "title": "Cadres dirigeants techniques des entreprises",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38b": {
+    "code_pcs": "38b",
+    "title": "Ingénieurs et cadres techniques de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38b1": {
+    "code_pcs": "38b1",
+    "title": "Ingénieurs et cadres techniques de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38c": {
+    "code_pcs": "38c",
+    "title": "Ingénieurs et cadres techniques du BTP",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38c1": {
+    "code_pcs": "38c1",
+    "title": "Ingénieurs et cadres d'études du BTP",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38c2": {
+    "code_pcs": "38c2",
+    "title": "Architectes salariés",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38c3": {
+    "code_pcs": "38c3",
+    "title": "Ingénieurs et cadres de chantier du BTP",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38d": {
+    "code_pcs": "38d",
+    "title": "Ingénieurs et cadres techniques de l’industrie",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38d1": {
+    "code_pcs": "38d1",
+    "title": "Ingénieurs et cadres d’études, recherche et développement de l’industrie",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38d2": {
+    "code_pcs": "38d2",
+    "title": "Ingénieurs et cadres de production",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38e": {
+    "code_pcs": "38e",
+    "title": "Ingénieurs et cadres techniques des transports (hors logistique)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38e1": {
+    "code_pcs": "38e1",
+    "title": "Ingénieurs et cadres techniques de l’exploitation des transports",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38e2": {
+    "code_pcs": "38e2",
+    "title": "Officiers et cadres navigants de l’aviation civile et de la marine marchande",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38f": {
+    "code_pcs": "38f",
+    "title": "Ingénieurs et cadres techniques des fonctions connexes de la production",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38f1": {
+    "code_pcs": "38f1",
+    "title": "Acheteurs et cadres des achats du BTP et de l’industrie",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38f2": {
+    "code_pcs": "38f2",
+    "title": "Ingénieurs et cadres de la logistique, de l’ordonnancement-planification et des méthodes de production",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38f3": {
+    "code_pcs": "38f3",
+    "title": "Ingénieurs et cadres du contrôle-qualité et de la prévention des risques",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38f4": {
+    "code_pcs": "38f4",
+    "title": "Ingénieurs et cadres d'installation et de maintenance (hors informatique)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38f5": {
+    "code_pcs": "38f5",
+    "title": "Ingénieurs commerciaux et cadres technico-commerciaux",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38g": {
+    "code_pcs": "38g",
+    "title": "Ingénieurs et cadres techniques de l’informatique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38g1": {
+    "code_pcs": "38g1",
+    "title": "Chefs de projet, responsables informatiques et du conseil informatique",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38g2": {
+    "code_pcs": "38g2",
+    "title": "Ingénieurs et cadres d’études, de recherche et développement informatique et de production des données",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "38g3": {
+    "code_pcs": "38g3",
+    "title": "Ingénieurs et cadres d'exploitation informatique (réseaux, systèmes, sécurité et support)",
+    "group_code": "3",
+    "group_label": "Cadres et professions intellectuelles supérieures",
+    "category_code": "38",
+    "category_label": "Ingénieurs et cadres techniques d’entreprise"
+  },
+  "42a": {
+    "code_pcs": "42a",
+    "title": "Enseignants du primaire et du secondaire professionnel, enseignants non titulaires",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42a1": {
+    "code_pcs": "42a1",
+    "title": "Enseignants titulaires du primaire",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42a2": {
+    "code_pcs": "42a2",
+    "title": "Enseignants titulaires du secondaire professionnel",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42a3": {
+    "code_pcs": "42a3",
+    "title": "Enseignants non titulaires du primaire et du secondaire",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42a4": {
+    "code_pcs": "42a4",
+    "title": "Professeurs de soutien scolaire",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42b": {
+    "code_pcs": "42b",
+    "title": "Personnels d’éducation et de surveillance des élèves",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42b1": {
+    "code_pcs": "42b1",
+    "title": "Conseillers principaux d'éducation",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42b2": {
+    "code_pcs": "42b2",
+    "title": "Surveillants scolaires et assistants d’éducation",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42c": {
+    "code_pcs": "42c",
+    "title": "Professions de la formation, de la documentation et du sport",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42c1": {
+    "code_pcs": "42c1",
+    "title": "Moniteurs d'écoles de conduite",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42c2": {
+    "code_pcs": "42c2",
+    "title": "Formateurs, bibliothécaires et documentalistes (non cadres)",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "42c3": {
+    "code_pcs": "42c3",
+    "title": "Éducateurs sportifs, sportifs professionnels",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "42",
+    "category_label": "Professions de l’enseignement primaire et professionnel, de la formation continue et du sport"
+  },
+  "43a": {
+    "code_pcs": "43a",
+    "title": "Infirmiers, sage-femmes et cadres de santé",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43a1": {
+    "code_pcs": "43a1",
+    "title": "Cadres de santé",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43a2": {
+    "code_pcs": "43a2",
+    "title": "Sages-femmes",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43a3": {
+    "code_pcs": "43a3",
+    "title": "Infirmiers libéraux",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43a4": {
+    "code_pcs": "43a4",
+    "title": "Infirmiers spécialisés salariés",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43a5": {
+    "code_pcs": "43a5",
+    "title": "Infirmiers en soins généraux salariés",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43b": {
+    "code_pcs": "43b",
+    "title": "Spécialistes de la rééducation",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43b1": {
+    "code_pcs": "43b1",
+    "title": "Masseurs-kinésithérapeutes rééducateurs",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43b2": {
+    "code_pcs": "43b2",
+    "title": "Spécialistes de la rééducation de la motricité, du langage et de la vue",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43c": {
+    "code_pcs": "43c",
+    "title": "Techniciens médicaux, professions de l’appareillage médical et de la pharmacie",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43c1": {
+    "code_pcs": "43c1",
+    "title": "Techniciens médicaux",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43c2": {
+    "code_pcs": "43c2",
+    "title": "Opticiens, prothésistes et autres spécialistes de l'appareillage médical",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43c3": {
+    "code_pcs": "43c3",
+    "title": "Préparateurs en pharmacie",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43d": {
+    "code_pcs": "43d",
+    "title": "Travailleurs sociaux et socio-culturels",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43d1": {
+    "code_pcs": "43d1",
+    "title": "Directeurs et cadres du travail social et de l'animation socio-culturelle",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43d2": {
+    "code_pcs": "43d2",
+    "title": "Assistants de service social, conseillers en économie sociale et familiale",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43d3": {
+    "code_pcs": "43d3",
+    "title": "Éducateurs spécialisés",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43d4": {
+    "code_pcs": "43d4",
+    "title": "Moniteurs éducateurs",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43d5": {
+    "code_pcs": "43d5",
+    "title": "Éducateurs techniques spécialisés, moniteurs d’ateliers",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43d6": {
+    "code_pcs": "43d6",
+    "title": "Éducateurs de jeunes enfants",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "43d7": {
+    "code_pcs": "43d7",
+    "title": "Animateurs socio-culturels et de loisirs",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "43",
+    "category_label": "Professions intermédiaires de la santé et du travail social"
+  },
+  "44a": {
+    "code_pcs": "44a",
+    "title": "Ministres du culte et religieux consacrés",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "44",
+    "category_label": "Ministres du culte et religieux consacrés"
+  },
+  "44a1": {
+    "code_pcs": "44a1",
+    "title": "Ministres du culte et religieux consacrés",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "44",
+    "category_label": "Ministres du culte et religieux consacrés"
+  },
+  "45a": {
+    "code_pcs": "45a",
+    "title": "Personnels intermédiaires administratifs de la fonction publique",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "45",
+    "category_label": "Professions intermédiaires de la fonction publique (administration, sécurité)"
+  },
+  "45a1": {
+    "code_pcs": "45a1",
+    "title": "Personnels intermédiaires administratifs de l'État",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "45",
+    "category_label": "Professions intermédiaires de la fonction publique (administration, sécurité)"
+  },
+  "45a2": {
+    "code_pcs": "45a2",
+    "title": "Personnels intermédiaires administratifs des collectivités territoriales et des hôpitaux publics",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "45",
+    "category_label": "Professions intermédiaires de la fonction publique (administration, sécurité)"
+  },
+  "45b": {
+    "code_pcs": "45b",
+    "title": "Personnels intermédiaires de la Police, des Armées et de la Gendarmerie",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "45",
+    "category_label": "Professions intermédiaires de la fonction publique (administration, sécurité)"
+  },
+  "45b1": {
+    "code_pcs": "45b1",
+    "title": "Personnels de commandement de la Police nationale et de l’administration pénitentiaire",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "45",
+    "category_label": "Professions intermédiaires de la fonction publique (administration, sécurité)"
+  },
+  "45b2": {
+    "code_pcs": "45b2",
+    "title": "Sous-officiers supérieurs des Armées et de la Gendarmerie",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "45",
+    "category_label": "Professions intermédiaires de la fonction publique (administration, sécurité)"
+  },
+  "46a": {
+    "code_pcs": "46a",
+    "title": "Professions intermédiaires des services administratifs d’entreprise",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46a1": {
+    "code_pcs": "46a1",
+    "title": "Assistants, secrétaires de direction (non cadres)",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46a2": {
+    "code_pcs": "46a2",
+    "title": "Maîtrise et techniciens des services comptables et du traitement des données",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46a3": {
+    "code_pcs": "46a3",
+    "title": "Maîtrise et techniciens des services juridiques et du personnel",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46a4": {
+    "code_pcs": "46a4",
+    "title": "Maîtrise et techniciens des autres services administratifs",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46b": {
+    "code_pcs": "46b",
+    "title": "Responsables (non cadres) des magasins de vente et des services commerciaux",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46b1": {
+    "code_pcs": "46b1",
+    "title": "Responsables (non cadres) de magasins",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46b2": {
+    "code_pcs": "46b2",
+    "title": "Responsables (non cadres) d'un secteur ou d'un rayon dans un commerce de détail",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46b3": {
+    "code_pcs": "46b3",
+    "title": "Acheteurs (non cadres) et responsables des achats",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46b4": {
+    "code_pcs": "46b4",
+    "title": "Responsables (non cadres) du marketing et de l’animation commerciale des magasins",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46b5": {
+    "code_pcs": "46b5",
+    "title": "Autres professions intermédiaires des services commerciaux",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46c": {
+    "code_pcs": "46c",
+    "title": "Représentants et technico-commerciaux",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46c1": {
+    "code_pcs": "46c1",
+    "title": "Représentants, technico-commerciaux de la vente de biens auprès de professionnels",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46c2": {
+    "code_pcs": "46c2",
+    "title": "Représentants, technico-commerciaux de la vente de services auprès des professionnels",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46c3": {
+    "code_pcs": "46c3",
+    "title": "Représentants, technico-commerciaux auprès des particuliers",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46d": {
+    "code_pcs": "46d",
+    "title": "Chargés de clientèle et techniciens de la banque, des assurances et des organismes de sécurité sociale",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46d1": {
+    "code_pcs": "46d1",
+    "title": "Chargés de clientèle de la banque et des assurances",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46d2": {
+    "code_pcs": "46d2",
+    "title": "Techniciens de la banque, des assurances et des organismes de sécurité sociale",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46e": {
+    "code_pcs": "46e",
+    "title": "Assistants et techniciens de la création artistique et de la communication",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46e1": {
+    "code_pcs": "46e1",
+    "title": "Assistants de la communication, de la publicité et des relations publiques",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46e2": {
+    "code_pcs": "46e2",
+    "title": "Graphistes et autres professions intermédiaires des arts graphiques, de la mode et de la décoration",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46e3": {
+    "code_pcs": "46e3",
+    "title": "Photographes et assistants techniques de la réalisation des spectacles vivants et audiovisuels",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46f": {
+    "code_pcs": "46f",
+    "title": "Responsables (non cadres) des transports et du tourisme",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46f1": {
+    "code_pcs": "46f1",
+    "title": "Responsables (non cadres) des services administratifs et commerciaux des transports et du tourisme",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46f2": {
+    "code_pcs": "46f2",
+    "title": "Responsables (non cadres) d'exploitation des transports",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46g": {
+    "code_pcs": "46g",
+    "title": "Responsables (non cadres) de la gestion et des services de l'hôtellerie-restauration",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "46g1": {
+    "code_pcs": "46g1",
+    "title": "Responsables (non cadres) de la gestion et des services de l'hôtellerie-restauration",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "46",
+    "category_label": "Professions intermédiaires administratives et commerciales des entreprises"
+  },
+  "47a": {
+    "code_pcs": "47a",
+    "title": "Techniciens de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47a1": {
+    "code_pcs": "47a1",
+    "title": "Techniciens de l’agriculture, de l’aquaculture, des forêts et de la protection de l’environnement",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47b": {
+    "code_pcs": "47b",
+    "title": "Techniciens du BTP",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47b1": {
+    "code_pcs": "47b1",
+    "title": "Techniciens d’études du BTP",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47b2": {
+    "code_pcs": "47b2",
+    "title": "Techniciens de chantier du BTP",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47c": {
+    "code_pcs": "47c",
+    "title": "Techniciens de l’industrie",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47c1": {
+    "code_pcs": "47c1",
+    "title": "Dessinateurs industriels",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47c2": {
+    "code_pcs": "47c2",
+    "title": "Techniciens de recherche et développement de l’industrie",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47c3": {
+    "code_pcs": "47c3",
+    "title": "Techniciens de fabrication industrielle",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47d": {
+    "code_pcs": "47d",
+    "title": "Techniciens des fonctions connexes de la production",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47d1": {
+    "code_pcs": "47d1",
+    "title": "Techniciens de la logistique, de l'ordonnancement-planification et des méthodes de production",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47d2": {
+    "code_pcs": "47d2",
+    "title": "Techniciens du contrôle-qualité et de la prévention des risques",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47d3": {
+    "code_pcs": "47d3",
+    "title": "Techniciens d’installation et de maintenance (hors informatique)",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47e": {
+    "code_pcs": "47e",
+    "title": "Techniciens de l’informatique",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47e1": {
+    "code_pcs": "47e1",
+    "title": "Techniciens d’études, de recherche et développement informatique et de production des données",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47e2": {
+    "code_pcs": "47e2",
+    "title": "Techniciens d'exploitation informatique (réseaux, systèmes, sécurité et support)",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47f": {
+    "code_pcs": "47f",
+    "title": "Techniciens des laboratoires de recherche publique et de l’enseignement",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "47f1": {
+    "code_pcs": "47f1",
+    "title": "Techniciens des laboratoires de recherche publique et de l’enseignement",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "47",
+    "category_label": "Techniciens"
+  },
+  "48a": {
+    "code_pcs": "48a",
+    "title": "Agents de maîtrise de l’agriculture, des travaux forestiers et de la pêche",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48a1": {
+    "code_pcs": "48a1",
+    "title": "Agents de maîtrise de l’agriculture, des travaux forestiers et de la pêche",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48b": {
+    "code_pcs": "48b",
+    "title": "Agents de maîtrise du BTP",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48b1": {
+    "code_pcs": "48b1",
+    "title": "Conducteurs de travaux (non cadres), chefs de chantier",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48c": {
+    "code_pcs": "48c",
+    "title": "Agents de maîtrise de l’industrie",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48c1": {
+    "code_pcs": "48c1",
+    "title": "Agents de maîtrise en fabrication industrielle",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48c2": {
+    "code_pcs": "48c2",
+    "title": "Agents de maîtrise et techniciens en production et distribution d'énergie et d'eau",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48d": {
+    "code_pcs": "48d",
+    "title": "Agents de maîtrise en installation et maintenance (hors informatique)",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48d1": {
+    "code_pcs": "48d1",
+    "title": "Agents de maîtrise en installation et maintenance (hors informatique)",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48e": {
+    "code_pcs": "48e",
+    "title": "Responsables (non cadres) d’entrepôt, de magasinage et de manutention",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48e1": {
+    "code_pcs": "48e1",
+    "title": "Responsables (non cadres) d’entrepôt, de magasinage et de manutention",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48f": {
+    "code_pcs": "48f",
+    "title": "Chefs de cuisine et responsables de production en restauration",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "48f1": {
+    "code_pcs": "48f1",
+    "title": "Chefs de cuisine et responsables de production en restauration",
+    "group_code": "4",
+    "group_label": "Professions intermédiaires",
+    "category_code": "48",
+    "category_label": "Agents de maîtrise (hors maîtrise administrative)"
+  },
+  "52a": {
+    "code_pcs": "52a",
+    "title": "Employés administratifs de la fonction publique",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52a1": {
+    "code_pcs": "52a1",
+    "title": "Agents d'accueil et de guichet des administrations publiques",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52a2": {
+    "code_pcs": "52a2",
+    "title": "Employés de la fonction publique (secrétariat, gestion, comptabilité)",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52a3": {
+    "code_pcs": "52a3",
+    "title": "Employés administratifs de la fonction publique à technicité spécifique",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52a4": {
+    "code_pcs": "52a4",
+    "title": "Facteurs et employés du service universel du courrier",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52b": {
+    "code_pcs": "52b",
+    "title": "Agents de service de la fonction publique et de la santé",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52b1": {
+    "code_pcs": "52b1",
+    "title": "Agents de service de nettoyage (État, collectivités territoriales)",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52b2": {
+    "code_pcs": "52b2",
+    "title": "Agents de service de surveillance et de restauration (État, collectivités territoriales)",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52b3": {
+    "code_pcs": "52b3",
+    "title": "Agents de service des établissements de santé",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52c": {
+    "code_pcs": "52c",
+    "title": "Aides-soignants, employés d’accueil de la petite enfance et professions assimilées",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52c1": {
+    "code_pcs": "52c1",
+    "title": "Aides-soignants",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52c2": {
+    "code_pcs": "52c2",
+    "title": "Assistants de professions médicales et paramédicales",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52c3": {
+    "code_pcs": "52c3",
+    "title": "Auxiliaires de puériculture",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52c4": {
+    "code_pcs": "52c4",
+    "title": "Agents spécialisés de crèche et des écoles maternelles",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52c5": {
+    "code_pcs": "52c5",
+    "title": "Aides médico-psychologiques et professions assimilées",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "52c6": {
+    "code_pcs": "52c6",
+    "title": "Ambulanciers",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "52",
+    "category_label": "Employés administratifs de la fonction publique, agents de service et auxiliaires de santé"
+  },
+  "53a": {
+    "code_pcs": "53a",
+    "title": "Agents de police et de surveillance pénitentiaire",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53a1": {
+    "code_pcs": "53a1",
+    "title": "Personnels d’encadrement et d’application de la Police nationale",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53a2": {
+    "code_pcs": "53a2",
+    "title": "Agents des polices municipales",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53a3": {
+    "code_pcs": "53a3",
+    "title": "Personnels d’encadrement et d’application de l’administration pénitentiaire",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53b": {
+    "code_pcs": "53b",
+    "title": "Sous-officiers subalternes et militaires du rang des Armées et de la Gendarmerie",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53b1": {
+    "code_pcs": "53b1",
+    "title": "Gendarmes",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53b2": {
+    "code_pcs": "53b2",
+    "title": "Sous-officiers subalternes des Armées",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53b3": {
+    "code_pcs": "53b3",
+    "title": "Militaires du rang",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53c": {
+    "code_pcs": "53c",
+    "title": "Agents de sécurité civile",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53c1": {
+    "code_pcs": "53c1",
+    "title": "Pompiers",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53d": {
+    "code_pcs": "53d",
+    "title": "Agents de sécurité et surveillance privées",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "53d1": {
+    "code_pcs": "53d1",
+    "title": "Agents de sécurité et surveillance privées",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "53",
+    "category_label": "Policiers, militaires, pompiers, agents de sécurité privée"
+  },
+  "54a": {
+    "code_pcs": "54a",
+    "title": "Employés de l’accueil, du secrétariat et de la comptabilité",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54a1": {
+    "code_pcs": "54a1",
+    "title": "Hôtes d'accueil et standardistes",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54a2": {
+    "code_pcs": "54a2",
+    "title": "Secrétaires, employés de la bureautique",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54a3": {
+    "code_pcs": "54a3",
+    "title": "Employés des services comptables et financiers",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54b": {
+    "code_pcs": "54b",
+    "title": "Employés de la banque, des assurances et des organismes de sécurité sociale",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54b1": {
+    "code_pcs": "54b1",
+    "title": "Employés commerciaux de la banque et des assurances",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54b2": {
+    "code_pcs": "54b2",
+    "title": "Employés techniques de la banque, des assurances et des organismes de sécurité sociale",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54c": {
+    "code_pcs": "54c",
+    "title": "Employés du transport et du tourisme",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54c1": {
+    "code_pcs": "54c1",
+    "title": "Contrôleurs et agents d'accompagnement des transports et du tourisme",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54c2": {
+    "code_pcs": "54c2",
+    "title": "Employés des services commerciaux des transports de voyageurs et du tourisme",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54c3": {
+    "code_pcs": "54c3",
+    "title": "Employés administratifs d'exploitation des transports de marchandises et de la logistique",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54d": {
+    "code_pcs": "54d",
+    "title": "Autres employés administratifs d'entreprise",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54d1": {
+    "code_pcs": "54d1",
+    "title": "Employés administratifs des services commerciaux",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "54d2": {
+    "code_pcs": "54d2",
+    "title": "Employés des autres services administratifs",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "54",
+    "category_label": "Employés administratifs d'entreprise"
+  },
+  "55a": {
+    "code_pcs": "55a",
+    "title": "Vendeurs en produits alimentaires",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55a1": {
+    "code_pcs": "55a1",
+    "title": "Vendeurs en produits alimentaires",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55b": {
+    "code_pcs": "55b",
+    "title": "Vendeurs en produits non alimentaires",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55b1": {
+    "code_pcs": "55b1",
+    "title": "Vendeurs de biens pour le foyer",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55b2": {
+    "code_pcs": "55b2",
+    "title": "Vendeurs en produits de beauté, culturels et de loisirs",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55b3": {
+    "code_pcs": "55b3",
+    "title": "Vendeurs en habillement et articles de sport",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55b4": {
+    "code_pcs": "55b4",
+    "title": "Autres vendeurs spécialisés (carburant, tabac, presse)",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55c": {
+    "code_pcs": "55c",
+    "title": "Vendeurs non spécialisés",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55c1": {
+    "code_pcs": "55c1",
+    "title": "Vendeurs non spécialisés",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55d": {
+    "code_pcs": "55d",
+    "title": "Caissiers, employés de libre-service",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55d1": {
+    "code_pcs": "55d1",
+    "title": "Caissiers du commerce",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55d2": {
+    "code_pcs": "55d2",
+    "title": "Employés de libre-service du commerce",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55e": {
+    "code_pcs": "55e",
+    "title": "Télévendeurs, téléconseillers",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "55e1": {
+    "code_pcs": "55e1",
+    "title": "Télévendeurs, téléconseillers",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "55",
+    "category_label": "Employés de commerce"
+  },
+  "56a": {
+    "code_pcs": "56a",
+    "title": "Employés de cafés, restaurants et hôtels",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56a1": {
+    "code_pcs": "56a1",
+    "title": "Serveurs",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56a2": {
+    "code_pcs": "56a2",
+    "title": "Employés polyvalents de la restauration, aides de cuisine",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56a3": {
+    "code_pcs": "56a3",
+    "title": "Employés d'accueil et de réception de l'hôtellerie",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56a4": {
+    "code_pcs": "56a4",
+    "title": "Employés d'étage, employés polyvalents de l'hôtellerie",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56b": {
+    "code_pcs": "56b",
+    "title": "Employés des soins corporels",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56b1": {
+    "code_pcs": "56b1",
+    "title": "Coiffeurs",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56b2": {
+    "code_pcs": "56b2",
+    "title": "Esthéticiens et autres employés des soins corporels",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56c": {
+    "code_pcs": "56c",
+    "title": "Assistants maternels, gardes d'enfants, assistants familiaux",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56c1": {
+    "code_pcs": "56c1",
+    "title": "Assistants familiaux, familles d'accueil",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56c2": {
+    "code_pcs": "56c2",
+    "title": "Assistants maternels agréés",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56c3": {
+    "code_pcs": "56c3",
+    "title": "Autres salariés de particuliers pour la garde d’enfants",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56d": {
+    "code_pcs": "56d",
+    "title": "Aides au maintien à domicile des personnes fragiles",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56d1": {
+    "code_pcs": "56d1",
+    "title": "Auxiliaires de vie sociale",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56d2": {
+    "code_pcs": "56d2",
+    "title": "Autres employés d’aide à domicile et accueillants familiaux",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56e": {
+    "code_pcs": "56e",
+    "title": "Aides domestiques, concierges",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56e1": {
+    "code_pcs": "56e1",
+    "title": "Employés de maison et personnels de ménage chez des particuliers",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56e2": {
+    "code_pcs": "56e2",
+    "title": "Concierges et gardiens d'immeuble d'habitation",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56f": {
+    "code_pcs": "56f",
+    "title": "Autres employés des services aux particuliers",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "56f1": {
+    "code_pcs": "56f1",
+    "title": "Autres employés des services aux particuliers",
+    "group_code": "5",
+    "group_label": "Employés",
+    "category_code": "56",
+    "category_label": "Personnels des services directs aux particuliers"
+  },
+  "62a": {
+    "code_pcs": "62a",
+    "title": "Ouvriers qualifiés des travaux publics et des industries extractives",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62a1": {
+    "code_pcs": "62a1",
+    "title": "Conducteurs d’engins de chantier des travaux publics",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62a2": {
+    "code_pcs": "62a2",
+    "title": "Autres ouvriers qualifiés des travaux publics et des industries extractives",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62b": {
+    "code_pcs": "62b",
+    "title": "Ouvriers qualifiés de l’électricité, de l’électronique, de la mécanique et du travail des métaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62b1": {
+    "code_pcs": "62b1",
+    "title": "Câbleurs en électricité et électronique",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62b2": {
+    "code_pcs": "62b2",
+    "title": "Mécaniciens monteurs, ajusteurs qualifiés",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62b3": {
+    "code_pcs": "62b3",
+    "title": "Ouvriers qualifiés d’usinage des métaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62b4": {
+    "code_pcs": "62b4",
+    "title": "Ouvriers qualifiés du traçage, découpage, formage et soudage des métaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62c": {
+    "code_pcs": "62c",
+    "title": "Ouvriers qualifiés de l’agroalimentaire, de la métallurgie, de la chimie, de la production des matériaux, de l’eau et de l’énergie",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62c1": {
+    "code_pcs": "62c1",
+    "title": "Ouvriers qualifiés de l’agroalimentaire",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62c2": {
+    "code_pcs": "62c2",
+    "title": "Ouvriers qualifiés de la métallurgie, de la production verrière et des matériaux de construction",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62c3": {
+    "code_pcs": "62c3",
+    "title": "Ouvriers qualifiés de la chimie, de la plasturgie et des matériaux composites",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62c4": {
+    "code_pcs": "62c4",
+    "title": "Ouvriers qualifiés de l’eau, de l’énergie et du traitement des déchets",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62d": {
+    "code_pcs": "62d",
+    "title": "Ouvriers qualifiés du travail des matériaux souples et des autres industries",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62d1": {
+    "code_pcs": "62d1",
+    "title": "Ouvriers qualifiés du textile, de l’habillement et du cuir",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62d2": {
+    "code_pcs": "62d2",
+    "title": "Ouvriers qualifiés du bois et de la fabrication de papier-carton",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62d3": {
+    "code_pcs": "62d3",
+    "title": "Ouvriers qualifiés de la composition, de l’impression et du façonnage du papier-carton",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62e": {
+    "code_pcs": "62e",
+    "title": "Ouvriers qualifiés des fonctions transverses de l’industrie",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62e1": {
+    "code_pcs": "62e1",
+    "title": "Conducteurs qualifiés de lignes de production",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62e2": {
+    "code_pcs": "62e2",
+    "title": "Régleurs qualifiés d’équipements de fabrication",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62e3": {
+    "code_pcs": "62e3",
+    "title": "Ouvriers qualifiés des traitements thermiques et de surface",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62e4": {
+    "code_pcs": "62e4",
+    "title": "Ouvriers qualifiés de contrôle et d’essais et de laboratoire (hors santé, hors imprimerie)",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "62e5": {
+    "code_pcs": "62e5",
+    "title": "Ouvriers qualifiés de maintenance et d’entretien des équipements industriels",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "62",
+    "category_label": "Ouvriers qualifiés de type industriel"
+  },
+  "63a": {
+    "code_pcs": "63a",
+    "title": "Ouvriers des parcs et jardins",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63a1": {
+    "code_pcs": "63a1",
+    "title": "Ouvriers des parcs et jardins",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63b": {
+    "code_pcs": "63b",
+    "title": "Ouvriers qualifiés du bâtiment",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63b1": {
+    "code_pcs": "63b1",
+    "title": "Maçons et ouvriers qualifiés du travail de la pierre",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63b2": {
+    "code_pcs": "63b2",
+    "title": "Charpentiers et couvreurs qualifiés",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63b3": {
+    "code_pcs": "63b3",
+    "title": "Menuisiers qualifiés du bâtiment",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63b4": {
+    "code_pcs": "63b4",
+    "title": "Plombiers, chauffagistes qualifiés",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63b5": {
+    "code_pcs": "63b5",
+    "title": "Électriciens qualifiés du bâtiment",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63b6": {
+    "code_pcs": "63b6",
+    "title": "Peintres et ouvriers qualifiés de la finition du bâtiment",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63b7": {
+    "code_pcs": "63b7",
+    "title": "Ouvriers qualifiés d'entretien général des bâtiments",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63c": {
+    "code_pcs": "63c",
+    "title": "Ouvriers qualifiés de la réparation et du travail artisanal des matériaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63c1": {
+    "code_pcs": "63c1",
+    "title": "Carrossiers qualifiés d’automobiles",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63c2": {
+    "code_pcs": "63c2",
+    "title": "Réparateurs qualifiés de véhicules et de biens d’équipement du foyer",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63c3": {
+    "code_pcs": "63c3",
+    "title": "Métalliers, ébénistes et autres ouvriers qualifiés du travail des métaux et du bois",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63c4": {
+    "code_pcs": "63c4",
+    "title": "Couturiers et ouvriers qualifiés des autres fabrications",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63d": {
+    "code_pcs": "63d",
+    "title": "Ouvriers qualifiés de l’artisanat alimentaire",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63d1": {
+    "code_pcs": "63d1",
+    "title": "Bouchers, charcutiers",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63d2": {
+    "code_pcs": "63d2",
+    "title": "Boulangers, pâtissiers",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63e": {
+    "code_pcs": "63e",
+    "title": "Ouvriers qualifiés de la restauration",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63e1": {
+    "code_pcs": "63e1",
+    "title": "Cuisiniers et ouvriers qualifiés de la restauration",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63f": {
+    "code_pcs": "63f",
+    "title": "Ouvriers qualifiés de l’art et des spectacles",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "63f1": {
+    "code_pcs": "63f1",
+    "title": "Ouvriers d’arts, ouvriers et techniciens des spectacles",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "63",
+    "category_label": "Ouvriers qualifiés de type artisanal"
+  },
+  "64a": {
+    "code_pcs": "64a",
+    "title": "Conducteurs de véhicules de transport de personnes",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "64",
+    "category_label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers"
+  },
+  "64a1": {
+    "code_pcs": "64a1",
+    "title": "Conducteurs routiers de transport en commun",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "64",
+    "category_label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers"
+  },
+  "64a2": {
+    "code_pcs": "64a2",
+    "title": "Conducteurs salariés de taxi et d'autres véhicules de transport individuel",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "64",
+    "category_label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers"
+  },
+  "64b": {
+    "code_pcs": "64b",
+    "title": "Conducteurs de véhicules de transport de marchandises, livreurs",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "64",
+    "category_label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers"
+  },
+  "64b1": {
+    "code_pcs": "64b1",
+    "title": "Conducteurs de poids lourds",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "64",
+    "category_label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers"
+  },
+  "64b2": {
+    "code_pcs": "64b2",
+    "title": "Chauffeurs-livreurs, conducteurs de la collecte de déchets",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "64",
+    "category_label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers"
+  },
+  "64b3": {
+    "code_pcs": "64b3",
+    "title": "Coursiers, livreurs, distributeurs à domicile",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "64",
+    "category_label": "Conducteurs de véhicules de transport, chauffeurs-livreurs, coursiers"
+  },
+  "65a": {
+    "code_pcs": "65a",
+    "title": "Dockers et conducteurs d’engins lourds de manœuvre et de levage",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "65a1": {
+    "code_pcs": "65a1",
+    "title": "Dockers et conducteurs d’engins lourds de manœuvre et de levage",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "65b": {
+    "code_pcs": "65b",
+    "title": "Caristes",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "65b1": {
+    "code_pcs": "65b1",
+    "title": "Caristes",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "65c": {
+    "code_pcs": "65c",
+    "title": "Magasiniers et ouvriers assimilés de la logistique",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "65c1": {
+    "code_pcs": "65c1",
+    "title": "Magasiniers et ouvriers assimilés de la logistique",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "65d": {
+    "code_pcs": "65d",
+    "title": "Ouvriers qualifiés du transport non routier",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "65d1": {
+    "code_pcs": "65d1",
+    "title": "Conducteurs de trains, matelots de la marine marchande",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "65d2": {
+    "code_pcs": "65d2",
+    "title": "Ouvriers qualifiés sédentaires d'exploitation des transports",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "65",
+    "category_label": "Conducteurs d’engins, caristes, magasiniers et ouvriers du transport (non routier)"
+  },
+  "67a": {
+    "code_pcs": "67a",
+    "title": "Ouvriers peu qualifiés des travaux publics et des industries extractives",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67a1": {
+    "code_pcs": "67a1",
+    "title": "Ouvriers peu qualifiés des travaux publics et des industries extractives",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67b": {
+    "code_pcs": "67b",
+    "title": "Ouvriers peu qualifiés de l'électricité, de l'électronique, de la mécanique et du travail des métaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67b1": {
+    "code_pcs": "67b1",
+    "title": "Ouvriers peu qualifiés de l'électricité et de l'électronique",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67b2": {
+    "code_pcs": "67b2",
+    "title": "Ouvriers peu qualifiés de montage et contrôle en mécanique",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67b3": {
+    "code_pcs": "67b3",
+    "title": "Ouvriers peu qualifiés du travail des métaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67c": {
+    "code_pcs": "67c",
+    "title": "Ouvriers peu qualifiés de l’agroalimentaire, de la métallurgie, de la chimie et de la production des matériaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67c1": {
+    "code_pcs": "67c1",
+    "title": "Ouvriers peu qualifiés de l’agroalimentaire",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67c2": {
+    "code_pcs": "67c2",
+    "title": "Ouvriers peu qualifiés de la métallurgie, de la production verrière et des matériaux de construction",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67c3": {
+    "code_pcs": "67c3",
+    "title": "Ouvriers peu qualifiés de la chimie, de la plasturgie et des matériaux composites",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67d": {
+    "code_pcs": "67d",
+    "title": "Ouvriers peu qualifiés du travail des matériaux souples et des autres industries",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67d1": {
+    "code_pcs": "67d1",
+    "title": "Ouvriers peu qualifiés du textile, de l’habillement et du cuir",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67d2": {
+    "code_pcs": "67d2",
+    "title": "Ouvriers peu qualifiés du bois, de la fabrication de papier-carton et de l’impression",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67e": {
+    "code_pcs": "67e",
+    "title": "Ouvriers peu qualifiés du transport et de la logistique",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67e1": {
+    "code_pcs": "67e1",
+    "title": "Ouvriers peu qualifiés de la réception et de l'expédition",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67e2": {
+    "code_pcs": "67e2",
+    "title": "Manutentionnaires peu qualifiés et professions assimilées",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "67e3": {
+    "code_pcs": "67e3",
+    "title": "Agents peu qualifiés des services d'exploitation des transports",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "67",
+    "category_label": "Ouvriers peu qualifiés de type industriel"
+  },
+  "68a": {
+    "code_pcs": "68a",
+    "title": "Ouvriers peu qualifiés du bâtiment",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68a1": {
+    "code_pcs": "68a1",
+    "title": "Ouvriers peu qualifiés du gros œuvre du bâtiment",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68a2": {
+    "code_pcs": "68a2",
+    "title": "Ouvriers peu qualifiés du second œuvre du bâtiment",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68b": {
+    "code_pcs": "68b",
+    "title": "Ouvriers peu qualifiés de la réparation de véhicules et du travail artisanal des matériaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68b1": {
+    "code_pcs": "68b1",
+    "title": "Ouvriers peu qualifiés de l’entretien et de la réparation de véhicules",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68b2": {
+    "code_pcs": "68b2",
+    "title": "Ouvriers peu qualifiés du travail artisanal des matériaux",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68c": {
+    "code_pcs": "68c",
+    "title": "Apprentis de l’artisanat alimentaire",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68c1": {
+    "code_pcs": "68c1",
+    "title": "Apprentis de l’artisanat alimentaire",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68d": {
+    "code_pcs": "68d",
+    "title": "Ouvriers peu qualifiés du nettoyage, de l’assainissement et du traitement des déchets",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68d1": {
+    "code_pcs": "68d1",
+    "title": "Ouvriers du nettoyage",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "68d2": {
+    "code_pcs": "68d2",
+    "title": "Ouvriers peu qualifiés de l’assainissement et du traitement des déchets",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "68",
+    "category_label": "Ouvriers peu qualifiés de type artisanal"
+  },
+  "69a": {
+    "code_pcs": "69a",
+    "title": "Ouvriers agricoles",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  },
+  "69a1": {
+    "code_pcs": "69a1",
+    "title": "Ouvriers agricoles de grandes cultures et de polyculture-élevage",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  },
+  "69a2": {
+    "code_pcs": "69a2",
+    "title": "Ouvriers du maraîchage, de l’horticulture et des pépinières",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  },
+  "69a3": {
+    "code_pcs": "69a3",
+    "title": "Ouvriers de la viticulture et de l’arboriculture fruitière",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  },
+  "69a4": {
+    "code_pcs": "69a4",
+    "title": "Ouvriers de l’élevage",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  },
+  "69b": {
+    "code_pcs": "69b",
+    "title": "Ouvriers forestiers",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  },
+  "69b1": {
+    "code_pcs": "69b1",
+    "title": "Ouvriers forestiers",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  },
+  "69c": {
+    "code_pcs": "69c",
+    "title": "Ouvriers de la pêche et de l’aquaculture",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  },
+  "69c1": {
+    "code_pcs": "69c1",
+    "title": "Ouvriers de la pêche et de l’aquaculture",
+    "group_code": "6",
+    "group_label": "Ouvriers",
+    "category_code": "69",
+    "category_label": "Ouvriers agricoles, des travaux forestiers, de la pêche et de l’aquaculture"
+  }
+}

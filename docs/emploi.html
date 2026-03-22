@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marché de l'Emploi Français — Visualiseur Interactif</title>
+<title>L'emploi en France — 311 professions PCS 2020</title>
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -85,6 +85,11 @@ body {
   border-color: var(--accent);
   color: #fff;
 }
+.layer-btn.disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 
 /* Legend */
 #legend {
@@ -158,7 +163,7 @@ body {
 .node {
   position: absolute;
   border: 1px solid rgba(0,0,0,0.3);
-  cursor: pointer;
+  cursor: default;
   transition: filter 0.1s;
   overflow: hidden;
 }
@@ -187,7 +192,7 @@ body {
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: 8px;
   padding: 12px 16px;
-  max-width: 320px;
+  max-width: 340px;
   max-height: calc(100vh - 16px);
   overflow-y: auto;
   font-size: 13px;
@@ -223,11 +228,6 @@ body {
   border-top: 1px solid rgba(255,255,255,0.08);
   padding-top: 8px;
   font-style: italic;
-}
-#tooltip .tt-hint {
-  margin-top: 6px;
-  font-size: 11px;
-  color: rgba(255,255,255,0.3);
 }
 
 /* Search */
@@ -268,7 +268,7 @@ body {
 .group-name { font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.7); text-shadow: 0 1px 3px rgba(0,0,0,0.8); }
 .group-count { font-size: 10px; color: rgba(255,255,255,0.35); }
 
-/* Loading indicator */
+/* Loading */
 #loading {
   position: absolute;
   top: 50%;
@@ -286,31 +286,29 @@ body {
   <div id="header">
     <div class="intro">
       <h1>
-        Le recrutement en France
-        <a href="emploi.html">L'emploi en France &rarr;</a>
+        L'emploi en France
+        <a href="index.html">Le recrutement &rarr;</a>
         <a href="https://github.com/jbumanity/france-jobs" target="_blank">GitHub &nearr;</a>
-        <a href="https://www.francetravail.fr" target="_blank">France Travail &nearr;</a>
       </h1>
       <p>
-        Visualisation interactive de <strong id="total-count">1 584</strong> métiers du référentiel <strong>ROME 4.0</strong>.
-        La surface de chaque rectangle est proportionnelle aux <strong>offres d'emploi actives</strong> (contrats de travail, hors alternance/formation).
-        Cliquez sur un métier pour ouvrir sa fiche officielle.
+        Visualisation interactive de <strong id="total-count">311</strong> professions du r&eacute;f&eacute;rentiel <strong>PCS 2020</strong>,
+        taill&eacute;es par <strong>nombre de personnes en emploi</strong> (recensement INSEE 2022).
       </p>
       <p style="font-size:12px; color: rgba(255,255,255,0.25); margin-top: 4px;">
-        Sources : ROME 4.0 · API Offres d'emploi France Travail (offres actives, E1) · BMO 2025 · Scores IA : Mistral Small · Projet open source
+        Sources : Recensement 2022 (INSEE) &middot; PCS 2020 &middot; Scores IA : Mistral Small
       </p>
     </div>
   </div>
 
   <div id="toolbar">
-    <button class="layer-btn" data-layer="domaine">Grand Domaine</button>
-    <button class="layer-btn active" data-layer="ai">Exposition IA <span id="ai-scored-badge" style="font-size:10px; opacity:0.6"></span></button>
-    <button class="layer-btn" data-layer="salary">Salaire</button>
-    <button class="layer-btn" data-layer="tension">Difficulté de Recrutement</button>
-    <button class="layer-btn" data-layer="digital">Transition Numérique</button>
-    <button class="layer-btn" data-layer="eco">Transition Écologique</button>
+    <button class="layer-btn active" data-layer="groupe">Groupe socioprofessionnel</button>
+    <button class="layer-btn" data-layer="ai">Exposition IA <span id="ai-scored-badge" style="font-size:10px; opacity:0.6"></span></button>
+    <button class="layer-btn" data-layer="diplome">Dipl&ocirc;me</button>
+    <button class="layer-btn" data-layer="genre">Femmes / Hommes</button>
+    <button class="layer-btn" data-layer="stabilite">Stabilit&eacute; emploi</button>
+    <button class="layer-btn disabled" data-layer="evolution" title="N&eacute;cessite les donn&eacute;es RP2017 — bient&ocirc;t disponible">&Eacute;volution 2017-22</button>
     <div id="search-wrap">
-      <input id="search-input" type="text" placeholder="Rechercher un métier…" autocomplete="off" spellcheck="false">
+      <input id="search-input" type="text" placeholder="Rechercher une profession&hellip;" autocomplete="off" spellcheck="false">
       <span id="search-count"></span>
     </div>
   </div>
@@ -318,14 +316,14 @@ body {
   <div id="legend"></div>
 
   <div id="statsbar">
-    <span class="stat-item"><strong id="stat-total">–</strong> métiers</span>
-    <span class="stat-item" id="stat-projets-wrap"><strong id="stat-projets">–</strong> offres actives (contrats de travail)</span>
+    <span class="stat-item"><strong id="stat-total">&ndash;</strong> professions</span>
+    <span class="stat-item"><strong id="stat-emploi">&ndash;</strong> personnes en emploi</span>
     <span class="stat-item" id="stat-metric-wrap"></span>
   </div>
 
   <div id="treemap-container">
     <div id="treemap" style="height: 700px;">
-      <div id="loading">Chargement des données...</div>
+      <div id="loading">Chargement des donn&eacute;es...</div>
     </div>
   </div>
 </div>
@@ -333,48 +331,31 @@ body {
 <div id="tooltip"></div>
 
 <script>
-// ── Couleurs par grand domaine ────────────────────────────────────────────────
-const DOMAINE_COLORS = {
-  'A': '#2d7a2d', // Agriculture - vert
-  'B': '#7a4f2d', // Arts - marron
-  'C': '#2d5a7a', // Banque/Assurances - bleu foncé
-  'D': '#7a2d7a', // Commerce - violet
-  'E': '#7a6b2d', // Communication/Média - or
-  'F': '#c0652e', // Construction - orange
-  'G': '#2d7a6b', // Hôtellerie/Restauration - teal
-  'H': '#4a4a8a', // Industrie - bleu ardoise
-  'I': '#5a7a2d', // Installation/Maintenance - vert olive
-  'J': '#8a2d2d', // Santé - rouge
-  'K': '#2d4a8a', // Services aux personnes - bleu
-  'L': '#7a2d4a', // Spectacle - rose
-  'M': '#2d6a8a', // Support entreprise - bleu cyan
-  'N': '#6a6a2d', // Transport/Logistique - olive
+// ── Couleurs par groupe socioprofessionnel ───────────────────────────────────
+const GROUPE_COLORS = {
+  '1': '#2d7a2d',  // Agriculteurs - vert
+  '2': '#c0652e',  // Artisans/commerçants - orange
+  '3': '#2d4a8a',  // Cadres - bleu
+  '4': '#7a2d7a',  // Prof. intermédiaires - violet
+  '5': '#2d7a6b',  // Employés - teal
+  '6': '#8a2d2d',  // Ouvriers - rouge
 };
 
-const DOMAINE_LABELS = {
-  'A': 'Agriculture & Nature',
-  'B': 'Arts & Artisanat',
-  'C': 'Banque & Assurances',
-  'D': 'Commerce',
-  'E': 'Communication & Médias',
-  'F': 'BTP & Construction',
-  'G': 'Hôtellerie & Tourisme',
-  'H': 'Industrie',
-  'I': 'Installation & Maintenance',
-  'J': 'Santé',
-  'K': 'Services aux Personnes',
-  'L': 'Spectacle & Sport',
-  'M': 'Support Entreprise',
-  'N': 'Transport & Logistique',
+const GROUPE_LABELS = {
+  '1': 'Agriculteurs exploitants',
+  '2': 'Artisans, commerçants, chefs d\'entreprise',
+  '3': 'Cadres & prof. intellectuelles sup.',
+  '4': 'Professions intermédiaires',
+  '5': 'Employés',
+  '6': 'Ouvriers',
 };
 
-// ── Utilitaires de couleur ────────────────────────────────────────────────────
+// ── Utilitaires de couleur ──────────────────────────────────────────────────
 function lerp(a, b, t) { return a + (b - a) * t; }
 
 function colorScale(value, min, max, colors) {
   if (value === null || value === undefined) return '#2a2a3a';
   const t = Math.max(0, Math.min(1, (value - min) / (max - min)));
-  // Interpolate through color stops
   const n = colors.length - 1;
   const i = Math.min(Math.floor(t * n), n - 1);
   const ft = t * n - i;
@@ -385,14 +366,13 @@ function colorScale(value, min, max, colors) {
   return `rgb(${r},${g},${b})`;
 }
 
-// Color palettes
-const RED_GREEN = [[180,40,40],[220,120,40],[200,180,60],[80,180,80],[30,140,30]];
+// Palettes
 const BLUE_YELLOW = [[20,60,180],[80,140,210],[200,200,80],[220,120,30],[220,60,60]];
-const GREEN_RED = [[30,140,30],[80,180,80],[200,180,60],[220,120,40],[180,40,40]];
-const PURPLE_CYAN = [[60,20,120],[120,60,200],[80,160,220],[40,200,200]];
-const SALARY_SCALE = [[60,30,140],[40,110,180],[40,175,140],[180,200,60],[230,190,40]];
+const GREEN_PURPLE = [[40,160,60],[80,180,120],[140,170,140],[160,130,170],[140,60,180]];
+const BLUE_PINK = [[40,80,200],[100,130,200],[180,180,190],[200,130,160],[200,60,100]];
+const RED_GREEN = [[180,40,40],[220,120,40],[200,180,60],[80,180,80],[30,140,30]];
 
-// ── Treemap layout (Squarified) ───────────────────────────────────────────────
+// ── Treemap layout (Squarified) ─────────────────────────────────────────────
 function squarify(items, x, y, w, h) {
   const results = [];
   if (!items.length) return results;
@@ -405,15 +385,12 @@ function squarify(items, x, y, w, h) {
     let rowArea = 0;
     const totalArea = remaining.reduce((s, d) => s + d._area, 0);
 
-    // Try adding items to current row
     for (let i = 0; i < remaining.length; i++) {
       const item = remaining[i];
       rowArea += item._area;
       row.push(item);
-
-      const worstBefore = worst(row.slice(0, -1).concat(), cw, ch, totalArea, rowArea - item._area);
+      const worstBefore = worst(row.slice(0, -1), cw, ch, totalArea, rowArea - item._area);
       const worstAfter = worst(row, cw, ch, totalArea, rowArea);
-
       if (row.length > 1 && worstBefore < worstAfter) {
         row.pop();
         rowArea -= item._area;
@@ -421,7 +398,6 @@ function squarify(items, x, y, w, h) {
       }
     }
 
-    // Layout the row
     const rowFraction = rowArea / totalArea;
     let isWide = cw >= ch;
     let rowW = isWide ? cw * rowFraction : cw;
@@ -437,10 +413,8 @@ function squarify(items, x, y, w, h) {
       else rx += iw;
     }
 
-    // Advance
     if (isWide) { cx += rowW; cw -= rowW; }
     else { cy += rowH; ch -= rowH; }
-
     remaining = remaining.slice(row.length);
   }
 
@@ -463,24 +437,26 @@ function worst(row, w, h, totalArea, rowArea) {
   return max;
 }
 
-// ── Main app ──────────────────────────────────────────────────────────────────
+// ── Main app ────────────────────────────────────────────────────────────────
 let allData = [];
-let currentLayer = 'ai';
+let currentLayer = 'groupe';
 let layoutCache = null;
 
 async function loadData() {
-  const res = await fetch('data.json');
+  const res = await fetch('emploi_data.json');
   allData = await res.json();
   document.getElementById('total-count').textContent = allData.length.toLocaleString('fr-FR');
 
-  // Update AI badge
+  // AI badge
   const scored = allData.filter(d => d.exposure !== null).length;
-  document.getElementById('ai-scored-badge').textContent = `(${scored} scorés)`;
+  if (scored > 0) {
+    document.getElementById('ai-scored-badge').textContent = `(${scored} scorés)`;
+  }
 
   // Stats
-  const totalActive = allData.reduce((s, d) => s + (d.active_offers || 0), 0);
+  const totalEmployed = allData.reduce((s, d) => s + (d.employed || 0), 0);
   document.getElementById('stat-total').textContent = allData.length.toLocaleString('fr-FR');
-  document.getElementById('stat-projets').textContent = totalActive.toLocaleString('fr-FR');
+  document.getElementById('stat-emploi').textContent = totalEmployed.toLocaleString('fr-FR');
 
   document.getElementById('loading').style.display = 'none';
   render();
@@ -488,29 +464,24 @@ async function loadData() {
 
 function getColor(d, layer) {
   switch (layer) {
-    case 'domaine':
-      return DOMAINE_COLORS[d.grand_domaine_code] || '#3a3a5a';
-
-    case 'tension':
-      return colorScale(d.tension_score, 20, 85, GREEN_RED);
-
-    case 'digital':
-      return d.is_digital ? '#3a8aff' : '#2a2a4a';
+    case 'groupe':
+      return GROUPE_COLORS[d.group_code] || '#3a3a5a';
 
     case 'ai':
       if (d.exposure === null || d.exposure === undefined) return '#2a2a3a';
       return colorScale(d.exposure, 0, 10, BLUE_YELLOW);
 
-    case 'salary':
-      if (!d.min_salary || !d.max_salary) return '#2a2a3a';
-      const midSalary = (d.min_salary + d.max_salary) / 2;
-      return colorScale(midSalary, 1800, 5000, SALARY_SCALE);
+    case 'diplome':
+      if (d.diploma_rank < 0) return '#2a2a3a';
+      return colorScale(d.diploma_rank, 0, 11, GREEN_PURPLE);
 
-    case 'eco':
-      if (!d.transition_eco) return '#2a2a3a';
-      if (d.transition_eco.includes('stratégique')) return '#2da84f';
-      if (d.transition_eco.includes('Blanc')) return '#aaaaaa';
-      return '#4a7a2d';
+    case 'genre':
+      if (d.pct_female === null || d.pct_female === undefined) return '#2a2a3a';
+      return colorScale(d.pct_female, 0, 100, BLUE_PINK);
+
+    case 'stabilite':
+      if (!d.pct_cdi) return '#2a2a3a';
+      return colorScale(d.pct_cdi, 20, 95, RED_GREEN);
 
     default:
       return '#3a3a5a';
@@ -520,54 +491,47 @@ function getColor(d, layer) {
 function renderLegend(layer) {
   const el = document.getElementById('legend');
 
-  if (layer === 'domaine') {
+  if (layer === 'groupe') {
     el.innerHTML = `<div class="legend-items">${
-      Object.entries(DOMAINE_LABELS).map(([code, label]) =>
+      Object.entries(GROUPE_LABELS).map(([code, label]) =>
         `<div class="legend-item">
-          <div class="legend-dot" style="background:${DOMAINE_COLORS[code]}"></div>
+          <div class="legend-dot" style="background:${GROUPE_COLORS[code]}"></div>
           <span>${label}</span>
         </div>`
       ).join('')
     }</div>`;
-  } else if (layer === 'tension') {
-    const bmoCount = allData.filter(d => d.taux_difficulte !== null).length;
-    const estCount = allData.filter(d => d.tension_score !== null && d.taux_difficulte === null).length;
-    el.innerHTML = `<div class="legend-gradient">
-      <span>Peu difficile</span>
-      <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
-      <span>Très difficile</span>
-      <span style="margin-left:8px; font-size:11px; opacity:0.5">(${bmoCount} BMO · ${estCount} estimés · gris = pas de données)</span>
-    </div>`;
-    drawGradientBar('grad-canvas', GREEN_RED);
-  } else if (layer === 'digital') {
-    el.innerHTML = `<div class="legend-items">
-      <div class="legend-item"><div class="legend-dot" style="background:#3a8aff"></div><span>Transition numérique (ROME 4.0)</span></div>
-      <div class="legend-item"><div class="legend-dot" style="background:#2a2a4a"></div><span>Autre / Non classifié</span></div>
-    </div>`;
   } else if (layer === 'ai') {
     el.innerHTML = `<div class="legend-gradient">
-      <span>Peu exposé (0)</span>
+      <span>Peu expos\u00e9 (0)</span>
       <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
-      <span>Très exposé (10)</span>
-      <span style="margin-left:8px; font-size:11px; opacity:0.5">(gris = non évalué)</span>
+      <span>Tr\u00e8s expos\u00e9 (10)</span>
+      <span style="margin-left:8px; font-size:11px; opacity:0.5">(gris = non \u00e9valu\u00e9)</span>
     </div>`;
     drawGradientBar('grad-canvas', BLUE_YELLOW);
-  } else if (layer === 'salary') {
-    const withSalary = allData.filter(d => d.min_salary && d.max_salary).length;
+  } else if (layer === 'diplome') {
     el.innerHTML = `<div class="legend-gradient">
-      <span>~1 800€</span>
+      <span>Pas de dipl\u00f4me</span>
       <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
-      <span>~5 000€+</span>
-      <span style="margin-left:8px; font-size:11px; opacity:0.5">(salaire brut mensuel médian · ${withSalary} métiers · gris = pas de données)</span>
+      <span>Doctorat</span>
+      <span style="margin-left:8px; font-size:11px; opacity:0.5">(dipl\u00f4me dominant de la profession)</span>
     </div>`;
-    drawGradientBar('grad-canvas', SALARY_SCALE);
-  } else if (layer === 'eco') {
-    el.innerHTML = `<div class="legend-items">
-      <div class="legend-item"><div class="legend-dot" style="background:#2da84f"></div><span>Emploi stratégique pour la transition écologique</span></div>
-      <div class="legend-item"><div class="legend-dot" style="background:#4a7a2d"></div><span>Autre transition éco</span></div>
-      <div class="legend-item"><div class="legend-dot" style="background:#aaaaaa"></div><span>Emploi Blanc (impact neutre)</span></div>
-      <div class="legend-item"><div class="legend-dot" style="background:#2a2a3a"></div><span>Non classifié</span></div>
+    drawGradientBar('grad-canvas', GREEN_PURPLE);
+  } else if (layer === 'genre') {
+    el.innerHTML = `<div class="legend-gradient">
+      <span>0% femmes</span>
+      <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
+      <span>100% femmes</span>
+      <span style="margin-left:8px; font-size:11px; opacity:0.5">(50% = parit\u00e9)</span>
     </div>`;
+    drawGradientBar('grad-canvas', BLUE_PINK);
+  } else if (layer === 'stabilite') {
+    el.innerHTML = `<div class="legend-gradient">
+      <span>~20% CDI</span>
+      <canvas class="gradient-bar" id="grad-canvas" width="200" height="12"></canvas>
+      <span>~95% CDI</span>
+      <span style="margin-left:8px; font-size:11px; opacity:0.5">(% de CDI/titulaires parmi les employ\u00e9s)</span>
+    </div>`;
+    drawGradientBar('grad-canvas', RED_GREEN);
   }
 }
 
@@ -587,32 +551,43 @@ function drawGradientBar(id, colors) {
 
 function updateStats(layer) {
   const el = document.getElementById('stat-metric-wrap');
-  const data = allData.filter(d => d[layer === 'tension' ? 'taux_difficulte' : layer === 'ai' ? 'exposure' : null] !== null);
 
-  if (layer === 'tension') {
-    const bmoVals = allData.filter(d => d.taux_difficulte !== null).map(d => d.taux_difficulte);
-    const totalWithScore = allData.filter(d => d.tension_score !== null).length;
-    if (bmoVals.length) {
-      const avg = bmoVals.reduce((s, v) => s + v, 0) / bmoVals.length;
-      el.innerHTML = `<strong>${avg.toFixed(1)}%</strong> taux de difficulté moyen BMO · <strong>${totalWithScore}</strong> métiers couverts`;
-    }
-  } else if (layer === 'ai') {
+  if (layer === 'ai') {
     const vals = allData.filter(d => d.exposure !== null).map(d => d.exposure);
     if (vals.length) {
       const avg = vals.reduce((s, v) => s + v, 0) / vals.length;
-      el.innerHTML = `<strong>${avg.toFixed(1)}/10</strong> exposition IA moyenne (${vals.length} métiers scorés)`;
+      el.innerHTML = `<strong>${avg.toFixed(1)}/10</strong> exposition IA moyenne (${vals.length} professions scor\u00e9es)`;
     } else {
       el.innerHTML = `<span>Scoring en cours...</span>`;
     }
-  } else if (layer === 'salary') {
-    const salaries = allData.filter(d => d.min_salary && d.max_salary).map(d => (d.min_salary + d.max_salary) / 2);
-    if (salaries.length) {
-      const avg = salaries.reduce((s, v) => s + v, 0) / salaries.length;
-      el.innerHTML = `<strong>${Math.round(avg).toLocaleString('fr-FR')}€</strong> salaire brut moyen · <strong>${salaries.length}</strong> métiers avec données`;
+  } else if (layer === 'genre') {
+    const vals = allData.filter(d => d.pct_female !== null);
+    if (vals.length) {
+      const totalW = allData.reduce((s, d) => s + d.employed, 0);
+      const femW = allData.reduce((s, d) => s + d.employed * (d.pct_female || 0) / 100, 0);
+      const pctGlobal = femW / totalW * 100;
+      el.innerHTML = `<strong>${pctGlobal.toFixed(1)}%</strong> de femmes dans l'emploi total`;
     }
-  } else if (layer === 'digital') {
-    const n = allData.filter(d => d.is_digital).length;
-    el.innerHTML = `<strong>${n}</strong> métiers en transition numérique (ROME 4.0)`;
+  } else if (layer === 'diplome') {
+    const withDiploma = allData.filter(d => d.diploma_rank >= 0).length;
+    el.innerHTML = `<strong>${withDiploma}</strong> professions avec donn\u00e9es dipl\u00f4me`;
+  } else if (layer === 'stabilite') {
+    const vals = allData.filter(d => d.pct_cdi > 0);
+    if (vals.length) {
+      const totalW = vals.reduce((s, d) => s + d.employed, 0);
+      const cdiW = vals.reduce((s, d) => s + d.employed * d.pct_cdi / 100, 0);
+      const avg = cdiW / totalW * 100;
+      el.innerHTML = `<strong>${avg.toFixed(1)}%</strong> CDI/titulaires en moyenne pond\u00e9r\u00e9e`;
+    }
+  } else if (layer === 'groupe') {
+    const groups = {};
+    allData.forEach(d => {
+      groups[d.group_code] = (groups[d.group_code] || 0) + d.employed;
+    });
+    const biggest = Object.entries(groups).sort((a, b) => b[1] - a[1])[0];
+    if (biggest) {
+      el.innerHTML = `Plus grand groupe : <strong>${GROUPE_LABELS[biggest[0]] || biggest[0]}</strong> (${biggest[1].toLocaleString('fr-FR')} emplois)`;
+    }
   } else {
     el.innerHTML = '';
   }
@@ -626,51 +601,51 @@ function render() {
   const W = container.clientWidth;
   const H = container.clientHeight || 700;
 
-  const MIN_AREA = 200; // px² minimum for métiers sans offres
-  const GAP = 3;        // px gap between groups
-  const LABEL_H = 22;   // px height for group label
-  const PAD = 2;        // px inner padding
+  const MIN_AREA = 300;
+  const GAP = 3;
+  const LABEL_H = 22;
+  const PAD = 2;
 
-  // Compute areas proportional to active offers
-  const totalOffers = allData.reduce((s, d) => s + (d.active_offers || 0), 0);
+  // Taille proportionnelle au nombre d'emplois
+  const totalEmployed = allData.reduce((s, d) => s + (d.employed || 0), 0);
   const targetTotalArea = W * H;
 
   const items = allData.map(d => {
-    const baseArea = d.active_offers
-      ? (d.active_offers / totalOffers) * targetTotalArea
+    const baseArea = d.employed
+      ? (d.employed / totalEmployed) * targetTotalArea
       : 0;
     return { ...d, _area: Math.max(baseArea, MIN_AREA) };
   });
 
-  // ── Group by grand_domaine_code ──
+  // ── Grouper par group_code ──
   const groupMap = {};
   for (const item of items) {
-    const gc = item.grand_domaine_code;
+    const gc = item.group_code;
     if (!groupMap[gc]) groupMap[gc] = { code: gc, items: [], _area: 0 };
     groupMap[gc].items.push(item);
     groupMap[gc]._area += item._area;
   }
   const groupList = Object.values(groupMap);
 
-  // Sort items within groups: by domaine_pro sub-group (desc total area), then area desc
+  // Trier les items dans chaque groupe par categorie puis par taille
   for (const g of groupList) {
-    const dpMap = {};
+    const catMap = {};
     for (const item of g.items) {
-      const dp = item.domaine_pro_code || item.code_rome.substring(0, 3);
-      if (!dpMap[dp]) dpMap[dp] = { items: [], totalArea: 0 };
-      dpMap[dp].items.push(item);
-      dpMap[dp].totalArea += item._area;
+      const cat = item.category_code || item.code_pcs.substring(0, 2);
+      if (!catMap[cat]) catMap[cat] = { items: [], totalArea: 0 };
+      catMap[cat].items.push(item);
+      catMap[cat].totalArea += item._area;
     }
-    const dpList = Object.values(dpMap);
-    dpList.sort((a, b) => b.totalArea - a.totalArea);
+    const catList = Object.values(catMap);
+    catList.sort((a, b) => b.totalArea - a.totalArea);
     g.items = [];
-    for (const dp of dpList) {
-      dp.items.sort((a, b) => b._area - a._area);
-      g.items.push(...dp.items);
+    for (const cat of catList) {
+      cat.items.sort((a, b) => b._area - a._area);
+      g.items.push(...cat.items);
     }
   }
 
-  // Normalize all areas to fit container
+  // Normaliser les aires
   const totalArea = groupList.reduce((s, g) => s + g._area, 0);
   const scale = (W * H) / totalArea;
   for (const g of groupList) {
@@ -678,13 +653,11 @@ function render() {
     for (const item of g.items) item._area *= scale;
   }
 
-  // Sort groups by area desc for squarify
   groupList.sort((a, b) => b._area - a._area);
 
-  // ── Pass 1: layout groups ──
+  // ── Pass 1 : layout groupes ──
   const laidGroups = squarify(groupList, 0, 0, W, H);
 
-  // Apply gap (inset each group)
   for (const g of laidGroups) {
     g.x += GAP / 2;
     g.y += GAP / 2;
@@ -704,30 +677,28 @@ function render() {
   for (const g of laidGroups) {
     if (g.w < 2 || g.h < 2) continue;
 
-    // Group container div
     const groupEl = document.createElement('div');
     groupEl.className = 'group';
-    const borderColor = currentLayer === 'domaine'
-      ? (DOMAINE_COLORS[g.code] || 'rgba(255,255,255,0.15)')
+    const borderColor = currentLayer === 'groupe'
+      ? (GROUPE_COLORS[g.code] || 'rgba(255,255,255,0.15)')
       : 'rgba(255,255,255,0.12)';
     groupEl.style.cssText = `left:${g.x}px;top:${g.y}px;width:${g.w}px;height:${g.h}px;border-color:${borderColor};`;
     groupEl.dataset.code = g.code;
 
-    // Group label
     const hasLabel = g.h > LABEL_H + 10 && g.w > 60;
     if (hasLabel) {
       const labelEl = document.createElement('div');
       labelEl.className = 'group-label';
       const nameSpan = document.createElement('span');
       nameSpan.className = 'group-name';
-      nameSpan.textContent = DOMAINE_LABELS[g.code] || g.code;
+      nameSpan.textContent = GROUPE_LABELS[g.code] || g.code;
       labelEl.appendChild(nameSpan);
 
       if (g.w > 120) {
-        const totalGroupOffers = g.items.reduce((s, d) => s + (d.active_offers || 0), 0);
+        const totalGroupEmployed = g.items.reduce((s, d) => s + (d.employed || 0), 0);
         const countSpan = document.createElement('span');
         countSpan.className = 'group-count';
-        countSpan.textContent = `${totalGroupOffers.toLocaleString('fr-FR')} offres`;
+        countSpan.textContent = `${totalGroupEmployed.toLocaleString('fr-FR')} emplois`;
         labelEl.appendChild(countSpan);
       }
       groupEl.appendChild(labelEl);
@@ -736,7 +707,7 @@ function render() {
     fragment.appendChild(groupEl);
     newLayoutGroups.push({ code: g.code, x: g.x, y: g.y, w: g.w, h: g.h });
 
-    // ── Pass 2: layout items within group ──
+    // ── Pass 2 : layout items dans le groupe ──
     const innerX = g.x + PAD;
     const innerY = g.y + (hasLabel ? LABEL_H : PAD);
     const innerW = g.w - PAD * 2;
@@ -744,7 +715,6 @@ function render() {
 
     if (innerW < 4 || innerH < 4) continue;
 
-    // Normalize item areas to fill inner area
     const groupTotalArea = g.items.reduce((s, d) => s + d._area, 0);
     if (groupTotalArea <= 0) continue;
     const innerScale = (innerW * innerH) / groupTotalArea;
@@ -771,7 +741,6 @@ function render() {
       el.addEventListener('mouseenter', (e) => showTooltip(e, node));
       el.addEventListener('mousemove', moveTooltip);
       el.addEventListener('mouseleave', hideTooltip);
-      el.addEventListener('click', () => window.open(node.url, '_blank'));
 
       fragment.appendChild(el);
       newLayoutItems.push(node);
@@ -783,49 +752,55 @@ function render() {
   applySearch(document.getElementById('search-input').value);
 }
 
-// ── Tooltip ───────────────────────────────────────────────────────────────────
+// ── Tooltip ─────────────────────────────────────────────────────────────────
 const tooltip = document.getElementById('tooltip');
 
 function showTooltip(e, d) {
   let html = `<div class="tt-title">${d.title}</div>`;
-  html += `<div class="tt-row"><span>Code ROME</span><span class="tt-val">${d.code_rome}</span></div>`;
-  html += `<div class="tt-row"><span>Domaine</span><span class="tt-val">${d.grand_domaine.split(',')[0]}</span></div>`;
-  html += `<div class="tt-row"><span>Famille</span><span class="tt-val">${d.domaine_pro}</span></div>`;
+  html += `<div class="tt-row"><span>Code PCS</span><span class="tt-val">${d.code_pcs}</span></div>`;
+  html += `<div class="tt-row"><span>Groupe</span><span class="tt-val">${(GROUPE_LABELS[d.group_code] || d.group_label || '').split(',')[0]}</span></div>`;
+  if (d.category_label) {
+    html += `<div class="tt-row"><span>Cat\u00e9gorie</span><span class="tt-val" style="font-size:11px">${d.category_label}</span></div>`;
+  }
 
-  if (d.active_offers) {
-    html += `<div class="tt-row"><span>Offres actives</span><span class="tt-val">${d.active_offers.toLocaleString('fr-FR')}</span></div>`;
+  html += `<div class="tt-row" style="margin-top:6px; border-top:1px solid rgba(255,255,255,0.06); padding-top:4px"><span>Personnes en emploi</span><span class="tt-val">${d.employed.toLocaleString('fr-FR')}</span></div>`;
+
+  if (d.pct_female !== null && d.pct_female !== undefined) {
+    const bar = d.pct_female > 55 ? ' \u2640' : d.pct_female < 45 ? ' \u2642' : '';
+    html += `<div class="tt-row"><span>% femmes</span><span class="tt-val">${d.pct_female.toFixed(1)}%${bar}</span></div>`;
   }
-  if (d.job_offers) {
-    html += `<div class="tt-row"><span>Cumul 12 mois</span><span class="tt-val" style="opacity:0.5">${d.job_offers.toLocaleString('fr-FR')}</span></div>`;
+  if (d.median_age) {
+    html += `<div class="tt-row"><span>\u00c2ge m\u00e9dian</span><span class="tt-val">${d.median_age} ans</span></div>`;
   }
-  if (d.job_seekers) {
-    html += `<div class="tt-row"><span>Demandeurs d'emploi</span><span class="tt-val">${d.job_seekers.toLocaleString('fr-FR')}</span></div>`;
+
+  // Statut emploi
+  if (d.pct_cdi > 0 || d.pct_cdd > 0 || d.pct_independent > 0) {
+    let statParts = [];
+    if (d.pct_cdi > 0) statParts.push(`CDI ${d.pct_cdi.toFixed(0)}%`);
+    if (d.pct_cdd > 0) statParts.push(`CDD ${d.pct_cdd.toFixed(0)}%`);
+    if (d.pct_independent > 0) statParts.push(`Ind\u00e9p. ${d.pct_independent.toFixed(0)}%`);
+    html += `<div class="tt-row"><span>Statut</span><span class="tt-val" style="font-size:11px">${statParts.join(' \u00b7 ')}</span></div>`;
   }
-  if (d.min_salary && d.max_salary) {
-    html += `<div class="tt-row"><span>Salaire brut mensuel</span><span class="tt-val">${d.min_salary.toLocaleString('fr-FR')}€ – ${d.max_salary.toLocaleString('fr-FR')}€</span></div>`;
+
+  if (d.pct_part_time > 0) {
+    html += `<div class="tt-row"><span>Temps partiel</span><span class="tt-val">${d.pct_part_time.toFixed(1)}%</span></div>`;
   }
-  if (d.taux_difficulte !== null) {
-    html += `<div class="tt-row"><span>Difficulté recrutement</span><span class="tt-val">${d.taux_difficulte}% <span style="opacity:0.5;font-size:11px">(BMO)</span></span></div>`;
-  } else if (d.tension_score !== null) {
-    html += `<div class="tt-row"><span>Difficulté recrutement</span><span class="tt-val">${d.tension_score}e pct <span style="opacity:0.5;font-size:11px">(estimé)</span></span></div>`;
+  if (d.dominant_diploma) {
+    html += `<div class="tt-row"><span>Dipl\u00f4me dominant</span><span class="tt-val" style="font-size:11px">${d.dominant_diploma}</span></div>`;
   }
-  if (d.is_digital) {
-    html += `<div class="tt-row"><span>Transition numérique</span><span class="tt-val">Oui ✓</span></div>`;
+  if (d.dominant_sector) {
+    html += `<div class="tt-row"><span>Secteur principal</span><span class="tt-val" style="font-size:11px">${d.dominant_sector}</span></div>`;
   }
-  if (d.transition_eco) {
-    html += `<div class="tt-row"><span>Transition éco</span><span class="tt-val" style="font-size:11px">${d.transition_eco}</span></div>`;
-  }
+
   if (d.exposure !== null && d.exposure !== undefined) {
     html += `<div class="tt-row"><span>Exposition IA</span><span class="tt-val">${d.exposure}/10</span></div>`;
   } else {
-    html += `<div class="tt-row"><span>Exposition IA</span><span class="tt-val" style="opacity:0.4">Non évalué</span></div>`;
+    html += `<div class="tt-row"><span>Exposition IA</span><span class="tt-val" style="opacity:0.4">Non \u00e9valu\u00e9</span></div>`;
   }
 
   if (d.exposure_rationale) {
     html += `<div class="tt-rationale">${d.exposure_rationale}</div>`;
   }
-
-  html += `<div class="tt-hint">Cliquez pour ouvrir la fiche ROME officielle</div>`;
 
   tooltip.innerHTML = html;
   tooltip.style.display = 'block';
@@ -850,23 +825,22 @@ function hideTooltip() {
   tooltip.style.display = 'none';
 }
 
-// ── Layer buttons ─────────────────────────────────────────────────────────────
-document.querySelectorAll('.layer-btn').forEach(btn => {
+// ── Layer buttons ───────────────────────────────────────────────────────────
+document.querySelectorAll('.layer-btn:not(.disabled)').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.layer-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     currentLayer = btn.dataset.layer;
-    // Re-color without full re-layout
+    // Re-color sans re-layout
     if (layoutCache) {
       document.querySelectorAll('.node').forEach(el => {
         const d = layoutCache.items[+el.dataset.idx];
         if (d) el.style.background = getColor(d, currentLayer);
       });
-      // Update group borders
       document.querySelectorAll('.group').forEach(el => {
         const code = el.dataset.code;
-        el.style.borderColor = currentLayer === 'domaine'
-          ? (DOMAINE_COLORS[code] || 'rgba(255,255,255,0.15)')
+        el.style.borderColor = currentLayer === 'groupe'
+          ? (GROUPE_COLORS[code] || 'rgba(255,255,255,0.15)')
           : 'rgba(255,255,255,0.12)';
       });
     }
@@ -875,7 +849,7 @@ document.querySelectorAll('.layer-btn').forEach(btn => {
   });
 });
 
-// ── Search ────────────────────────────────────────────────────────────────────
+// ── Search ──────────────────────────────────────────────────────────────────
 function applySearch(query) {
   const q = query.trim().toLowerCase();
   const nodes = document.querySelectorAll('.node');
@@ -890,9 +864,9 @@ function applySearch(query) {
     const d = layoutCache && layoutCache.items ? layoutCache.items[+el.dataset.idx] : null;
     if (!d) return;
     const hit = d.title.toLowerCase().includes(q) ||
-                d.code_rome.toLowerCase().includes(q) ||
-                d.domaine_pro.toLowerCase().includes(q) ||
-                (DOMAINE_LABELS[d.grand_domaine_code] || '').toLowerCase().includes(q);
+                d.code_pcs.toLowerCase().includes(q) ||
+                (d.group_label || '').toLowerCase().includes(q) ||
+                (d.category_label || '').toLowerCase().includes(q);
     if (hit) {
       el.classList.remove('search-dim');
       el.classList.add('search-match');
@@ -902,7 +876,7 @@ function applySearch(query) {
       el.classList.add('search-dim');
     }
   });
-  countEl.textContent = matches ? `${matches} résultat${matches > 1 ? 's' : ''}` : 'Aucun résultat';
+  countEl.textContent = matches ? `${matches} r\u00e9sultat${matches > 1 ? 's' : ''}` : 'Aucun r\u00e9sultat';
 }
 
 const searchInput = document.getElementById('search-input');
@@ -911,7 +885,7 @@ searchInput.addEventListener('keydown', e => {
   if (e.key === 'Escape') { searchInput.value = ''; applySearch(''); }
 });
 
-// ── Resize ───────────────────────────────────────────────────────────────────
+// ── Resize ──────────────────────────────────────────────────────────────────
 let resizeTimer;
 window.addEventListener('resize', () => {
   clearTimeout(resizeTimer);
@@ -921,7 +895,7 @@ window.addEventListener('resize', () => {
   }, 200);
 });
 
-// ── Init ─────────────────────────────────────────────────────────────────────
+// ── Init ────────────────────────────────────────────────────────────────────
 loadData();
 </script>
 </body>
